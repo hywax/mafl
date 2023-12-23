@@ -1,75 +1,52 @@
-# Nuxt 3 Minimal Starter
+# Mafl
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!
 
-## Setup
+## Table of Contents
+* [Features](#features)
+* [Getting started](#getting-started)
+  * [Docker](#docker)
+  * [Node](#node)
+  * [Proxmox](#proxmox)
+  * [Cloud Providers](#cloud-providers)
+* [Roadmap](#roadmap)
+* [License](#roadmap)
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# npm
-npm install
+...
 
-# pnpm
-pnpm install
+## Getting started
 
-# yarn
-yarn install
+### Docker
 
-# bun
-bun install
-```
+...
 
-## Development Server
+### Node
 
-Start the development server on `http://localhost:3000`:
+...
 
-```bash
-# npm
-npm run dev
+### Proxmox
 
-# pnpm
-pnpm run dev
+...
 
-# yarn
-yarn dev
+### Cloud Providers
 
-# bun
-bun run dev
-```
+...
 
-## Production
+## Roadmap
 
-Build the application for production:
+* [ ] Creating the basic application skeleton
+* [ ] Publishing to docker
+* [ ] Dynamic services
+* [ ] Keyboard navigation
+* [ ] Custom themes
+* [ ] Drag & drop
+* [ ] Search
+* [ ] Localization
+* [ ] Multiple pages
+* [ ] Docker integration
 
-```bash
-# npm
-npm run build
+## License
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This app is open-sourced software licensed under the [MIT license](https://github.com/hywax/mafl/blob/main/LICENSE).
