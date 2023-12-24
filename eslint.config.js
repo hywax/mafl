@@ -7,6 +7,13 @@ export default antfu({
     'dist',
     'node_modules',
   ],
+  overrides: {
+    vue: {
+      'vue/block-order': ['error', {
+        order: ['template', 'script', 'style'],
+      }],
+    },
+  },
   rules: {
     'style/brace-style': ['error', '1tbs'],
     'style/arrow-parens': ['error', 'always'],
