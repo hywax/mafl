@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@antfu/eslint-config": "^2.4.6",
-    "@vueuse/nuxt": "^10.7.0"
+    "@vueuse/nuxt": "^10.7.0",
+    "yaml": "^2.3.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",

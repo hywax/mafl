@@ -11,6 +11,9 @@ dependencies:
   '@vueuse/nuxt':
     specifier: ^10.7.0
     version: 10.7.0(nuxt@3.8.2)(vue@3.3.13)
+  yaml:
+    specifier: ^2.3.4
+    version: 2.3.4
 
 devDependencies:
   '@nuxt/devtools':
