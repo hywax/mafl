@@ -11,7 +11,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@antfu/eslint-config": "^2.4.6",
+    "@antfu/eslint-config": "^2.6.0",
     "@vueuse/nuxt": "^10.7.0",
     "yaml": "^2.3.4"
   },
