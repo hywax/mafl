@@ -11,6 +11,6 @@ const colorMode = useColorMode()
 colorMode.preference = siteConfig.theme || 'system'
 
 useHead({
-    title: siteConfig.title,
+  title: siteConfig.title,
 })
 </script>
