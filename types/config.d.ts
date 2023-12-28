@@ -1,7 +1,7 @@
 import type { BaseService } from '~/types/services'
 
 export interface ServicesGroup {
-  title: string
+  title?: string
   items: BaseService[]
 }
 
