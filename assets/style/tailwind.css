@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --fg: 33 37 41;
+    --fg-dimmed: 108 117 125;
+    --background: 255 255 255;
+}
+
+html.dark {
+    --fg: 255 255 255;
+    --fg-dimmed: 212 212 216;
+    --background: 6 6 6;
+}
+
+html.deep {
+    --fg: 251 219 148;
+    --fg-dimmed: 188 165 114;
+    --background: 34 38 57;
+}
+
+html.sepia {
+    --fg: 67 52 34;
+    --fg-dimmed: 80 66 49;
+    --background: 241 231 208;
+}
+
+@layer components {
+    body {
+        @apply bg-background text-fg;
+    }
+}
