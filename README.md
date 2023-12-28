@@ -14,7 +14,7 @@ Mafl is an intuitive service for organizing your homepage. Customize Mafl to you
 
 ## Features
 
-...
+* 🔐 **Safety**. All requests to third-party services occur in backend.
 
 ## Getting started
 
