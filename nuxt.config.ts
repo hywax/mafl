@@ -6,4 +6,8 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-site-config',
   ],
+  site: {
+    title: 'Mafl',
+    services: [],
+  },
 })
