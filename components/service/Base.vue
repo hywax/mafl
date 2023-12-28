@@ -1,9 +1,9 @@
 <template>
   <div class="p-4 flex gap-4">
     <div class="flex-shrink-0 flex">
-      <a :href="link" :title="title" class="self-center">
+      <a :href="link" :title="title" class="self-center w-16 h-16 overflow-hidden">
         <slot name="icon">
-          <ServiceIcon v-bind="icon" />
+          <img src="http://localhost:8090/icons/authelia.png" :alt="title" class="block bg-contain h-full w-full rounded-2xl border border-black/5">
         </slot>
       </a>
     </div>
@@ -22,15 +22,7 @@
 </template>
 
 <script setup lang="ts">
-export interface Props {
-  title: string
-  description: string
-  link: string
-  icon: {
-    type: 'solid' | 'gradient'
-    value: string
-  }
-}
+import type { BaseService } from '~/types'
 
-defineProps<Props>()
+defineProps<BaseService>()
 </script>
