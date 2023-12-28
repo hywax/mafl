@@ -9,4 +9,8 @@ const siteConfig = useSiteConfig()
 const colorMode = useColorMode()
 
 colorMode.preference = siteConfig.theme || 'system'
+
+useHead({
+    title: siteConfig.title,
+})
 </script>

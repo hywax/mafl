@@ -20,8 +20,4 @@
 
 <script setup lang="ts">
 const siteConfig = useSiteConfig()
-
-useHead({
-  title: siteConfig.title,
-})
 </script>
