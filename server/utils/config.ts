@@ -8,7 +8,7 @@ type draftService = Omit<BaseService, 'id'>
 function determineServiceId(items: draftService[]): BaseService[] {
   return items.map((item) => ({
     id: crypto.randomUUID(),
-    ...item
+    ...item,
   }))
 }
 
@@ -23,7 +23,7 @@ export function getLocalConfig(): Config | null {
 
     if (Array.isArray(config.services)) {
       services.push({
-        items: determineServiceId(config.services)
+        items: determineServiceId(config.services),
       })
     } else {
       const entries = Object.entries<draftService[]>(config.services || [])
@@ -31,7 +31,7 @@ export function getLocalConfig(): Config | null {
       for (const [title, items] of entries) {
         services.push({
           title,
-          items: determineServiceId(items)
+          items: determineServiceId(items),
         })
       }
     }
