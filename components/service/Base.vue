@@ -1,9 +1,10 @@
 <template>
   <div class="p-4 flex gap-4">
     <div class="flex-shrink-0 flex">
-      <a :href="link" :title="title" class="self-center w-16 h-16 overflow-hidden">
+      <a :href="link" :title="title" class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-black/5">
         <slot name="icon">
-          <img src="http://localhost:8090/icons/authelia.png" :alt="title" class="block bg-contain h-full w-full rounded-2xl border border-black/5">
+          <img v-if="icon" :src="icon" :alt="title" class="block bg-contain">
+          <div v-else class="bg-black/5 h-full w-full" />
         </slot>
       </a>
     </div>
