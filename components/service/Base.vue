@@ -3,7 +3,7 @@
     <div class="flex-shrink-0 flex">
       <a :href="link" :title="title" class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-black/5">
         <slot name="icon">
-          <img v-if="icon" :src="icon" :alt="title" class="block bg-contain">
+          <img v-if="icon" :src="icon" :alt="title" class="block bg-contain h-full w-full">
           <div v-else class="bg-fg-dimmed h-full w-full" />
         </slot>
       </a>
