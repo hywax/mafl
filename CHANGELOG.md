@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.7
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.6...v0.1.7)
+
+### 📦 Build
+
+- Add package lock file ([9ef811b](https://github.com/hywax/mafl/commit/9ef811b))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.6
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.5...v0.1.6)
