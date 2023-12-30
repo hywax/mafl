@@ -16,6 +16,7 @@ Mafl is an intuitive service for organizing your homepage. Customize Mafl to you
 
 * 🔐 **Safety**. All requests to third-party services occur in backend.
 * ⚡ **Real-time**. Interactive cards with extra information.
+* 🌎 **Languages**. Supports multiple languages.
 * 🎨 **Themes**. Customize the look to your liking.
 * 🗂️ **Grouping**. Create custom service groups.
 * 👌 **Easy setup**. A few lines of yaml and your homepage is ready to go.
