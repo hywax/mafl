@@ -16,6 +16,12 @@ RUN pnpm run build
 
 FROM gcr.io/distroless/nodejs20 as prod
 
+LABEL org.opencontainers.image.title="Mafl"
+LABEL org.opencontainers.image.description="Minimalistic flexible homepage"
+LABEL org.opencontainers.image.source="https://github.com/hywax/mafl"
+LABEL org.opencontainers.image.authors="Hywax <a.hywax@gmail.com>"
+LABEL org.opencontainers.image.licenses="MIT"
+
 WORKDIR /app
 
 COPY --from=build /app/.output /app/.output
