@@ -5,8 +5,10 @@
     </template>
     <template #fallback>
       <div class="p-4 flex gap-4">
-        <div class="animate-pulse">
-          <div class="w-16 h-16 bg-fg-dimmed rounded-2xl" />
+        <div class="flex-shrink-0 flex">
+          <div class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-black/5 animate-pulse">
+            <div class="bg-fg-dimmed h-full w-full" />
+          </div>
         </div>
         <div>
           <h3 class="animate-pulse text-lg mt-1">
