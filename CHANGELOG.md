@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.6
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.5...v0.1.6)
+
+### 📦 Build
+
+- Remove flag production ([7e78fea](https://github.com/hywax/mafl/commit/7e78fea))
+- Change platforms ([9e3c600](https://github.com/hywax/mafl/commit/9e3c600))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.5
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.4...v0.1.5)
