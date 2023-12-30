@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.0.2...v0.0.3)
+
+### 🩹 Fixes
+
+- Trigger tag signature ([a14ea3f](https://github.com/hywax/mafl/commit/a14ea3f))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.0.2
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.0.1...v0.0.2)
