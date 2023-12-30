@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.5
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.4...v0.1.5)
+
+### 📦 Build
+
+- Npm build replace npm ci ([c60ca3b](https://github.com/hywax/mafl/commit/c60ca3b))
+- Change platforms ([5cd29b0](https://github.com/hywax/mafl/commit/5cd29b0))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.4
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.3...v0.1.4)
