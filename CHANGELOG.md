@@ -1,6 +1,33 @@
 # Changelog
 
 
+## v0.1.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.0.3...v0.1.0)
+
+### 📖 Documentation
+
+- **features:** Update list ([8ac3184](https://github.com/hywax/mafl/commit/8ac3184))
+
+### 📦 Build
+
+- Add new platform linux/arm/v8 ([48addec](https://github.com/hywax/mafl/commit/48addec))
+- Change static name to env ([112c842](https://github.com/hywax/mafl/commit/112c842))
+- Add opencontainers labels ([1e3e0aa](https://github.com/hywax/mafl/commit/1e3e0aa))
+- ⚠️  Migrate pnpm to npm ([7cc2a1a](https://github.com/hywax/mafl/commit/7cc2a1a))
+
+### 🤖 CI
+
+- Add step install dependencies ([88d8aa9](https://github.com/hywax/mafl/commit/88d8aa9))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Migrate pnpm to npm ([7cc2a1a](https://github.com/hywax/mafl/commit/7cc2a1a))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.0.3
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.0.2...v0.0.3)
