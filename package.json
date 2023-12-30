@@ -1,9 +1,11 @@
 {
   "type": "module",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
+    "release": "pnpm lint && pnpm build && changelogen --release --push",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "postinstall": "nuxi prepare",
