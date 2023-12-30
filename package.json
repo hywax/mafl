@@ -24,6 +24,7 @@
     "@nuxtjs/i18n": "^8.0.0",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "@types/node": "^20.10.6",
+    "changelogen": "^0.5.5",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
