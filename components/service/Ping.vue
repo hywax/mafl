@@ -1,8 +1,8 @@
 <template>
   <ServiceBase v-bind="props">
     <template #description>
-      <template v-if="ping?.time >= 0">
-        {{ $t('service.ping.description') }} <span class="border-b border-dashed">{{ ping.time }} {{ $t('service.ping.units') }}</span>
+      <template v-if="data && data?.time >= 0">
+        {{ $t('service.ping.description') }} <span class="border-b border-dashed">{{ data.time }} {{ $t('service.ping.units') }}</span>
       </template>
       <template v-else>
         {{ $t('service.ping.error') }}
@@ -16,7 +16,7 @@ import type { PingService } from '~/types/services'
 
 const props = defineProps<PingService>()
 
-const { data: ping, refresh } = await useFetch('/api/services/ping', { query: { id: props.id } })
+const { data, refresh } = await useFetch<{ time: number }>('/api/services/ping', { query: { id: props.id } })
 const { pause } = useIntervalFn(refresh, props?.options?.interval || 10000, { immediate: true })
 
 onBeforeUnmount(pause)
