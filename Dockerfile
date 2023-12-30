@@ -1,18 +1,14 @@
 FROM node:20-alpine as build
 
-RUN corepack enable
-
-RUN corepack prepare pnpm@latest --activate
-
 WORKDIR /app
 
 COPY package.json /app
 
-RUN pnpm install
+RUN npm install
 
 COPY . /app
 
-RUN pnpm run build
+RUN npm run build
 
 FROM gcr.io/distroless/nodejs20 as prod
 

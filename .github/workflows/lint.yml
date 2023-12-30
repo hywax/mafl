@@ -22,14 +22,8 @@ jobs:
         with:
           node-version: 20
 
-      - name: Pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-          run_install: true
-
       - name: ESLint
-        run: pnpm run lint
+        run: npm run lint
 
       - name: Types
-        run: pnpm run typecheck
+        run: npm run typecheck
