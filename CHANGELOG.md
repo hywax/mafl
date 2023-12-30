@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v0.0.2
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.0.1...v0.0.2)
+
+### 🩹 Fixes
+
+- **typecheck:** Data.time is possibly undefined ([4ab1529](https://github.com/hywax/mafl/commit/4ab1529))
+
+### 🎨 Styles
+
+- **eslint:** Run ([fdf3b10](https://github.com/hywax/mafl/commit/fdf3b10))
+
+### 🤖 CI
+
+- Create release on push tag ([20879eb](https://github.com/hywax/mafl/commit/20879eb))
+- Run linters ([7d28c01](https://github.com/hywax/mafl/commit/7d28c01))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.0.1
 
 
