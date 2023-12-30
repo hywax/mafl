@@ -1,14 +1,18 @@
 <template>
-  <ServiceBases v-bind="props">
+  <ServiceBase v-bind="props">
     <template #description>
-      Server responded in <span class="border-b border-dashed">{{ ping?.time || 0 }}ms</span>
+      <template v-if="ping?.time >= 0">
+        {{ $t('service.ping.description') }} <span class="border-b border-dashed">{{ ping.time }} {{ $t('service.ping.units') }}</span>
+      </template>
+      <template v-else>
+        {{ $t('service.ping.error') }}
+      </template>
     </template>
-  </ServiceBases>
+  </ServiceBase>
 </template>
 
 <script setup lang="ts">
 import type { PingService } from '~/types/services'
-import ServiceBases from '~/components/service/Base.vue'
 
 const props = defineProps<PingService>()
 

@@ -6,13 +6,13 @@
       v-bind="group"
     />
   </template>
-  <Message v-else title="Services not found">
+  <Message v-else :title="$t('service.not-found.title')">
     <template #text>
       <p>
-        Oops! You did not specify a list of services in <span class="border-b border-dashed">config.yaml</span>
+        {{ $t('service.not-found.description') }}
       </p>
       <p class="mt-1">
-        <a href="#" class="text-sky-500 hover:text-sky-800">Go to documentation</a>
+        <a href="#" class="text-sky-500 hover:text-sky-800">{{ $t('service.not-found.action') }}</a>
       </p>
     </template>
   </Message>
