@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.1
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.0...v0.1.1)
+
+### 📦 Build
+
+- Remove linux/arm/v8 ([882bedd](https://github.com/hywax/mafl/commit/882bedd))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.0.3...v0.1.0)
