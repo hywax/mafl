@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.2
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.1...v0.1.2)
+
+### 📦 Build
+
+- Final build from initial image ([a71add0](https://github.com/hywax/mafl/commit/a71add0))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.1
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.0...v0.1.1)
