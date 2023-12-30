@@ -21,6 +21,7 @@ Mafl is an intuitive service for organizing your homepage. Customize Mafl to you
 * 🗂️ **Grouping**. Create custom service groups.
 * 👌 **Easy setup**. A few lines of yaml and your homepage is ready to go.
 * 🚀 **Fast**. Everything is fast and free of hang-ups.
+* 🐳 **Docker**. Optimized docker images for popular platforms.
 
 ## Getting started
 
