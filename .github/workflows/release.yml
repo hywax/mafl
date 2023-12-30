@@ -47,7 +47,7 @@ jobs:
           fi
           releases=""
           for tag in "${tags[@]}"; do
-            releases="${releases:+$releases,}hywax/mafl:$tag,ghcr.io/hywax/mafl:$tag"
+            releases="${releases:+$releases,}${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag,ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag"
           done
           echo "releases=$releases" >> "$GITHUB_OUTPUT"
 
