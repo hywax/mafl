@@ -1,4 +1,4 @@
-FROM node:19-alpine as build
+FROM node:18-alpine as build
 
 WORKDIR /app
 
@@ -10,11 +10,9 @@ COPY . /app
 
 RUN npm run build
 
-# To reduce the weight of the docker image, you should use "gcr.io/distroless/nodejs20".
-# There are build issues on the Node 20 version. Switch to "distroless" when Node 22 is released or they fix a bug in 20
-# More https://github.com/nodejs/docker-node/issues/1946
-# FORM gcr.io/distroless/nodejs20 as prod
-FROM build
+# There are build issues on the Node 20 version. Jump to 20 when the bug will be fixed.
+# https://github.com/nodejs/docker-node/issues/1946
+FROM gcr.io/distroless/nodejs18
 
 LABEL org.opencontainers.image.title="Mafl"
 LABEL org.opencontainers.image.description="Minimalistic flexible homepage"
