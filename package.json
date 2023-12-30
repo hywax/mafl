@@ -20,7 +20,7 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/i18n": "^8.0.0",
     "@nuxtjs/tailwindcss": "^6.10.1",
-    "@types/node": "^20.10.5",
+    "@types/node": "^20.10.6",
     "eslint": "^8.56.0",
     "nuxt": "^3.9.0",
     "nuxt-site-config": "^2.1.2",
