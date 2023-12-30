@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.1.4
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.3...v0.1.4)
+
+### 📦 Build
+
+- Bump docker/build-push-action from 4 to 5 ([de4da30](https://github.com/hywax/mafl/commit/de4da30))
+- Node 18 ([3ec0e7d](https://github.com/hywax/mafl/commit/3ec0e7d))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.3
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.2...v0.1.3)
