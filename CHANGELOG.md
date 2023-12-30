@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.1.3
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.2...v0.1.3)
+
+### 📦 Build
+
+- Node 19 ([2003371](https://github.com/hywax/mafl/commit/2003371))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.1.2
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.1...v0.1.2)
