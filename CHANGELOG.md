@@ -1,6 +1,37 @@
 # Changelog
 
 
+## v0.2.1
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.2.0...v0.2.1)
+
+### 🚀 Enhancements
+
+- **update-checker:** Check new versions ([d301ff6](https://github.com/hywax/mafl/commit/d301ff6))
+- **update-checker:** Disabled on prerender, development ([7e29b0c](https://github.com/hywax/mafl/commit/7e29b0c))
+- Use wrapper consola ([d4f5792](https://github.com/hywax/mafl/commit/d4f5792))
+
+### 📖 Documentation
+
+- **getting-started:** Update list ([db69de8](https://github.com/hywax/mafl/commit/db69de8))
+- **getting-started:** Update list ([13979db](https://github.com/hywax/mafl/commit/13979db))
+
+### 📦 Build
+
+- Remove .output folder ([2865104](https://github.com/hywax/mafl/commit/2865104))
+
+### 🏡 Chore
+
+- Config file to storage ([cc092bd](https://github.com/hywax/mafl/commit/cc092bd))
+
+### 🎨 Styles
+
+- **eslint:** Run ([3e96765](https://github.com/hywax/mafl/commit/3e96765))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.2.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.7...v0.2.0)
