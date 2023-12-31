@@ -2,8 +2,6 @@ name: Release Docker Image
 
 on:
   push:
-    branches:
-      - ci-settings
     tags:
       - 'v*.*.*'
 
@@ -37,26 +35,26 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      # - name: Extract Docker tags
-      #  id: meta
-      #  run: |
-      #    version_tag="${{github.ref_name}}"
-      #    tags=($version_tag)
-      #    if [[ "$version_tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
-      #      # prerelease tags like `v2.0.0-alpha.1` should not be released as `latest` nor `v2`
-      #      tags+=("latest")
-      #      tags+=($(echo "$version_tag" | cut -d. -f1))
-      #    fi
-      #    releases=""
-      #    for tag in "${tags[@]}"; do
-      #      releases="${releases:+$releases,}${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag,ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag"
-      #    done
-      #    echo "releases=$releases" >> "$GITHUB_OUTPUT"
-      #
+      - name: Extract Docker tags
+        id: meta
+        run: |
+          version_tag="${{github.ref_name}}"
+          tags=($version_tag)
+          if [[ "$version_tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            # prerelease tags like `v2.0.0-alpha.1` should not be released as `latest` nor `v2`
+            tags+=("latest")
+            tags+=($(echo "$version_tag" | cut -d. -f1))
+          fi
+          releases=""
+          for tag in "${tags[@]}"; do
+            releases="${releases:+$releases,}${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag,ghcr.io/${{ secrets.DOCKERHUB_USERNAME }}/mafl:$tag"
+          done
+          echo "releases=$releases" >> "$GITHUB_OUTPUT"
+
       - name: Build and push Docker images
         uses: docker/build-push-action@v5
         with:
           context: .
-          # push: true
+          push: true
           platforms: linux/amd64,linux/arm64,linux/arm/v7
           tags: ${{ steps.meta.outputs.releases }}
