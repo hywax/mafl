@@ -37,7 +37,7 @@
     "vue-tsc": "^1.8.27"
   },
   "overrides": {
-    "rollup": "@rollup/wasm-node"
+    "rollup": "npm:@rollup/wasm-node"
   },
   "lint-staged": {
     "*.ts": "npm run lint"
