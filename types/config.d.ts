@@ -7,6 +7,7 @@ export interface ServicesGroup {
 
 export interface Config {
   title?: string
+  lang: 'en' | 'ru',
   theme?: 'system' | 'light' | 'dark' | 'deep'
   services: ServicesGroup[]
 }
