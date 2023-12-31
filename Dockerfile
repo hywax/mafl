@@ -5,11 +5,11 @@ WORKDIR /app
 COPY package.json /app
 COPY package-lock.json /app
 
-RUN npm install
+RUN yarn install
 
 COPY . /app
 
-RUN npm run build
+RUN yarn run build
 
 # There are build issues on the Node 20 version. Jump to 20 when the bug will be fixed.
 # https://github.com/nodejs/docker-node/issues/1946
