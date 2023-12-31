@@ -30,14 +30,14 @@ Mafl is an intuitive service for organizing your homepage. Customize Mafl to you
 This Docker image is published to both Docker Hub and the GitHub container registry. Depending on your preferences and needs, you can reference both `hywax/mafl` as well as `ghcr.io/hywax/mafl`.
 
 ```yaml
-version: "3.8"
+version: '3.8'
 
 services:
   mafl:
     image: hywax/mafl
     restart: unless-stopped
     ports:
-      - "3000:3000"
+      - '3000:3000'
     volumes:
       - ./config.yml:/app/data/config.yml
       - ./icons:/app/public/icons

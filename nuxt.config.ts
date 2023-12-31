@@ -43,8 +43,8 @@ export default defineNuxtConfig({
     storage: {
       data: {
         driver: 'fs',
-        base: './data'
-      }
-    }
-  }
+        base: './data',
+      },
+    },
+  },
 })
