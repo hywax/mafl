@@ -30,23 +30,24 @@ Mafl is an intuitive service for organizing your homepage. Customize Mafl to you
 This Docker image is published to both Docker Hub and the GitHub container registry. Depending on your preferences and needs, you can reference both `hywax/mafl` as well as `ghcr.io/hywax/mafl`.
 
 ```yaml
-version: '3.8'
+version: "3.8"
 
 services:
   mafl:
     image: hywax/mafl
     restart: unless-stopped
     ports:
-      - '3000:3000'
+      - "3000:3000"
     volumes:
-      - ./config.yml:/app/config/config.yml
+      - ./config.yml:/app/data/config.yml
+      - ./icons:/app/public/icons
 ```
 
 ### Node
 
 1. Clone repository: `git clone https://github.com/hywax/mafl.git`
 2. Go to the application folder: `cd mafl`
-3. Configure `...`
+3. Configure `data/config.yml`
 4. Install dependencies: `yarn install`
 5. Build application: `yarn build`
 6. Run `yarn preview`
