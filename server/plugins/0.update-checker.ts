@@ -1,6 +1,10 @@
 import currentPackage from '~/package.json'
 
 export default defineNitroPlugin(async () => {
+  if (['prerender', 'development'].includes(process.env.NODE_ENV || '')) {
+    return
+  }
+
   try {
     const latestPackage = await $fetch<typeof currentPackage>('https://raw.githubusercontent.com/hywax/mafl/main/package.json', {
       parseResponse: (json) => JSON.parse(json)
