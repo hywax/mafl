@@ -23,10 +23,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm ci
+        run: yarn install
 
       - name: ESLint
-        run: npm run lint
+        run: yarn run lint
 
       - name: Types
-        run: npm run typecheck
+        run: yarn run typecheck
