@@ -23,7 +23,7 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: yarn ci
+        run: yarn install
 
       - name: ESLint
         run: yarn run lint
