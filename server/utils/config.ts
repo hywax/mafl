@@ -1,4 +1,3 @@
-import fs from 'node:fs'
 import crypto from 'node:crypto'
 import yaml from 'yaml'
 import type { BaseService, Config } from '~/types'
@@ -12,13 +11,17 @@ function determineServiceId(items: draftService[]): BaseService[] {
   }))
 }
 
-export function getLocalConfig(): Config | null {
+export async function getLocalConfig(): Promise<Config | null> {
+  const storage = useStorage('data')
+  const file = 'config.yml'
+
   try {
-    if (!fs.existsSync('assets/config.yaml')) {
+    if (!await storage.hasItem(file)) {
       return null
     }
 
-    const config = yaml.parse(fs.readFileSync('assets/config.yaml', 'utf8')) || {}
+    const raw = await storage.getItem<string>(file)
+    const config = yaml.parse(raw || '') || {}
     const services: Config['services'] = []
 
     if (Array.isArray(config.services)) {

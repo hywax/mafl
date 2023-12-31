@@ -1,5 +1,5 @@
 export default defineNitroPlugin(async (nitroApp) => {
-  const localConfig = getLocalConfig()
+  const localConfig = await getLocalConfig()
 
   if (!localConfig) {
     console.error('Config not loaded!')
