@@ -23,8 +23,8 @@ LABEL org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app
 
-COPY --from=build /app/.output /app/.output
+COPY --from=build /app/.output /app
 
 EXPOSE 3000/tcp
 
-CMD ["/app/.output/server/index.mjs"]
+CMD ["/app/server/index.mjs"]
