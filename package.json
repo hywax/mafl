@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@vueuse/nuxt": "^10.7.0",
+    "consola": "^3.2.3",
     "yaml": "^2.3.4"
   },
   "devDependencies": {

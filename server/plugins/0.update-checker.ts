@@ -15,11 +15,11 @@ export default defineNitroPlugin(async () => {
     const difference = parseVersion(latestPackage.version) - parseVersion(currentPackage.version)
 
     if (difference > 0) {
-      return console.log(`⚠️ update available: ${latestPackage.version}`)
+      return logger.warn(`update available: ${latestPackage.version}`)
     }
 
-    console.log('✅ mafl is up-to-date')
-  } catch (_) {
-    console.log('❌ failed to check for an update')
+    logger.success('mafl is up-to-date')
+  } catch (e) {
+    logger.error('failed to check for an update', e)
   }
 })
