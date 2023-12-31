@@ -1,6 +1,37 @@
 # Changelog
 
 
+## v0.2.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.1.7...v0.2.0)
+
+### 🩹 Fixes
+
+- Build step on release script ([8ab29b4](https://github.com/hywax/mafl/commit/8ab29b4))
+
+### 📦 Build
+
+- Test new pipe ([c985e94](https://github.com/hywax/mafl/commit/c985e94))
+- Npm install ([d6088ff](https://github.com/hywax/mafl/commit/d6088ff))
+- Add overrides ([b94c36d](https://github.com/hywax/mafl/commit/b94c36d))
+- ⚠️  Migrate npm to yarn ([db3e428](https://github.com/hywax/mafl/commit/db3e428))
+- Copy yarn.lock ([d868f91](https://github.com/hywax/mafl/commit/d868f91))
+
+### 🤖 CI
+
+- Rollback Extract Docker tags ([961de5b](https://github.com/hywax/mafl/commit/961de5b))
+- Fix install dependencies ([bfbbaac](https://github.com/hywax/mafl/commit/bfbbaac))
+- Fixed docker build for all platforms ([#6](https://github.com/hywax/mafl/pull/6))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Migrate npm to yarn ([db3e428](https://github.com/hywax/mafl/commit/db3e428))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+- Alexander <a.hywax@gmail.com>
+
 ## v0.1.7
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.1.6...v0.1.7)
