@@ -1,10 +1,68 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
+import process from 'node:process'
+
 export default defineNuxtConfig({
+  app: {
+    head: {
+      link: [
+        {
+          rel: 'icon',
+          href: '/favicons/favicon.ico',
+        },
+        {
+          rel: 'apple-touch-icon',
+          href: '/favicons/apple-touch-icon.png',
+          sizes: '180x180',
+        },
+        {
+          rel: 'mask-icon',
+          href: '/favicons/logo.svg',
+        },
+      ],
+    },
+  },
+  pwa: {
+    registerType: 'autoUpdate',
+    scope: '/',
+    base: '/',
+    manifest: {
+      id: '/',
+      scope: '/',
+      name: 'Mafl. Minimalistic flexible homepage.',
+      short_name: 'Mafl',
+      description: 'Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!',
+      theme_color: '#ffffff',
+      icons: [
+        {
+          sizes: '192x192',
+          src: 'favicons/pwa-192x192.png',
+          type: 'image/png',
+        },
+        {
+          sizes: '512x512',
+          src: 'favicons/pwa-512x512.png',
+          type: 'image/png',
+        },
+      ],
+    },
+    workbox: {
+      globPatterns: ['**/*.{js,css,html,txt,png,ico,svg}'],
+      navigateFallbackDenylist: [/^\/api\//],
+      navigateFallback: '/',
+      cleanupOutdatedCaches: true,
+    },
+    registerWebManifestInRouteRules: true,
+    writePlugin: true,
+    devOptions: {
+      enabled: process.env.VITE_PLUGIN_PWA === 'true',
+      navigateFallback: '/',
+    },
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxtjs/i18n',
     '@vueuse/nuxt',
+    '@vite-pwa/nuxt',
   ],
   i18n: {
     locales: [

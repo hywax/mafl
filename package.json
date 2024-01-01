@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxi build",
     "dev": "nuxi dev",
+    "dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
     "release": "yarn run lint && yarn run typecheck && yarn run build && changelogen --release --push",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
@@ -28,6 +29,7 @@
     "@nuxtjs/i18n": "^8.0.0",
     "@nuxtjs/tailwindcss": "^6.10.1",
     "@types/node": "^20.10.6",
+    "@vite-pwa/nuxt": "^0.4.0",
     "changelogen": "^0.5.5",
     "eslint": "^8.56.0",
     "husky": "^8.0.3",
