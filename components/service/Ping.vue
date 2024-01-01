@@ -17,7 +17,7 @@ import type { PingService } from '~/types/services'
 const props = defineProps<PingService>()
 
 const { data, refresh } = useFetch('/api/services/ping', { query: { id: props.id } })
-const { pause } = useIntervalFn(refresh, props?.options?.interval || 10000, { immediate: true })
+const { pause } = useIntervalFn(refresh, props?.options?.interval || 60000, { immediate: true })
 
 onBeforeUnmount(pause)
 </script>
