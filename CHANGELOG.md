@@ -1,6 +1,32 @@
 # Changelog
 
 
+## v0.4.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.3.0...v0.4.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Added PWA support ([554efa7](https://github.com/hywax/mafl/commit/554efa7))
+
+### 🏡 Chore
+
+- Translations for the update block ([69fecaf](https://github.com/hywax/mafl/commit/69fecaf))
+- Create favicons ([b6cc318](https://github.com/hywax/mafl/commit/b6cc318))
+- Create robots.txt ([a3867d3](https://github.com/hywax/mafl/commit/a3867d3))
+
+### 🎨 Styles
+
+- Nested translation writing style ([2dbcb5f](https://github.com/hywax/mafl/commit/2dbcb5f))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Added PWA support ([554efa7](https://github.com/hywax/mafl/commit/554efa7))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.3.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.2.1...v0.3.0)
