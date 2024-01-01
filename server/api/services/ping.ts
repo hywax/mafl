@@ -11,7 +11,7 @@ export default defineEventHandler(async (event) => {
 
     return { time }
   } catch (e) {
-    console.error(e)
+    logger.error(e)
   }
 
   return { time: -1 }
