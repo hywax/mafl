@@ -1,6 +1,7 @@
 import crypto from 'node:crypto'
 import yaml from 'yaml'
-import type { BaseService, Config } from '~/types'
+import defu from 'defu'
+import type { BaseService, CompleteConfig } from '~/types'
 
 type draftService = Omit<BaseService, 'id'>
 
@@ -11,18 +12,27 @@ function determineServiceId(items: draftService[]): BaseService[] {
   }))
 }
 
-export async function getLocalConfig(): Promise<Config | null> {
+export function getDefaultConfig(): CompleteConfig {
+  return {
+    title: 'Mafl',
+    lang: 'en',
+    theme: 'system',
+    services: [],
+  }
+}
+
+export async function loadLocalConfig(): Promise<CompleteConfig> {
   const storage = useStorage('data')
   const file = 'config.yml'
 
   try {
     if (!await storage.hasItem(file)) {
-      return null
+      return getDefaultConfig()
     }
 
     const raw = await storage.getItem<string>(file)
     const config = yaml.parse(raw || '') || {}
-    const services: Config['services'] = []
+    const services: CompleteConfig['services'] = []
 
     if (Array.isArray(config.services)) {
       services.push({
@@ -39,22 +49,26 @@ export async function getLocalConfig(): Promise<Config | null> {
       }
     }
 
-    return {
-      ...config,
-      services,
-    }
+    return defu({ ...config, services }, getDefaultConfig())
   } catch (e) {
     // ...
   }
 
-  return null
+  return getDefaultConfig()
+}
+
+export async function getLocalConfig(): Promise<CompleteConfig | null> {
+  const storage = useStorage('main')
+  await storage.getKeys()
+
+  return storage.getItem<CompleteConfig>('config')
 }
 
 /**
  * Safely retrieves a list of services for frontend.
  * Omit "secrets" fields.
  */
-export function extractSafelyConfig(config: Config) {
+export function extractSafelyConfig(config: CompleteConfig) {
   return JSON.parse(JSON.stringify(
     config, (key, val) => key === 'secrets' ? undefined : val,
   ))
@@ -63,7 +77,7 @@ export function extractSafelyConfig(config: Config) {
 /**
  * Create Map services
  */
-export function extractServicesFromConfig(config: Config): Record<string, BaseService> {
+export function extractServicesFromConfig(config: CompleteConfig): Record<string, BaseService> {
   return config.services.reduce<Record<string, BaseService>>((acc, group) => {
     for (const item of group.items) {
       acc[item.id] = item

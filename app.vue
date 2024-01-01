@@ -5,14 +5,14 @@
 </template>
 
 <script setup lang="ts">
-const siteConfig = useSiteConfig()
+const { $settings } = useNuxtApp()
 const colorMode = useColorMode()
 const { locale } = useI18n()
 
-colorMode.preference = siteConfig.theme || 'system'
-locale.value = siteConfig.lang
+colorMode.preference = $settings.theme || 'system'
+locale.value = $settings.lang
 
 useHead({
-  title: siteConfig.title,
+  title: $settings.title,
 })
 </script>

@@ -7,7 +7,9 @@ export interface ServicesGroup {
 
 export interface Config {
   title?: string
-  lang: 'en' | 'ru',
+  lang: 'en' | 'ru'
   theme?: 'system' | 'light' | 'dark' | 'deep'
   services: ServicesGroup[]
 }
+
+export type CompleteConfig = Required<Config>

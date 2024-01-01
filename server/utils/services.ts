@@ -10,7 +10,7 @@ export async function getService<T>(event: H3Event): Promise<T> {
     })
   }
 
-  const storage = useStorage()
+  const storage = useStorage('main')
   const services = await storage.getItem<Record<string, T>>('services')
 
   if (!services || !Object.hasOwn(services, id)) {

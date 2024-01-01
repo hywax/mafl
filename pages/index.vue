@@ -1,7 +1,7 @@
 <template>
-  <template v-if="siteConfig.services.length">
+  <template v-if="$services.length">
     <Group
-      v-for="(group, key) in siteConfig.services"
+      v-for="(group, key) in $services"
       :key="key"
       v-bind="group"
     />
@@ -19,5 +19,5 @@
 </template>
 
 <script setup lang="ts">
-const siteConfig = useSiteConfig()
+const { $services } = useNuxtApp()
 </script>
