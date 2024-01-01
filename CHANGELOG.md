@@ -1,6 +1,34 @@
 # Changelog
 
 
+## v0.3.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.2.1...v0.3.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Automatic update check ([a25785d](https://github.com/hywax/mafl/commit/a25785d))
+
+### 💅 Refactors
+
+- Getting config from server ([cf53bd8](https://github.com/hywax/mafl/commit/cf53bd8))
+
+### 🏡 Chore
+
+- Config provide lang ([9bbfb8b](https://github.com/hywax/mafl/commit/9bbfb8b))
+- Add defu ([2b64480](https://github.com/hywax/mafl/commit/2b64480))
+- Brand colors ([4ad843f](https://github.com/hywax/mafl/commit/4ad843f))
+- Remove nuxt-site-config module ([2fd2dc0](https://github.com/hywax/mafl/commit/2fd2dc0))
+- **nuxt:** Enable ssr ([5e365a4](https://github.com/hywax/mafl/commit/5e365a4))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Automatic update check ([a25785d](https://github.com/hywax/mafl/commit/a25785d))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.2.1
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.2.0...v0.2.1)
