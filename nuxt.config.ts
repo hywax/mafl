@@ -6,14 +6,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/i18n',
     '@vueuse/nuxt',
-    'nuxt-site-config',
   ],
-  site: {
-    title: 'Mafl',
-    lang: 'en',
-    theme: 'system',
-    services: [],
-  },
   i18n: {
     locales: [
       {
