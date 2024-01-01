@@ -10,6 +10,7 @@ export interface Config {
   lang: 'en' | 'ru'
   theme?: 'system' | 'light' | 'dark' | 'deep'
   services: ServicesGroup[]
+  checkUpdates: boolean
 }
 
 export type CompleteConfig = Required<Config>

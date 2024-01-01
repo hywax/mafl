@@ -18,6 +18,7 @@ export function getDefaultConfig(): CompleteConfig {
     lang: 'en',
     theme: 'system',
     services: [],
+    checkUpdates: true,
   }
 }
 

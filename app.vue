@@ -14,5 +14,8 @@ locale.value = $settings.lang
 
 useHead({
   title: $settings.title,
+  bodyAttrs: {
+    class: 'relative',
+  },
 })
 </script>

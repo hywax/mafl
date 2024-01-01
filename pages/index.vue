@@ -16,8 +16,9 @@
       </p>
     </template>
   </Message>
+  <Update v-if="$settings.checkUpdates" />
 </template>
 
 <script setup lang="ts">
-const { $services } = useNuxtApp()
+const { $services, $settings } = useNuxtApp()
 </script>
