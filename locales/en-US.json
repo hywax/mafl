@@ -1,11 +1,17 @@
 {
-  "service.not-found.title": "Services not found",
-  "service.not-found.description": "Oops! You did not specify a list of services in config.yaml",
-  "service.not-found.action": "Go to documentation",
+  "service": {
+    "not-found": {
+      "title": "Services not found",
+      "description": "Oops! You did not specify a list of services in config.yaml",
+      "action": "Go to documentation"
+    },
 
-  "service.ping.description": "Server responded in",
-  "service.ping.units": "ms",
-  "service.ping.error": "Server not responding",
+    "ping": {
+      "description": "Server responded in",
+      "units": "ms",
+      "error": "Server not responding"
+    }
+  },
 
   "update": {
     "message": "A new version is available",

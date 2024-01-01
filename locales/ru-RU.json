@@ -1,11 +1,17 @@
 {
-  "service.not-found.title": "Сервисы не найдены",
-  "service.not-found.description": "Упс! Вы не указали список сервисов в файле config.yaml",
-  "service.not-found.action": "Перейти к документации",
+  "service": {
+    "not-found": {
+      "title": "Сервисы не найдены",
+      "description": "Упс! Вы не указали список сервисов в файле config.yaml",
+      "action": "Перейти к документации"
+    },
 
-  "service.ping.description": "Время ответа сервера",
-  "service.ping.units": "мс",
-  "service.ping.error": "Сервер не отвечает",
+    "ping": {
+      "description": "Время ответа сервера",
+      "units": "мс",
+      "error": "Сервер не отвечает"
+    }
+  },
 
   "update": {
     "message": "Доступна новая версия",
