@@ -5,5 +5,10 @@
 
   "service.ping.description": "Server responded in",
   "service.ping.units": "ms",
-  "service.ping.error": "Server not responding"
+  "service.ping.error": "Server not responding",
+
+  "update": {
+    "message": "A new version is available",
+    "visit": "Visit on github →"
+  }
 }

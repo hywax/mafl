@@ -5,5 +5,10 @@
 
   "service.ping.description": "Время ответа сервера",
   "service.ping.units": "мс",
-  "service.ping.error": "Сервер не отвечает"
+  "service.ping.error": "Сервер не отвечает",
+
+  "update": {
+    "message": "Доступна новая версия",
+    "visit": "Перейти в github →"
+  }
 }
