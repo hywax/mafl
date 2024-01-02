@@ -1,16 +1,38 @@
-# Mafl
+<h1 align="center">Mafl</h1>
+<p align="center">
+  <i>Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!</i>
+  <br/><br/>
+  <img width="130" src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/logotype.svg" />
+  <br/><br/>
+  <b><a href="https://github.com/hywax/mafl">GitHub</a>
+  <br/><br/>
+  <a href="https://github.com/hywax/mafl/blob/main/CHANGELOG.md">
+    <img src="https://img.shields.io/github/package-json/v/hywax/mafl?logo=hackthebox&color=609966&logoColor=fff" alt="Current Version">
+  </a>
+  <a target="_blank" href="https://github.com/hywax/mafl">
+    <img src="https://img.shields.io/github/last-commit/hywax/mafl?logo=github&color=609966&logoColor=fff" />
+  </a>
+  <a target="_blank" href="https://hub.docker.com/r/hywax/mafl">
+    <img src="https://img.shields.io/docker/pulls/hywax/mafl?logo=docker&color=609966&logoColor=fff" />
+  </a>
+  <a href="https://github.com/hywax/mafl/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-609966?logo=opensourceinitiative&logoColor=fff" alt="License MIT">
+  </a>
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/cover.png" width="100%" />
+</p>
 
-Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!
+<details>
+  <summary><b>Table of Contents</b></summary>
 
-## Table of Contents
 * [Features](#features)
 * [Getting started](#getting-started)
   * [Docker](#docker)
   * [Node](#node)
   * [Proxmox](#proxmox)
   * [Cloud Providers](#cloud-providers)
-* [Roadmap](#roadmap)
-* [License](#roadmap)
+* [License](#license)
+</details>
 
 ## Features
 
@@ -59,19 +81,6 @@ services:
 ### Cloud Providers
 
 ...
-
-## Roadmap
-
-* [ ] Creating the basic application skeleton
-* [ ] Publishing to docker
-* [ ] Dynamic services
-* [ ] Keyboard navigation
-* [ ] Custom themes
-* [ ] Drag & drop
-* [ ] Search
-* [ ] Localization
-* [ ] Multiple pages
-* [ ] Docker integration
 
 ## License
 
