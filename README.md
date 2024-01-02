@@ -2,24 +2,24 @@
 <p align="center">
   <i>Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!</i>
   <br/><br/>
-  <img width="130" src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/logotype.svg" />
+  <img width="130" alt="Mafl" src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/logotype.svg"/>
   <br/><br/>
-  <b><a href="https://github.com/hywax/mafl">GitHub</a>
+  <b><a href="https://github.com/hywax/mafl">GitHub</a></b>
   <br/><br/>
   <a href="https://github.com/hywax/mafl/blob/main/CHANGELOG.md">
-    <img src="https://img.shields.io/github/package-json/v/hywax/mafl?logo=hackthebox&color=609966&logoColor=fff" alt="Current Version">
+    <img src="https://img.shields.io/github/package-json/v/hywax/mafl?logo=hackthebox&color=609966&logoColor=fff" alt="Current Version"/>
   </a>
   <a target="_blank" href="https://github.com/hywax/mafl">
-    <img src="https://img.shields.io/github/last-commit/hywax/mafl?logo=github&color=609966&logoColor=fff" />
+    <img src="https://img.shields.io/github/last-commit/hywax/mafl?logo=github&color=609966&logoColor=fff" alt="Last commit"/>
   </a>
   <a target="_blank" href="https://hub.docker.com/r/hywax/mafl">
-    <img src="https://img.shields.io/docker/pulls/hywax/mafl?logo=docker&color=609966&logoColor=fff" />
+    <img src="https://img.shields.io/docker/pulls/hywax/mafl?logo=docker&color=609966&logoColor=fff" alt="Docker pulls"/>
   </a>
   <a href="https://github.com/hywax/mafl/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/License-MIT-609966?logo=opensourceinitiative&logoColor=fff" alt="License MIT">
+    <img src="https://img.shields.io/badge/License-MIT-609966?logo=opensourceinitiative&logoColor=fff" alt="License MIT"/>
   </a>
   <br/><br/>
-  <img src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/cover.png" width="100%" />
+  <img src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/cover.png" alt="Mafl" width="100%"/>
 </p>
 
 <details>
