@@ -96,5 +96,8 @@ export default defineNuxtConfig({
         base: './data',
       },
     },
+    devServer: {
+      watch: ['./data'],
+    },
   },
 })
