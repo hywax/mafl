@@ -63,6 +63,7 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@vueuse/nuxt',
     '@vite-pwa/nuxt',
+    'nuxt-icon',
   ],
   i18n: {
     locales: [

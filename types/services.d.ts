@@ -4,7 +4,13 @@ export interface BaseService {
   title: string
   description?: string
   link: string
-  icon?: string
+  icon?: {
+    url?: string
+    name?: string
+    wrap?: boolean
+    background?: string
+    color?: string
+  }
   options?: Record<string, string | number | boolean>
   secrets?: Record<string, string | number | boolean>
 }
