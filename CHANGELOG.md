@@ -1,6 +1,36 @@
 # Changelog
 
 
+## v0.5.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.4.0...v0.5.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Advanced customization of the service icon ([8df3d47](https://github.com/hywax/mafl/commit/8df3d47))
+
+### 📖 Documentation
+
+- Images for readme ([0123b36](https://github.com/hywax/mafl/commit/0123b36))
+- **preview:** Content presentation ([22ec2a3](https://github.com/hywax/mafl/commit/22ec2a3))
+- **preview:** Fix html ([994a7fd](https://github.com/hywax/mafl/commit/994a7fd))
+- **preview:** Fix spaces ([5a8730c](https://github.com/hywax/mafl/commit/5a8730c))
+- **features:** Update list ([52f1859](https://github.com/hywax/mafl/commit/52f1859))
+
+### 🏡 Chore
+
+- **ping-service:** Replace console to logger ([ade76a3](https://github.com/hywax/mafl/commit/ade76a3))
+- **ping-service:** Change default interval from 10 to 60 sec ([58236f9](https://github.com/hywax/mafl/commit/58236f9))
+- **dev-server:** Add watch from folder ([70b76b0](https://github.com/hywax/mafl/commit/70b76b0))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Advanced customization of the service icon ([8df3d47](https://github.com/hywax/mafl/commit/8df3d47))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.4.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.3.0...v0.4.0)
