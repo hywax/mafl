@@ -1,6 +1,27 @@
 # Changelog
 
 
+## v0.6.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.5.1...v0.6.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Vitepress engine ([#7](https://github.com/hywax/mafl/pull/7))
+
+### 🏡 Chore
+
+- Pull no-rebase ([62f9aae](https://github.com/hywax/mafl/commit/62f9aae))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Vitepress engine ([#7](https://github.com/hywax/mafl/pull/7))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+- Alexander <a.hywax@gmail.com>
+
 ## v0.5.1
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.5.0...v0.5.1)
