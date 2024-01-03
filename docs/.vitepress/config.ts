@@ -4,7 +4,6 @@ import ru from './locales/ru'
 
 export default defineConfig({
   title: 'Mafl',
-  base: '/mafl/',
   themeConfig: {
     search: {
       provider: 'local',
