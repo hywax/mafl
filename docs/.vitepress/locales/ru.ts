@@ -36,10 +36,10 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Services',
+        text: 'Сервисы',
         base: '/ru/services',
         items: [
-          { text: 'Base', link: '/base' },
+          { text: 'Базовый', link: '/base' },
         ],
       },
       {
