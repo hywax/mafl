@@ -58,7 +58,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Журнал изменений', link: '/changelog' },
-          { text: 'License', link: '/license' },
+          { text: 'Лицензия', link: '/license' },
         ],
       },
     ],

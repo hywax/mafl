@@ -1,1 +1,3 @@
-# License
+# Лицензия
+
+<!--@include: ../../../LICENSE-->

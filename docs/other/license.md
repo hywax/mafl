@@ -1,1 +1,3 @@
 # License
+
+<!--@include: ../../LICENSE-->
