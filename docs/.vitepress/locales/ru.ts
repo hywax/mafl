@@ -29,10 +29,10 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Reference',
+        text: 'Ссылки',
         base: '/ru/reference',
         items: [
-          { text: 'Configuration', link: '/configuration' },
+          { text: 'Конфигурация', link: '/configuration' },
         ],
       },
       {
