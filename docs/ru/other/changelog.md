@@ -1,1 +1,3 @@
-<!--@include: ../../../CHANGELOG.md-->
+# Журнал изменений
+
+<!--@include: ../../../CHANGELOG.md{2,}-->
