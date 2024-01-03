@@ -12,7 +12,7 @@ export default defineConfig({
       {
         text: getVersion(),
         items: [
-          { text: 'Changelog', link: '/ru/other/changelog' },
+          { text: 'Журнал изменений', link: '/ru/other/changelog' },
           { text: 'Contributing', link: '/ru/community/contributing' },
         ],
       },
@@ -57,7 +57,7 @@ export default defineConfig({
         base: '/ru/other',
         collapsed: true,
         items: [
-          { text: 'Changelog', link: '/changelog' },
+          { text: 'Журнал изменений', link: '/changelog' },
           { text: 'License', link: '/license' },
         ],
       },
