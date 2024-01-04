@@ -23,7 +23,7 @@ export default defineConfig({
         text: 'Guide',
         base: '/ru/guide',
         items: [
-          { text: 'What is Mafl?', link: '/what-is' },
+          { text: 'Что такое Mafl?', link: '/what-is' },
           { text: 'Getting Started', link: '/getting-started' },
           { text: 'Deployment', link: '/deployment' },
         ],

@@ -10,7 +10,7 @@ hero:
       text: Getting started
       link: /ru/guide/getting-started
     - theme: alt
-      text: What is Mafl?
+      text: Что такое Mafl?
       link: /ru/guide/what-is
     - theme: alt
       text: View on GitHub
