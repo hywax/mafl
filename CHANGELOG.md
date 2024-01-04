@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v0.7.1
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.7.0...v0.7.1)
+
+### 🚀 Enhancements
+
+- Transform services to client side render ([2a564bf](https://github.com/hywax/mafl/commit/2a564bf))
+
+### 📖 Documentation
+
+- Excluding pages from search ([0030ed7](https://github.com/hywax/mafl/commit/0030ed7))
+- Add favicon.ico ([db884da](https://github.com/hywax/mafl/commit/db884da))
+
+### 📦 Build
+
+- Apply patch ([24565df](https://github.com/hywax/mafl/commit/24565df))
+
+### 🏡 Chore
+
+- Service placeholder ([f396116](https://github.com/hywax/mafl/commit/f396116))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.7.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.6.0...v0.7.0)
