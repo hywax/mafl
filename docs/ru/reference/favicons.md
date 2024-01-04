@@ -32,3 +32,13 @@ services:
       - ./favicons:/app/public/favicons // [!code ++]
 ```
 :::
+
+Структура файлов:
+
+```text
+./favicons
+├── apple-touch-icon.png
+├── favicon.ico
+├── pwa-192x192.png
+└── pwa-512x512.png
+```
