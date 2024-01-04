@@ -33,6 +33,7 @@ export default defineConfig({
         base: '/reference',
         items: [
           { text: 'Configuration', link: '/configuration' },
+          { text: 'Icons', link: '/icons' },
         ],
       },
       {
