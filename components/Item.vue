@@ -1,5 +1,11 @@
 <template>
-  <Component :is="component" v-bind="props" />
+  <ClientOnly>
+    <Component :is="component" v-bind="props" />
+
+    <template #fallback>
+      <ServicePlaceholder />
+    </template>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
