@@ -2,25 +2,25 @@ import { defineConfig } from 'vitepress'
 import { getVersion } from '../utils'
 
 export default defineConfig({
-  description: 'Intuitive service for organizing your homepage',
+  description: 'Интуитивно понятный сервис для организации вашей домашней страницы',
   lang: 'ru-RU',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/ru/' },
-      { text: 'Configuration', link: '/ru/reference/configuration' },
-      { text: 'Showcase', link: '/ru/community/showcase' },
+      { text: 'Главная', link: '/ru/' },
+      { text: 'Конфигурация', link: '/ru/reference/configuration' },
+      { text: 'Примеры', link: '/ru/community/showcase' },
       {
         text: getVersion(),
         items: [
           { text: 'Журнал изменений', link: '/ru/other/changelog' },
-          { text: 'Contributing', link: '/ru/community/contributing' },
+          { text: 'Внести свой вклад', link: '/ru/community/contributing' },
         ],
       },
     ],
 
     sidebar: [
       {
-        text: 'Guide',
+        text: 'Руководство',
         base: '/ru/guide',
         items: [
           { text: 'Что такое Mafl?', link: '/what-is' },
@@ -45,17 +45,17 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Community',
+        text: 'Сообщество',
         base: '/ru/community',
         collapsed: true,
         items: [
-          { text: 'Showcase', link: '/showcase' },
-          { text: 'Development', link: '/development' },
-          { text: 'Contributing', link: '/contributing' },
+          { text: 'Примеры пользователей', link: '/showcase' },
+          { text: 'Разработка', link: '/development' },
+          { text: 'Внести свой вклад', link: '/contributing' },
         ],
       },
       {
-        text: 'Other',
+        text: 'Прочее',
         base: '/ru/other',
         collapsed: true,
         items: [
