@@ -8,6 +8,7 @@ import type { BaseService } from '~/types'
 
 const props = defineProps<BaseService>()
 
-const type = capitalize(props.type || 'base')
-const component = defineAsyncComponent(() => import(`~/components/service/${type}.vue`))
+const component = props.type
+  ? defineAsyncComponent(() => import(`~/components/service/${capitalize(props.type!)}.vue`))
+  : resolveComponent('ServiceBase')
 </script>
