@@ -4,6 +4,9 @@ import ru from './locales/ru'
 
 export default defineConfig({
   title: 'Mafl',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
   themeConfig: {
     search: {
       provider: 'local',
