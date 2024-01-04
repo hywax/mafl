@@ -1,6 +1,69 @@
 # Changelog
 
 
+## v0.7.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.6.0...v0.7.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Combine base services with ping ([e07a92e](https://github.com/hywax/mafl/commit/e07a92e))
+
+### 📖 Documentation
+
+- Remove base from url ([4ab2606](https://github.com/hywax/mafl/commit/4ab2606))
+- **preview:** Add new links ([008b12b](https://github.com/hywax/mafl/commit/008b12b))
+- Implements changelog page ([09e8176](https://github.com/hywax/mafl/commit/09e8176))
+- Implements license page ([a10d9d2](https://github.com/hywax/mafl/commit/a10d9d2))
+- Changelog page ru header ([39e82df](https://github.com/hywax/mafl/commit/39e82df))
+- License page ru ([0fa5a03](https://github.com/hywax/mafl/commit/0fa5a03))
+- Configuration page ru ([ee2f31f](https://github.com/hywax/mafl/commit/ee2f31f))
+- Base service page ru ([1c77879](https://github.com/hywax/mafl/commit/1c77879))
+- Create icons page ([2667041](https://github.com/hywax/mafl/commit/2667041))
+- Icons page ru ([36acc2e](https://github.com/hywax/mafl/commit/36acc2e))
+- What is page ru ([00c626a](https://github.com/hywax/mafl/commit/00c626a))
+- Getting started page ru ([68964a6](https://github.com/hywax/mafl/commit/68964a6))
+- Favicons page ru ([5ed955b](https://github.com/hywax/mafl/commit/5ed955b))
+- Hidden deployment ([85752dc](https://github.com/hywax/mafl/commit/85752dc))
+- Development page ru ([4db28f4](https://github.com/hywax/mafl/commit/4db28f4))
+- Translate all links ru ([fccc596](https://github.com/hywax/mafl/commit/fccc596))
+- Showcase page ru ([f16b4e5](https://github.com/hywax/mafl/commit/f16b4e5))
+- Contributing page ru ([b94dc39](https://github.com/hywax/mafl/commit/b94dc39))
+- Index page ru ([97d4c0d](https://github.com/hywax/mafl/commit/97d4c0d))
+- Translate site ru ([848d58e](https://github.com/hywax/mafl/commit/848d58e))
+- EditLink && lastUpdated en ([64da8c6](https://github.com/hywax/mafl/commit/64da8c6))
+- Create preview service ([8913533](https://github.com/hywax/mafl/commit/8913533))
+- Base service add preview ([9b8e1b8](https://github.com/hywax/mafl/commit/9b8e1b8))
+- Favicons add struct files ru ([78fd48f](https://github.com/hywax/mafl/commit/78fd48f))
+- **issue-template:** Bug ([3c93762](https://github.com/hywax/mafl/commit/3c93762))
+- **issue-template:** Feature request ([2c61da5](https://github.com/hywax/mafl/commit/2c61da5))
+- **issue-template:** Question ([1eb28a7](https://github.com/hywax/mafl/commit/1eb28a7))
+- **issue-template:** Showcase ([52128d6](https://github.com/hywax/mafl/commit/52128d6))
+- **issue-template:** Showcase fix options ([7839849](https://github.com/hywax/mafl/commit/7839849))
+- Contributing issues links ru ([3daa235](https://github.com/hywax/mafl/commit/3daa235))
+- Showcase issue link ru ([3d1e44c](https://github.com/hywax/mafl/commit/3d1e44c))
+
+### 🏡 Chore
+
+- Ignores into second block ([55d3bb8](https://github.com/hywax/mafl/commit/55d3bb8))
+- Add example config ([3515ae5](https://github.com/hywax/mafl/commit/3515ae5))
+
+### 🎨 Styles
+
+- **eslint:** Run ([c478fea](https://github.com/hywax/mafl/commit/c478fea))
+
+### 🤖 CI
+
+- **docs:** Deploy Documentation site to GitHub Pages ([3f95640](https://github.com/hywax/mafl/commit/3f95640))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Combine base services with ping ([e07a92e](https://github.com/hywax/mafl/commit/e07a92e))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.6.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.5.1...v0.6.0)
