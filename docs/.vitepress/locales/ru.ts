@@ -25,7 +25,7 @@ export default defineConfig({
         items: [
           { text: 'Что такое Mafl?', link: '/what-is' },
           { text: 'Начало работы', link: '/getting-started' },
-          { text: 'Deployment', link: '/deployment' },
+          // { text: 'Deployment', link: '/deployment' },
         ],
       },
       {
