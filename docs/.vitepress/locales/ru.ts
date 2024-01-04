@@ -34,6 +34,7 @@ export default defineConfig({
         items: [
           { text: 'Конфигурация', link: '/configuration' },
           { text: 'Иконки', link: '/icons' },
+          { text: 'Логотип', link: '/favicons' },
         ],
       },
       {
