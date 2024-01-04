@@ -3,48 +3,48 @@ layout: home
 
 hero:
   name: "Mafl"
-  text: "Documentation"
-  tagline: Intuitive service for organizing your homepage
+  text: "Документация"
+  tagline: Интуитивно понятный сервис для организации вашей домашней страницы
   actions:
     - theme: brand
-      text: Getting started
+      text: Начало работы
       link: /ru/guide/getting-started
     - theme: alt
       text: Что такое Mafl?
       link: /ru/guide/what-is
     - theme: alt
-      text: View on GitHub
+      text: Посмотреть на GitHub
       link: https://github.com/hywax/mafl
 
 features:
-  - title: Privacy
+  - title: Конфиденциальность
     icon: 🔐
-    details: All requests to third-party services occur in backend.
-  - title: Real-time
+    details: Все запросы к сторонним сервисам происходят в бэкенде.
+  - title: В режиме реального времени
     icon: ⚡
-    details: Interactive cards with extra information.
-  - title: Multi-language
+    details: Интерактивные карточки с дополнительной информацией.
+  - title: Многоязычный
     icon: 🌎
-    details: Supports multiple languages.
-  - title: Themes
+    details: Поддержка нескольких языков.
+  - title: Темы оформления
     icon: 🎨
-    details: Customize the look to your liking.
-  - title: Grouping
+    details: Настройте внешний вид по своему вкусу.
+  - title: Группировка
     icon: 🗂
-    details: Create custom service groups.
-  - title: Easy setup
+    details: Создавайте группы сервисов
+  - title: Простая настройка
     icon: 👌
-    details: A few lines of yaml and your homepage is ready to go.
-  - title: Fast
+    details: Несколько строк yaml - и ваша домашняя страница готова к работе.
+  - title: Скорость работы
     icon: 🚀
-    details: Everything is fast and free of hang-ups.
+    details: Все работает быстро и без сбоев.
   - title: Docker
     icon: 🐳
-    details: Optimized docker images for popular platforms.
-  - title: Free
+    details: Оптимизированные докер-образы для популярных платформ.
+  - title: Бесплатно
     icon: ✨
-    details: Mafl is completely free and open source.
+    details: Mafl полностью бесплатен и имеет открытый исходный код.
   - title: PWA
     icon: 📲
-    details: Installable application.
+    details: Устанавливаемое приложение.
 ---
