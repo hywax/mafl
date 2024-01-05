@@ -31,7 +31,12 @@ import type { BaseService } from '~/types'
 import { useServiceData } from '~/composables/services'
 
 const props = defineProps<BaseService>()
-const { data, pauseUpdate } = useServiceData<BaseService, { ping: { time: number, status: boolean } }>(props)
+
+// Right now, queries for "base" are only needed for statuses.
+// When the situation will change it is necessary to remove/add condition for "immediate"
+const { data, pauseUpdate } = useServiceData<BaseService, { ping: { time: number, status: boolean } }>(props, {
+  immediate: props.status?.enabled,
+})
 
 onBeforeUnmount(pauseUpdate)
 </script>
