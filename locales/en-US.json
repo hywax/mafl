@@ -4,12 +4,6 @@
       "title": "Services not found",
       "description": "Oops! You did not specify a list of services in config.yaml",
       "action": "Go to documentation"
-    },
-
-    "ping": {
-      "description": "Server responded in",
-      "units": "ms",
-      "error": "Server not responding"
     }
   },
 
