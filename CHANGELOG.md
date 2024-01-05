@@ -1,6 +1,35 @@
 # Changelog
 
 
+## v0.7.2
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.7.1...v0.7.2)
+
+### 🚀 Enhancements
+
+- Custom error page ([9578305](https://github.com/hywax/mafl/commit/9578305))
+- Validation config ([349b546](https://github.com/hywax/mafl/commit/349b546))
+- Sepia theme ([a6c38b9](https://github.com/hywax/mafl/commit/a6c38b9))
+
+### 🩹 Fixes
+
+- Color message ([371b778](https://github.com/hywax/mafl/commit/371b778))
+
+### 🏡 Chore
+
+- Immediate status service ([1d43994](https://github.com/hywax/mafl/commit/1d43994))
+- Set default page title ([8009c8f](https://github.com/hywax/mafl/commit/8009c8f))
+- Remove unused translations ([53f3288](https://github.com/hywax/mafl/commit/53f3288))
+- Zod validation ([0089cf9](https://github.com/hywax/mafl/commit/0089cf9))
+- Update locales ([a1fa9ba](https://github.com/hywax/mafl/commit/a1fa9ba))
+- Immediate default false ([f41d0e1](https://github.com/hywax/mafl/commit/f41d0e1))
+- Redirect to error page ([6094ba0](https://github.com/hywax/mafl/commit/6094ba0))
+- Change dark background ([8d359d2](https://github.com/hywax/mafl/commit/8d359d2))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.7.1
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.7.0...v0.7.1)
