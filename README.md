@@ -21,8 +21,6 @@
 * [Getting started](#getting-started)
   * [Docker](#docker)
   * [Node](#node)
-  * [Proxmox](#proxmox)
-  * [Cloud Providers](#cloud-providers)
 * [License](#license)
 </details>
 
@@ -56,25 +54,30 @@ services:
       - '3000:3000'
     volumes:
       - ./config.yml:/app/data/config.yml
-      - ./icons:/app/public/icons
 ```
 
 ### Node
 
-1. Clone repository: `git clone https://github.com/hywax/mafl.git`
-2. Go to the application folder: `cd mafl`
-3. Configure `data/config.yml`
-4. Install dependencies: `yarn install`
-5. Build application: `yarn build`
-6. Run `yarn preview`
+First, clone the repository:
 
-### Proxmox
+```shell
+git clone https://github.com/hywax/mafl.git
+```
 
-...
+Then install dependencies and build the production bundle (I'm using `yarn` here, you can use `npm` or `pnpm` if you like):
 
-### Cloud Providers
+```shell
+yarn install
+yarn build
+```
 
-...
+Finally, run the server:
+
+```shell
+yarn preview
+```
+
+The application will start with a basic configuration, which is located in the `data` folder.
 
 ## License
 
