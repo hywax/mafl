@@ -21,6 +21,10 @@
 * [Getting started](#getting-started)
   * [Docker](#docker)
   * [Node](#node)
+* [Services](#services)
+* [Themes](#themes)
+* [Icons](#icons)
+* [Languages](#multi-language)
 * [License](#license)
 </details>
 
@@ -78,6 +82,40 @@ yarn preview
 ```
 
 The application will start with a basic configuration, which is located in the `data` folder.
+
+## Services
+
+The basic concept of `Mafl` is to create not just a homepage, but to create an interactive homepage page. You can combine different services with each other. You can combine different services to create the perfect customized homepage for you.
+
+List of services:
+* **[Base](https://mafl.hywax.space/services/base.html)** - The main card of the service. Other services are created on the basis of this service.
+
+## Themes
+
+There are several ready-made themes in `Mafl`. But nothing prevents you from creating your own design themes and sharing them with other users
+
+<img src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/themes.png" alt="Mafl themes" width="100%"/>
+
+## Icons
+
+Services can have icons. With support for several different icon packs, you can find the perfect thumbnail for any application or service.
+
+Supported types:
+* **[Iconify](https://icon-sets.iconify.design/)** - Over 200,000 open source vector icons
+* **Emoji** - Any valid emoji can be used as an icon
+* **URL** - Pass the URL of any matching image so that it can be found and displayed.
+* **Local** - Store custom images locally and reference them by file name
+
+
+## Multi-language
+
+`Mafl` supports multiple languages and locales. The app should automatically detect your language and set it in the settings. If not, set it in `config.yml` with the `lang` property.
+
+Supported Languages:
+* 🇬🇧 **English** - `en`
+* 🇷🇺 **Russian** - `ru`
+
+If you haven't found your language, it can easily be added! Use the instructions in the section [contributing](https://mafl.hywax.space/community/contributing.html) on docs.
 
 ## License
 
