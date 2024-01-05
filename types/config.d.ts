@@ -13,4 +13,6 @@ export interface Config {
   checkUpdates: boolean
 }
 
-export type CompleteConfig = Required<Config>
+export type CompleteConfig = Required<Config> & {
+  error?: string
+}

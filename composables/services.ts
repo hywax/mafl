@@ -6,7 +6,7 @@ export interface ServiceDataOptions {
 }
 
 export function useServiceData<T extends BaseService, R>(service: T, options?: ServiceDataOptions) {
-  const immediate = options?.immediate || true
+  const immediate = options?.immediate || false
   const updateInterval = (options?.updateInterval || 60) * 1000
   const type = service.type || 'base'
 
