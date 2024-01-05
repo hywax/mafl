@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-grow items-center justify-center">
-    <div class="rounded-lg bg-white p-8 text-center shadow-xl">
+    <div class="bg-fg/5 dark:bg-fg/10 text-fg-dimmed p-8 text-center rounded-2xl border border-fg/10 dark:border-fg/15">
       <h1 class="mb-4 text-2xl font-light">
         {{ title }}
       </h1>
