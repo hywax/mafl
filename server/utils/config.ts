@@ -14,7 +14,7 @@ function determineServiceId(items: draftService[]): BaseService[] {
 
 export function getDefaultConfig(): CompleteConfig {
   return {
-    title: 'Mafl',
+    title: 'Mafl Home Page',
     lang: 'en',
     theme: 'system',
     services: [],
