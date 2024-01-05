@@ -35,7 +35,7 @@ const props = defineProps<BaseService>()
 // Right now, queries for "base" are only needed for statuses.
 // When the situation will change it is necessary to remove/add condition for "immediate"
 const { data, pauseUpdate } = useServiceData<BaseService, { ping: { time: number, status: boolean } }>(props, {
-  immediate: props.status?.enabled,
+  immediate: props.status?.enabled || false,
 })
 
 onBeforeUnmount(pauseUpdate)
