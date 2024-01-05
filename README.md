@@ -17,18 +17,18 @@
 <details>
   <summary><b>Table of Contents</b></summary>
 
-* [Features](#features)
-* [Getting started](#getting-started)
+* [Features](#-features)
+* [Getting started](#-getting-started)
   * [Docker](#docker)
   * [Node](#node)
-* [Services](#services)
-* [Themes](#themes)
-* [Icons](#icons)
-* [Languages](#multi-language)
-* [License](#license)
+* [Services](#-services)
+* [Themes](#-themes)
+* [Icons](#-icons)
+* [Languages](#-multi-language)
+* [License](#-license)
 </details>
 
-## Features
+## 🎯 Features
 
 * 🔐 **Privacy**. All requests to third-party services occur in backend.
 * ⚡ **Real-time**. Interactive cards with extra information.
@@ -41,7 +41,7 @@
 * ✨ **Free**. Mafl is completely free and open source.
 * 📲 **PWA**. Installable application.
 
-## Getting started
+## 🚀 Getting started
 
 ### Docker
 
@@ -83,20 +83,20 @@ yarn preview
 
 The application will start with a basic configuration, which is located in the `data` folder.
 
-## Services
+## 📊 Services
 
 The basic concept of `Mafl` is to create not just a homepage, but to create an interactive homepage page. You can combine different services with each other. You can combine different services to create the perfect customized homepage for you.
 
 List of services:
 * **[Base](https://mafl.hywax.space/services/base.html)** - The main card of the service. Other services are created on the basis of this service.
 
-## Themes
+## 🎨 Themes
 
 There are several ready-made themes in `Mafl`. But nothing prevents you from creating your own design themes and sharing them with other users
 
 <img src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/themes.png" alt="Mafl themes" width="100%"/>
 
-## Icons
+## 🖼 Icons
 
 Services can have icons. With support for several different icon packs, you can find the perfect thumbnail for any application or service.
 
@@ -107,7 +107,7 @@ Supported types:
 * **Local** - Store custom images locally and reference them by file name
 
 
-## Multi-language
+## 🌎 Multi-language
 
 `Mafl` supports multiple languages and locales. The app should automatically detect your language and set it in the settings. If not, set it in `config.yml` with the `lang` property.
 
@@ -117,6 +117,6 @@ Supported Languages:
 
 If you haven't found your language, it can easily be added! Use the instructions in the section [contributing](https://mafl.hywax.space/community/contributing.html) on docs.
 
-## License
+## 📄 License
 
 This app is open-sourced software licensed under the [MIT license](https://github.com/hywax/mafl/blob/main/LICENSE).
