@@ -5407,10 +5407,10 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-h3-zod@^0.5.2:
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/h3-zod/-/h3-zod-0.5.2.tgz#8c107271f40ff23a2a0602833e05c4da98f8241b"
-  integrity sha512-yBfMqF04n+WgSjgR0gxi/Z7/NUPIet/3mJ56aOTB9xEKAx0r3tJcJW74qMuqr4t+uxlIaCfzwr4XPLRHES55iw==
+h3-zod@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/h3-zod/-/h3-zod-0.5.3.tgz#d961f15000d71bca933456f6efd102149b7993bc"
+  integrity sha512-wqlRd/d5d9sNYxmNglnL63J4v5HiZZrcXdLIiU2cBsy5gTwxrSH1AqtNrVkuUleshgNOAQldbuO06phdUIxuKA==
 
 h3@^1.8.1, h3@^1.8.2, h3@^1.9.0:
   version "1.9.0"
