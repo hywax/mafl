@@ -1601,6 +1601,11 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-2.0.1.tgz#e5211452df060fa8522b55c7b3c0c4d1981cb044"
   integrity sha512-dvuCeX5fC9dXgJn9t+X5atfmgQAzUOWqS1254Gh0m6i8wKd10ebXkfNKiRK+1GWi/yTvvLDHpoxLr0xxxeslWw==
 
+"@hywax/vitepress-yandex-metrika@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@hywax/vitepress-yandex-metrika/-/vitepress-yandex-metrika-0.2.0.tgz#165f0c1e2ffebbfb2ee952b074db71c4bd59275c"
+  integrity sha512-Z8NSsYssCXrELLUB6ZnG4miMUdE+zB/zXLPpH0/FdZyl245T8o3nzmLcQm9e1Aja3lVD10/OAUjd7LCK3NyPWA==
+
 "@iconify/collections@^1.0.374":
   version "1.0.375"
   resolved "https://registry.yarnpkg.com/@iconify/collections/-/collections-1.0.375.tgz#e75d4f84ba7c94c7300cf946de2d4372a0b7734c"
