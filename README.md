@@ -106,7 +106,6 @@ Supported types:
 * **URL** - Pass the URL of any matching image so that it can be found and displayed.
 * **Local** - Store custom images locally and reference them by file name
 
-
 ## 🌎 Multi-language
 
 `Mafl` supports multiple languages and locales. The app should automatically detect your language and set it in the settings. If not, set it in `config.yml` with the `lang` property.
