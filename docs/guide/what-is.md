@@ -10,4 +10,4 @@ In addition to the functionality of regular lists, there are dynamic services. T
 They receive the necessary information and display it on the service card. All information is protected.
 API requests are hidden from the client in a separate application layer.
 
-![Mafl](../../public/cover.png)
+![Mafl](/cover.png)
