@@ -17,7 +17,7 @@
 Воспользуйтесь инструкцией добавления нового сервиса в разделе [разработка](development.md). При знании языка javascript
 добавление нового сервиса займет не более через 1 час.
 
-Но если вы не умеете программировать, но очень хотите, чтобы вашу идею реализовали - [создайте issue](https://github.com/hywax/mafl/issues/new?assignees=&labels=feature+request&projects=&template=feature-request.yml&title=%5BFEATURE_REQUEST%5D+%3Ctitle%3E),
+Но если вы не умеете программировать, но очень хотите, чтобы вашу идею реализовали - [создайте issue](https://github.com/hywax/mafl/issues/new?assignees=&labels=feature+request&projects=&template=feature-request.yml&title=%5BFEATURE_REQUEST%5D+%3Ctitle%3E).
 
 ## Исправьте баг
 
