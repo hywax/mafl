@@ -22,6 +22,7 @@
     "consola": "^3.2.3",
     "defu": "^6.1.4",
     "h3-zod": "^0.5.3",
+    "rollup": "npm:@rollup/wasm-node",
     "yaml": "^2.3.4",
     "zod": "^3.22.4"
   },
