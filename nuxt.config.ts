@@ -85,6 +85,12 @@ export default defineNuxtConfig({
         name: '中文',
         file: 'zh-CN.json',
       },
+      {
+        code: 'hi',
+        iso: 'hi-IN',
+        name: 'हिंदी',
+        file: 'hi-IN.json',
+      },
     ],
     strategy: 'no_prefix',
     langDir: 'locales',
