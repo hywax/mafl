@@ -1,6 +1,20 @@
 # Changelog
 
 
+## v0.7.4
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.7.3...v0.7.4)
+
+### 🚀 Enhancements
+
+- Chinese language ([4557a16](https://github.com/hywax/mafl/commit/4557a16))
+- Hindi language ([09b2154](https://github.com/hywax/mafl/commit/09b2154))
+- Spanish language ([7d4b090](https://github.com/hywax/mafl/commit/7d4b090))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.7.3
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.7.2...v0.7.3)
