@@ -34,6 +34,7 @@ export default defineConfig({
         items: [
           { text: 'Configuration', link: '/configuration' },
           { text: 'Icons', link: '/icons' },
+          { text: 'Favicons', link: '/favicons' },
         ],
       },
       {
