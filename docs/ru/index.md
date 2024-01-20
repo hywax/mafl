@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Mafl"
-  text: "Документация"
+  text: "Домашняя страница"
   tagline: Интуитивно понятный сервис для организации вашей домашней страницы
   actions:
     - theme: brand

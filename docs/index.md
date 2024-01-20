@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Mafl"
-  text: "Documentation"
+  text: "Home Page"
   tagline: Intuitive service for organizing your homepage
   actions:
     - theme: brand
