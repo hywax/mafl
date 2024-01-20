@@ -115,6 +115,7 @@ Supported Languages:
 * 🇷🇺 **Russian** - `ru`
 * 🇨🇳 **Chinese** - `zh`
 * 🇨🇮 **Hindi** - `hi`
+* 🇪🇸 **Spanish** - `es`
 
 If you haven't found your language, it can easily be added! Use the instructions in the section [contributing](https://mafl.hywax.space/community/contributing.html) on docs.
 

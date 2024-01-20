@@ -91,6 +91,12 @@ export default defineNuxtConfig({
         name: 'हिंदी',
         file: 'hi-IN.json',
       },
+      {
+        code: 'es',
+        iso: 'es-ES',
+        name: 'Español',
+        file: 'es-ES.json',
+      },
     ],
     strategy: 'no_prefix',
     langDir: 'locales',
