@@ -97,6 +97,12 @@ export default defineNuxtConfig({
         name: 'Español',
         file: 'es-ES.json',
       },
+      {
+        code: 'ar',
+        iso: 'ar-SA',
+        name: 'اللغة السعودية',
+        file: 'ar-SA.json',
+      },
     ],
     strategy: 'no_prefix',
     langDir: 'locales',
