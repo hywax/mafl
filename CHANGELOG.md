@@ -1,6 +1,54 @@
 # Changelog
 
 
+## v0.7.3
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.7.2...v0.7.3)
+
+### 📖 Documentation
+
+- **getting-started:** Refactor runs ([6538a61](https://github.com/hywax/mafl/commit/6538a61))
+- Themes assets ([9669e51](https://github.com/hywax/mafl/commit/9669e51))
+- Basic information update ([1427b6f](https://github.com/hywax/mafl/commit/1427b6f))
+- Moved themes asset ([bfa7793](https://github.com/hywax/mafl/commit/bfa7793))
+- Add emoji ([98f5633](https://github.com/hywax/mafl/commit/98f5633))
+- Added Yandex.Metrika for documentation ([4ec6059](https://github.com/hywax/mafl/commit/4ec6059))
+- **en:** What is page ([575e0c5](https://github.com/hywax/mafl/commit/575e0c5))
+- **en:** Getting started page ([093962c](https://github.com/hywax/mafl/commit/093962c))
+- **en:** Configuration page ([ceba903](https://github.com/hywax/mafl/commit/ceba903))
+- **en:** Icons page ([9452b99](https://github.com/hywax/mafl/commit/9452b99))
+- **en:** Favicons page ([15fbe0b](https://github.com/hywax/mafl/commit/15fbe0b))
+- **en:** Base service page ([b7b18e1](https://github.com/hywax/mafl/commit/b7b18e1))
+- **en:** Showcase page ([923d713](https://github.com/hywax/mafl/commit/923d713))
+- **en:** Development page ([478d616](https://github.com/hywax/mafl/commit/478d616))
+- **en:** Contributing page ([7fda3a6](https://github.com/hywax/mafl/commit/7fda3a6))
+- **ru:** Contributing page fix char ([53c830f](https://github.com/hywax/mafl/commit/53c830f))
+- Change hero text on home page ([7cfdf33](https://github.com/hywax/mafl/commit/7cfdf33))
+- Fix cover image url ([5674009](https://github.com/hywax/mafl/commit/5674009))
+
+### 📦 Build
+
+- **deps-dev:** Bump @types/node from 20.10.6 to 20.10.7 ([#12](https://github.com/hywax/mafl/pull/12))
+- **deps:** Bump defu from 6.1.3 to 6.1.4 ([#11](https://github.com/hywax/mafl/pull/11))
+- **deps-dev:** Bump vitepress from 1.0.0-rc.34 to 1.0.0-rc.36 ([#9](https://github.com/hywax/mafl/pull/9))
+- **deps-dev:** Bump @antfu/eslint-config from 2.6.1 to 2.6.2 ([#8](https://github.com/hywax/mafl/pull/8))
+- **deps:** Bump h3-zod from 0.5.2 to 0.5.3 ([#10](https://github.com/hywax/mafl/pull/10))
+- **deps-dev:** @hywax/vitepress-yandex-metrika from 0.2.0 to 0.3.0 ([49ac3d9](https://github.com/hywax/mafl/commit/49ac3d9))
+- **deps:** Bump @vueuse/nuxt from 10.7.1 to 10.7.2 ([#14](https://github.com/hywax/mafl/pull/14))
+- **deps-dev:** Bump @types/node from 20.10.7 to 20.11.1 ([#13](https://github.com/hywax/mafl/pull/13))
+- **deps-dev:** Bump @commitlint/cli from 18.4.3 to 18.4.4 ([#17](https://github.com/hywax/mafl/pull/17))
+- **deps-dev:** Bump @nuxt/devtools from 1.0.6 to 1.0.8 ([#15](https://github.com/hywax/mafl/pull/15))
+- **deps-dev:** Bump nuxt from 3.9.0 to 3.9.1 ([#16](https://github.com/hywax/mafl/pull/16))
+- **deps:** Upgrade dependencies ([d04f20b](https://github.com/hywax/mafl/commit/d04f20b))
+
+### 🎨 Styles
+
+- **eslint:** Run ([64a80ae](https://github.com/hywax/mafl/commit/64a80ae))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+
 ## v0.7.2
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.7.1...v0.7.2)
