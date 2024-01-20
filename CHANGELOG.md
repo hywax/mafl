@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.7.5
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.7.4...v0.7.5)
+
+### 🚀 Enhancements
+
+- Arabic file locale ([e64c0dd](https://github.com/hywax/mafl/commit/e64c0dd))
+- Arabic language ([#20](https://github.com/hywax/mafl/pull/20))
+- Dir and lang to html attrs ([35c88c1](https://github.com/hywax/mafl/commit/35c88c1))
+
+### 📖 Documentation
+
+- Github link @mohmadhabib ([fc9ac0a](https://github.com/hywax/mafl/commit/fc9ac0a))
+
+### ❤️ Contributors
+
+- Hywax <a.hywax@gmail.com>
+- Alexander <a.hywax@gmail.com>
+- Mohammad Habib ([@mohmadhabib](http://github.com/mohmadhabib))
+
 ## v0.7.4
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.7.3...v0.7.4)
