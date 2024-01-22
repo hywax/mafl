@@ -29,7 +29,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.2",
     "@commitlint/cli": "^18.5.0",
-    "@commitlint/config-conventional": "^18.4.3",
+    "@commitlint/config-conventional": "^18.5.0",
     "@hywax/vitepress-yandex-metrika": "^0.3.0",
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.2",
