@@ -31,7 +31,7 @@ It is also used to check [status](#status) availability.
 link: https://home-assistant.home.local/
 ```
 
-## Target
+## Target <in-version value="0.7.6" />
 
 Browser behavior when the service is clicked.
 With this property, you can make the service open in the current or a new window.

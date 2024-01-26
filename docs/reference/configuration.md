@@ -57,7 +57,7 @@ If you want the system to be able to update itself, we recommend using [watchtow
 
 A group of parameters responsible for the behavior of the application.
 
-### Target
+### Target <in-version value="0.7.6" />
 
 Поведение браузера при нажатии на сервис.
 С помощью этого свойства, можно сделать открытие сервиса в текущем или новом окне.
