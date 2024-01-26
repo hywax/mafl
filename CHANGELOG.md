@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v0.7.6
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.7.5...v0.7.6)
+
+### 🚀 Enhancements
+
+- New prop `target` for service ([feea7fe](https://github.com/hywax/mafl/commit/feea7fe))
+- New prop `target` for config behaviour ([7a81999](https://github.com/hywax/mafl/commit/7a81999))
+
+### 📖 Documentation
+
+- **en:** Service target ([8cdeb6a](https://github.com/hywax/mafl/commit/8cdeb6a))
+- **ru:** Service target ([a2b0b8a](https://github.com/hywax/mafl/commit/a2b0b8a))
+- **en:** Config behaviour target ([e8f20f2](https://github.com/hywax/mafl/commit/e8f20f2))
+- **ru:** Config behaviour target ([3ae0592](https://github.com/hywax/mafl/commit/3ae0592))
+
+### 📦 Build
+
+- **deps-dev:** Bump @commitlint/cli from 18.4.4 to 18.5.0 ([#21](https://github.com/hywax/mafl/pull/21))
+- **deps-dev:** Bump @commitlint/config-conventional ([#22](https://github.com/hywax/mafl/pull/22))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.7.5
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.7.4...v0.7.5)
