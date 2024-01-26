@@ -31,6 +31,30 @@ It is also used to check [status](#status) availability.
 link: https://home-assistant.home.local/
 ```
 
+## Target
+
+Browser behavior when the service is clicked.
+With this property, you can make the service open in the current or a new window.
+
+```yaml
+target: _blank
+```
+
+Values:
+
+| Value     | Description                                                                                                                     |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------|
+| `_blank`  | Usually a new tab, but users can configure browsers to open a new window instead                                                |
+| `_self`   | The current browsing context                                                                                                    |
+| `_parent` | The parent browsing context of the current one. If no parent, behaves as `_self`                                                |
+| `_top`    | The topmost browsing context (the "highest" context that's an ancestor of the current one). If no ancestors, behaves as `_self` |
+
+Default: `_blank`
+
+::: warning
+This property takes precedence over `behaviour.target` from `config.yml`. You can read more in the [configuration](../reference/configuration.md#target)
+:::
+
 ## Icon
 
 Service icon. Allows you to quickly find the required item.
