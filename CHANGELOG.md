@@ -42,8 +42,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
-- Alexander <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 - Mohammad Habib ([@mohmadhabib](http://github.com/mohmadhabib))
 
 ## v0.7.4
@@ -58,7 +57,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.7.3
 
@@ -106,7 +105,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.7.2
 
@@ -135,7 +134,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.7.1
 
@@ -160,7 +159,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.7.0
 
@@ -223,7 +222,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.6.0
 
@@ -243,7 +242,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 - Alexander <a.hywax@gmail.com>
 
 ## v0.5.1
@@ -278,7 +277,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.4.0
 
@@ -304,7 +303,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.3.0
 
@@ -332,7 +331,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.2.1
 
@@ -363,7 +362,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.2.0
 
@@ -393,7 +392,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 - Alexander <a.hywax@gmail.com>
 
 ## v0.1.7
@@ -406,7 +405,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.1.6
 
@@ -419,7 +418,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.1.5
 
@@ -432,7 +431,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.1.4
 
@@ -445,7 +444,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.1.3
 
@@ -457,7 +456,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.1.2
 
@@ -469,7 +468,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.1.1
 
@@ -481,7 +480,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.1.0
 
@@ -508,7 +507,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.0.3
 
@@ -520,7 +519,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.0.2
 
@@ -541,7 +540,7 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.0.1
 
@@ -628,5 +627,5 @@
 
 ### ❤️ Contributors
 
-- Hywax <a.hywax@gmail.com>
+- Hywax ([@hywax](http://github.com/hywax))
 
