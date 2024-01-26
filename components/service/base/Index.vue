@@ -31,7 +31,9 @@ import type { BaseService } from '~/types'
 import { useServiceData } from '~/composables/services'
 
 const props = defineProps<BaseService>()
-const target = computed(() => props.target || '_blank')
+
+const { $settings } = useNuxtApp()
+const target = computed(() => props.target || $settings.behaviour.target)
 
 // Right now, queries for "base" are only needed for statuses.
 // When the situation will change it is necessary to remove/add condition for "immediate"

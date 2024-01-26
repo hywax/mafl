@@ -19,6 +19,9 @@ export function getDefaultConfig(): CompleteConfig {
     lang: 'en',
     theme: 'system',
     checkUpdates: true,
+    behaviour: {
+      target: '_blank',
+    },
     services: [],
   }
 }
