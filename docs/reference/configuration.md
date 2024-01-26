@@ -53,6 +53,35 @@ With the `true` parameter there will be no automatic update.
 If you want the system to be able to update itself, we recommend using [watchtower](https://containrrr.dev/watchtower/).
 :::
 
+## Behaviour
+
+A group of parameters responsible for the behavior of the application.
+
+### Target
+
+Поведение браузера при нажатии на сервис.
+С помощью этого свойства, можно сделать открытие сервиса в текущем или новом окне.
+
+```yaml
+behaviour:
+  target: _blank
+```
+
+Values:
+
+| Value     | Description                                                                                                                     |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------|
+| `_blank`  | Usually a new tab, but users can configure browsers to open a new window instead                                                |
+| `_self`   | The current browsing context                                                                                                    |
+| `_parent` | The parent browsing context of the current one. If no parent, behaves as `_self`                                                |
+| `_top`    | The topmost browsing context (the "highest" context that's an ancestor of the current one). If no ancestors, behaves as `_self` |
+
+Default: `_blank`
+
+::: warning
+If a field is defined in the service `target` it will be prioritized. More details can be found in the [basic service](../services/base.md#target).
+:::
+
 ## Services
 
 All services that are displayed on the home page are set in this parameter.
