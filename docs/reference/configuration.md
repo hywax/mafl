@@ -59,8 +59,8 @@ A group of parameters responsible for the behavior of the application.
 
 ### Target <in-version value="0.7.6" />
 
-Поведение браузера при нажатии на сервис.
-С помощью этого свойства, можно сделать открытие сервиса в текущем или новом окне.
+Browser behavior when the service is clicked.
+With this property, you can make the service open in the current or a new window.
 
 ```yaml
 behaviour:
