@@ -1,7 +1,7 @@
 <template>
   <div class="p-4 flex gap-4">
     <div class="flex-shrink-0 flex">
-      <a :href="link" class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-fg/10 dark:border-fg/15">
+      <a :href="link" :target="target" class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-fg/10 dark:border-fg/15">
         <slot name="icon">
           <ServiceBaseIcon v-if="icon" v-bind="icon" />
         </slot>
@@ -10,7 +10,7 @@
     <div>
       <h3 class="text-lg mt-1 font-semibold line-clamp-1 flex gap-2 items-center">
         <slot name="title">
-          <a :href="link">{{ title }}</a>
+          <a :href="link" :target="target">{{ title }}</a>
         </slot>
         <slot v-if="props?.status" name="status">
           <ServiceBaseStatus :ping="data?.ping" />
@@ -31,6 +31,7 @@ import type { BaseService } from '~/types'
 import { useServiceData } from '~/composables/services'
 
 const props = defineProps<BaseService>()
+const target = computed(() => props.target || '_blank')
 
 // Right now, queries for "base" are only needed for statuses.
 // When the situation will change it is necessary to remove/add condition for "immediate"

@@ -41,6 +41,7 @@ export function validateConfigSchema(config: any) {
     title: z.string(),
     description: z.string().optional(),
     link: z.string(),
+    target: z.string().optional(),
     icon: icon.optional(),
     status: status.optional(),
     type: z.string().optional(),

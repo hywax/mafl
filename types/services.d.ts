@@ -17,6 +17,7 @@ export interface BaseService {
   title: string
   description?: string
   link: string
+  target?: '_blank' | '_self' | '_parent' | '_top'
   icon?: ServiceIcon
   status?: ServiceStatus
   options?: Record<string, string | number | boolean>
