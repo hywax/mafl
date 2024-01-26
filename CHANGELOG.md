@@ -243,7 +243,6 @@
 ### ❤️ Contributors
 
 - Hywax ([@hywax](http://github.com/hywax))
-- Alexander <a.hywax@gmail.com>
 
 ## v0.5.1
 
@@ -393,7 +392,6 @@
 ### ❤️ Contributors
 
 - Hywax ([@hywax](http://github.com/hywax))
-- Alexander <a.hywax@gmail.com>
 
 ## v0.1.7
 
