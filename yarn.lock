@@ -2143,10 +2143,10 @@
     vue-i18n "^9.8.0"
     vue-i18n-routing "^1.2.0"
 
-"@nuxtjs/tailwindcss@^6.11.1":
-  version "6.11.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.11.1.tgz#4367426f7606c799153004ef2c85c92d873e03d8"
-  integrity sha512-6VY4Y6Ntjqx9cw9biBYOjKEhg3M0VFy1FqOAu1CCfdJr26p8XBztaiHS538Zy2nKEqH7MP/Jpi2+8RgfO2m+pA==
+"@nuxtjs/tailwindcss@^6.11.2":
+  version "6.11.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.11.2.tgz#e29976341e617bbce51c87d5a0a90f4b42cdb1d5"
+  integrity sha512-06e8t9ia6Ru/RPMATuhGwi16rMYeZPseXiI4QmRDk/IkvluU60GxhLZOjdUIa+U7DVCECgDsRNEo/rD8/1sMKQ==
   dependencies:
     "@nuxt/kit" "^3.9.3"
     autoprefixer "^10.4.17"
@@ -2580,10 +2580,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/node@^20.11.8":
-  version "20.11.8"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.8.tgz#bdb6de1048613c3c6ab6c341c37e8fd1a7860308"
-  integrity sha512-i7omyekpPTNdv4Jb/Rgqg0RU8YqLcNsI12quKSDkRXNfx7Wxdm6HhK1awT3xTgEkgxPn3bvnSpiEAc7a7Lpyow==
+"@types/node@^20.11.10":
+  version "20.11.10"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.11.10.tgz#6c3de8974d65c362f82ee29db6b5adf4205462f9"
+  integrity sha512-rZEfe/hJSGYmdfX9tvcPMYeYPW2sNl50nsw4jZmRcaG0HIAb0WYEpsB05GOb53vjqpyE9GUhlDQ4jLSoB5q9kg==
   dependencies:
     undici-types "~5.26.4"
 
