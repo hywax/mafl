@@ -1609,10 +1609,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-2.0.2.tgz#d9fae00a2d5cb40f92cfe64b47ad749fbc38f917"
   integrity sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==
 
-"@hywax/vitepress-yandex-metrika@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@hywax/vitepress-yandex-metrika/-/vitepress-yandex-metrika-0.3.1.tgz#c2d89545380522f4251262d52692c5617b2cb660"
-  integrity sha512-zqqlqs6GmW76YPPDYTehAonQ97q8rhkoNDRYdfIpAtc1TdHUBx62wudh2xJ97/ouaRWcDlpcEy/1iV54UJweYw==
+"@hywax/vitepress-yandex-metrika@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@hywax/vitepress-yandex-metrika/-/vitepress-yandex-metrika-0.3.2.tgz#a00df87b31ef7c637023bbc5754530482385c407"
+  integrity sha512-kLe6ZMe6/MCv5KacdRQzQ5ePMaXdDVHzzAlFhXF0iYYZHHwRzkZQ7CZyfBSpsTNDqIE6QtsFc9L+7GUoB/tThA==
 
 "@iconify/collections@^1.0.374":
   version "1.0.383"
