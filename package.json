@@ -39,7 +39,7 @@
     "@vite-pwa/nuxt": "^0.4.0",
     "changelogen": "^0.5.5",
     "eslint": "^8.56.0",
-    "husky": "^9.0.7",
+    "husky": "^9.0.9",
     "lint-staged": "^15.2.1",
     "nuxt": "^3.10.0",
     "nuxt-icon": "^0.6.8",
