@@ -28,6 +28,10 @@ function resolveByTypeComponent(type: string) {
     return resolveComponent('ServiceIpApi')
   }
 
+  if (type === 'openweathermap') {
+    return resolveComponent('ServiceOpenWeatherMap')
+  }
+
   return resolveComponent('ServiceBase')
 }
 

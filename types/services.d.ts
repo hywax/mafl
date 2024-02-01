@@ -52,3 +52,20 @@ export interface IpApiService extends Service {
     place: string
   }
 }
+
+export interface OpenWeatherMapService extends Service {
+  options: {
+    lon: number
+    lat: number
+    units: 'metric' | 'imperial' | 'standard'
+  }
+  secrets: {
+    apiKey: string
+  }
+  server: {
+    temp: number
+    place: string
+    description: string
+    iconId: number
+  }
+}
