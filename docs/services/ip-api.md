@@ -4,9 +4,7 @@
 
 Shows information about your IP address.
 
-::: warning
-There are only additional fields described here. The service supports all fields from the [base service](base.md).
-:::
+<!--@include: ../_parts/extends-base-service.md-->
 
 ## Flag icon
 
