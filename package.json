@@ -35,7 +35,7 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/i18n": "^8.0.0",
     "@nuxtjs/tailwindcss": "^6.11.2",
-    "@types/node": "^20.11.14",
+    "@types/node": "^20.11.15",
     "@vite-pwa/nuxt": "^0.4.0",
     "changelogen": "^0.5.5",
     "eslint": "^8.56.0",
