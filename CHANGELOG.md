@@ -1,6 +1,48 @@
 # Changelog
 
 
+## v0.8.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.7.6...v0.8.0)
+
+### 🚀 Enhancements
+
+- Ip api service ([fe4a219](https://github.com/hywax/mafl/commit/fe4a219))
+
+### 💅 Refactors
+
+- Change @hywax link profile ([fb93b86](https://github.com/hywax/mafl/commit/fb93b86))
+- Remove duplicate contributors ([7dd4694](https://github.com/hywax/mafl/commit/7dd4694))
+
+### 📖 Documentation
+
+- Change color brand-soft ([d7d2274](https://github.com/hywax/mafl/commit/d7d2274))
+- Badge in version ([4a7599c](https://github.com/hywax/mafl/commit/4a7599c))
+- **en:** Fix behaviour target description ([12a9dc8](https://github.com/hywax/mafl/commit/12a9dc8))
+- Ip api service ([c5e70a3](https://github.com/hywax/mafl/commit/c5e70a3))
+
+### 🏡 Chore
+
+- Change placeholder background color ([05cb0ea](https://github.com/hywax/mafl/commit/05cb0ea))
+- Provide safely config ([e38a7a5](https://github.com/hywax/mafl/commit/e38a7a5))
+- ⚠️  Redesigned loading of dynamic services ([d4edb9a](https://github.com/hywax/mafl/commit/d4edb9a))
+- Placeholder animate props ([c812e2a](https://github.com/hywax/mafl/commit/c812e2a))
+- Create helper check valid url ([d8b9aca](https://github.com/hywax/mafl/commit/d8b9aca))
+- Set option title, link ([7b849bd](https://github.com/hywax/mafl/commit/7b849bd))
+
+### 🤖 CI
+
+- Migrate renovate config ([34d9378](https://github.com/hywax/mafl/commit/34d9378))
+- Update deploy documentation site ([4a1056e](https://github.com/hywax/mafl/commit/4a1056e))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Redesigned loading of dynamic services ([d4edb9a](https://github.com/hywax/mafl/commit/d4edb9a))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.7.6
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.7.5...v0.7.6)
