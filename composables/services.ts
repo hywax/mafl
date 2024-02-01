@@ -5,12 +5,12 @@ export interface ServiceDataOptions {
   updateInterval?: number
 }
 
-export function useServiceData<T extends BaseService, R>(service: T, options?: ServiceDataOptions) {
+export function useServiceData<T extends BaseService>(service: T, options?: ServiceDataOptions): any {
   const immediate = options?.immediate || false
   const updateInterval = (options?.updateInterval || 60) * 1000
   const type = service.type || 'base'
 
-  const { data, pending, status, refresh, execute } = useFetch<R>(`/api/services/${type}`, {
+  const { data, pending, status, refresh, execute } = useFetch(`/api/services/${type}`, {
     immediate,
     query: { id: service.id },
     timeout: 15000,

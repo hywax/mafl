@@ -12,11 +12,11 @@
 </template>
 
 <script setup lang="ts">
-import type { BaseService } from '~/types'
+import type { Service } from '~/types'
 
 export interface Props {
   title?: string
-  items: BaseService[]
+  items: Service[]
 }
 
 defineProps<Props>()

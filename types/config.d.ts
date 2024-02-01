@@ -1,8 +1,8 @@
-import type { BaseService } from '~/types/services'
+import type { Service } from '~/types/services'
 
 export interface ServicesGroup {
   title?: string
-  items: BaseService[]
+  items: Service[]
 }
 
 export interface Behaviour {

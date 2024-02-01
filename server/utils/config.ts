@@ -2,11 +2,11 @@ import crypto from 'node:crypto'
 import yaml from 'yaml'
 import defu from 'defu'
 import { ZodError, z } from 'zod'
-import type { BaseService, CompleteConfig } from '~/types'
+import type { CompleteConfig, Service } from '~/types'
 
-type DraftService = Omit<BaseService, 'id'>
+type DraftService = Omit<Service, 'id'>
 
-function determineServiceId(items: DraftService[]): BaseService[] {
+function determineServiceId(items: DraftService[]): Service[] {
   return items.map((item) => ({
     id: crypto.randomUUID(),
     ...item,
@@ -137,8 +137,8 @@ export function extractSafelyConfig(config: CompleteConfig) {
 /**
  * Create Map services
  */
-export function extractServicesFromConfig(config: CompleteConfig): Record<string, BaseService> {
-  return config.services.reduce<Record<string, BaseService>>((acc, group) => {
+export function extractServicesFromConfig(config: CompleteConfig): Record<string, Service> {
+  return config.services.reduce<Record<string, Service>>((acc, group) => {
     for (const item of group.items) {
       acc[item.id] = item
     }

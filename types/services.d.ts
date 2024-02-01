@@ -11,7 +11,7 @@ export interface ServiceIcon {
   color?: string
 }
 
-export interface BaseService {
+export interface Service {
   id: string
   type?: string
   title: string
@@ -22,4 +22,23 @@ export interface BaseService {
   status?: ServiceStatus
   options?: Record<string, string | number | boolean>
   secrets?: Record<string, string | number | boolean>
+  server?: Record<string, string | number | boolean>
 }
+
+export type ServiceClient<T> = Omit<T, 'secrets' | 'server'>
+
+export interface PingServiceData {
+  status: boolean
+  time: number
+}
+
+export interface ServiceWithDefaultData<S> {
+  config: S
+  defaultData: {
+    ping?: PingServiceData
+  }
+}
+
+export type ReturnServiceWithData<D, S extends ServiceWithDefaultData<Service>['defaultData']> = S & { data: D }
+
+export interface BaseService extends Service {}

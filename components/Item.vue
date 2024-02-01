@@ -3,18 +3,35 @@
     <Component :is="component" v-bind="props" />
 
     <template #fallback>
-      <ServicePlaceholder />
+      <ServicePlaceholder :animate="false" />
     </template>
   </ClientOnly>
 </template>
 
 <script setup lang="ts">
-import { capitalize } from 'vue'
-import type { BaseService } from '~/types'
+import ServicePlaceholder from './service/Placeholder.vue'
+import type { Service } from '~/types'
 
-const props = defineProps<BaseService>()
+const props = defineProps<Service>()
+
+// At the moment there is a "flash" problem with the component.
+// It is necessary to fix it and remove manual mapping
+function resolveByTypeComponent(type: string) {
+  // const name = capitalize(camelize(type))
+  // return defineAsyncComponent({
+  //   loader: () => import(`~/components/service/${name}.vue`),
+  //   loadingComponent: ServicePlaceholder,
+  //   suspensible: false,
+  // })
+
+  if (type === 'ip-api') {
+    return resolveComponent('ServiceIpApi')
+  }
+
+  return resolveComponent('ServiceBase')
+}
 
 const component = props.type
-  ? defineAsyncComponent(() => import(`~/components/service/${capitalize(props.type!)}.vue`))
+  ? resolveByTypeComponent(props.type)
   : resolveComponent('ServiceBase')
 </script>
