@@ -1,8 +1,16 @@
 import type { H3Event } from 'h3'
 import type { PingServiceData, ReturnServiceWithData, Service, ServiceWithDefaultData } from '~/types'
+import { isUrl } from '~/utils/validation'
 
 export async function pingService(url: string): Promise<PingServiceData> {
   try {
+    if (!isUrl(url)) {
+      throw createError({
+        statusCode: 400,
+        statusMessage: 'URL is not valid',
+      })
+    }
+
     const startTime = new Date().getTime()
     await $fetch(url, { timeout: 15000 })
     const endTime = new Date().getTime()
@@ -47,7 +55,7 @@ export async function getService<T extends Service>(event: H3Event): Promise<T> 
 export async function getServiceWithDefaultData<S extends Service>(event: H3Event): Promise<ServiceWithDefaultData<S>> {
   const config = await getService<S>(event)
   const defaultData = {
-    ping: config?.status?.enabled ? await pingService(config.link) : undefined,
+    ping: config?.status?.enabled ? await pingService(config.link || '') : undefined,
   }
 
   return { config, defaultData }

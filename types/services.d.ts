@@ -14,15 +14,15 @@ export interface ServiceIcon {
 export interface Service {
   id: string
   type?: string
-  title: string
+  title?: string
   description?: string
-  link: string
+  link?: string
   target?: '_blank' | '_self' | '_parent' | '_top'
   icon?: ServiceIcon
   status?: ServiceStatus
-  options?: Record<string, string | number | boolean>
-  secrets?: Record<string, string | number | boolean>
-  server?: Record<string, string | number | boolean>
+  options?: Record<string, any>
+  secrets?: Record<string, any>
+  server?: Record<string, any>
 }
 
 export type ServiceClient<T> = Omit<T, 'secrets' | 'server'>
