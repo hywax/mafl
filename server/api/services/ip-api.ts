@@ -26,7 +26,7 @@ const cachedIpApiData = defineCachedFunction(async (lang: string = 'en') => {
     place: `${response.city}, ${response.regionName}`,
     country: response.countryCode.toLowerCase(),
   }
-}, { maxAge: 60 * 24 })
+}, { maxAge: 60 * 24, getKey: ({ ip }) => ip })
 
 export default defineEventHandler(async (event) => {
   const service = await getServiceWithDefaultData<IpApiService>(event)
