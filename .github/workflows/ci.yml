@@ -1,15 +1,24 @@
-name: Run Linters
+name: CI
 
 on:
   push:
+    paths-ignore:
+      - "docs/**"
+      - ".md"
     branches:
       - main
   pull_request:
+    paths-ignore:
+      - "docs/**"
+      - "*.md"
+    branches:
+      - main
 
 jobs:
-  lint:
+  build:
     name: ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
     strategy:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
@@ -30,3 +39,6 @@ jobs:
 
       - name: Types
         run: yarn run typecheck
+
+      - name: Build
+        run: yarn run build
