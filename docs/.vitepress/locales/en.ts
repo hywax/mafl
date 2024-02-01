@@ -42,6 +42,7 @@ export default defineConfig({
         base: '/services',
         items: [
           { text: 'Base', link: '/base' },
+          { text: 'IP API', link: '/ip-api' },
         ],
       },
       {

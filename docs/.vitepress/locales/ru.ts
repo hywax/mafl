@@ -42,6 +42,7 @@ export default defineConfig({
         base: '/ru/services',
         items: [
           { text: 'Базовый', link: '/base' },
+          { text: 'IP API', link: '/ip-api' },
         ],
       },
       {
