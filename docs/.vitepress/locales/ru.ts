@@ -43,6 +43,7 @@ export default defineConfig({
         items: [
           { text: 'Базовый', link: '/base' },
           { text: 'IP API', link: '/ip-api' },
+          { text: 'Погода', link: '/openweathermap' },
         ],
       },
       {
