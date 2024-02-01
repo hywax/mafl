@@ -42,3 +42,13 @@ export interface ServiceWithDefaultData<S> {
 export type ReturnServiceWithData<D, S extends ServiceWithDefaultData<Service>['defaultData']> = S & { data: D }
 
 export interface BaseService extends Service {}
+
+export interface IpApiService extends Service {
+  options?: {
+    flagIcon?: boolean
+  }
+  server: {
+    ip: string
+    place: string
+  }
+}
