@@ -90,7 +90,7 @@ The basic concept of `Mafl` is to create not just a homepage, but to create an i
 List of services:
 * **[Base](https://mafl.hywax.space/services/base.html)** - The main card of the service. Other services are created on the basis of this service.
 * **[IP API](https://mafl.hywax.space/services/ip-api.html)** - Shows information about your IP address.
-* **[Weather](https://mafl.hywax.space/services/weather.html)** - Shows weather information for your location.
+* **[Weather](https://mafl.hywax.space/services/openweathermap.html)** - Shows weather information for your location.
 
 ## 🎨 Themes
 
