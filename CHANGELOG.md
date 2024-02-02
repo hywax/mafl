@@ -1,6 +1,48 @@
 # Changelog
 
 
+## v0.9.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.8.0...v0.9.0)
+
+### 🚀 Enhancements
+
+- Openweathermap service ([9363ae4](https://github.com/hywax/mafl/commit/9363ae4))
+
+### 📖 Documentation
+
+- **en:** Remove section title ([cd7e998](https://github.com/hywax/mafl/commit/cd7e998))
+- **en:** Docs parts ([742588d](https://github.com/hywax/mafl/commit/742588d))
+- **ru:** Docs parts ([72d22d7](https://github.com/hywax/mafl/commit/72d22d7))
+- **ru:** Replace to part extends base service ([af36595](https://github.com/hywax/mafl/commit/af36595))
+- **en:** Replace to part extends base service ([2e98fdf](https://github.com/hywax/mafl/commit/2e98fdf))
+- Openweathermap service ([1b42cb2](https://github.com/hywax/mafl/commit/1b42cb2))
+- Ignore parts files ([2c73d5b](https://github.com/hywax/mafl/commit/2c73d5b))
+- Fix weather link ([62e213a](https://github.com/hywax/mafl/commit/62e213a))
+
+### 📦 Build
+
+- ⚠️  Remove docker arm/v7 ([224c486](https://github.com/hywax/mafl/commit/224c486))
+- Bump node image ([a15b4f1](https://github.com/hywax/mafl/commit/a15b4f1))
+
+### 🏡 Chore
+
+- **ip-api:** Add getKey on cache ([ed06d93](https://github.com/hywax/mafl/commit/ed06d93))
+- Remove vitejs plugin vue patch ([cc04d6e](https://github.com/hywax/mafl/commit/cc04d6e))
+
+### 🤖 CI
+
+- Refactor docs plan ([540e0a6](https://github.com/hywax/mafl/commit/540e0a6))
+- Refactor ci plan ([12bf943](https://github.com/hywax/mafl/commit/12bf943))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Remove docker arm/v7 ([224c486](https://github.com/hywax/mafl/commit/224c486))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.8.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.7.6...v0.8.0)
