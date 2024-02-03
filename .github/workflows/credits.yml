@@ -20,6 +20,7 @@ jobs:
           avatarSize: 96
           userNameHeight: 20
           svgWidth: 830
+          commitMessage: 'chore: update CONTRIBUTORS'
 
   authors:
     runs-on: ubuntu-latest
