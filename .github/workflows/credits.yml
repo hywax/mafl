@@ -21,19 +21,3 @@ jobs:
           userNameHeight: 20
           svgWidth: 830
           commitMessage: 'chore: update CONTRIBUTORS'
-
-  authors:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Update Authors
-        uses: wow-actions/update-authors@v1
-        with:
-          GITHUB_TOKEN: ${{ secrets.BOT_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
-          sort: 'commits'
-          path: .github/AUTHORS.txt
-          template: '{{ name }} <{{ email }}> - commits'
-          commit: 'chore: update AUTHORS'
