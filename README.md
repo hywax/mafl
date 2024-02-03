@@ -25,6 +25,8 @@
 * [Themes](#-themes)
 * [Icons](#-icons)
 * [Languages](#-multi-language)
+* [Credits](#-credits)
+  * [Contributors](#contributors)
 * [License](#-license)
 </details>
 
@@ -121,6 +123,16 @@ Supported Languages:
 * 🇸🇦 **Arabic** - `ar` (by [@mohmadhabib](https://github.com/mohmadhabib))
 
 If you haven't found your language, it can easily be added! Use the instructions in the section [contributing](https://mafl.hywax.space/community/contributing.html) on docs.
+
+## 🏆 Credits
+
+A huge thank you to everyone who is helping to improve Mafl. Thanks to you, the project can evolve!
+
+### Contributors
+
+To become a contributor, please follow our [contributing guide](https://mafl.hywax.space/community/contributing.html).
+
+<img src="https://raw.githubusercontent.com/hywax/mafl/main/docs/public/contributors.svg" alt="Mafl Contributors" width="100%"/>
 
 ## 📄 License
 
