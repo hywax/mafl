@@ -9,7 +9,7 @@
       </Component>
     </div>
     <div>
-      <h3 class="text-lg mt-1 font-semibold line-clamp-1 flex gap-2 items-center">
+      <h3 class="text-lg mt-1 pr-1 font-semibold line-clamp-1 flex gap-2 items-center">
         <slot name="title" :service="data">
           <a v-if="isLink" :href="link" :target="target">{{ title }}</a>
           <span v-else>{{ title }}</span>
