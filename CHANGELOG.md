@@ -1,6 +1,36 @@
 # Changelog
 
 
+## v0.9.1
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.9.0...v0.9.1)
+
+### 🩹 Fixes
+
+- The shadow from the point animation doesn't fit ([fec99c5](https://github.com/hywax/mafl/commit/fec99c5))
+- Error on optional service fields ([8aba88b](https://github.com/hywax/mafl/commit/8aba88b))
+
+### 📖 Documentation
+
+- Credits section ([d7e20ac](https://github.com/hywax/mafl/commit/d7e20ac))
+
+### 🏡 Chore
+
+- Update AUTHORS ([74d4d09](https://github.com/hywax/mafl/commit/74d4d09))
+- Update contributors [skip ci] ([d020452](https://github.com/hywax/mafl/commit/d020452))
+
+### 🤖 CI
+
+- Contributor credits plan ([ae680fa](https://github.com/hywax/mafl/commit/ae680fa))
+- Welcome plan ([bcb9850](https://github.com/hywax/mafl/commit/bcb9850))
+- Change commit message on credits plan ([953ec1b](https://github.com/hywax/mafl/commit/953ec1b))
+- Remove authors step on credits plan ([416e888](https://github.com/hywax/mafl/commit/416e888))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot
+
 ## v0.9.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.8.0...v0.9.0)
