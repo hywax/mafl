@@ -41,9 +41,9 @@ export function validateConfigSchema(config: any) {
   })
 
   const service = z.object({
-    title: z.string().optional(),
-    description: z.string().optional(),
-    link: z.string().optional(),
+    title: z.string().nullish().optional(),
+    description: z.string().nullish().optional(),
+    link: z.string().nullish().optional(),
     target: z.string().optional(),
     icon: icon.optional(),
     status: status.optional(),
