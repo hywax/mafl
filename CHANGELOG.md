@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.9.2
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.9.1...v0.9.2)
+
+### 🩹 Fixes
+
+- Remove theme static white color ([541cf32](https://github.com/hywax/mafl/commit/541cf32))
+
+### 🏡 Chore
+
+- The entire card is a reference ([12e3086](https://github.com/hywax/mafl/commit/12e3086))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.9.1
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.9.0...v0.9.1)
