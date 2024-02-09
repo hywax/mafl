@@ -1,18 +1,17 @@
 <template>
   <ServicePlaceholder v-if="loadingOverlay" />
-  <div v-else class="p-4 flex gap-4">
+  <Component :is="isLink ? 'a' : 'div'" v-else :href="link" :target="target" class="p-4 flex gap-4 hover:bg-fg/5 dark:hover:bg-fg/9 rounded-2xl transition-all">
     <div class="flex-shrink-0 flex">
-      <Component :is="isLink ? 'a' : 'div'" :href="link" :target="target" class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-fg/10 dark:border-fg/15">
+      <div class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-fg/10 dark:border-fg/15">
         <slot name="icon" :service="data">
           <ServiceBaseIcon v-if="icon" v-bind="icon" />
         </slot>
-      </Component>
+      </div>
     </div>
     <div>
       <h3 class="text-lg mt-1 pr-1 font-semibold line-clamp-1 flex gap-2 items-center">
         <slot name="title" :service="data">
-          <a v-if="isLink" :href="link" :target="target">{{ title }}</a>
-          <span v-else>{{ title }}</span>
+          {{ title }}
         </slot>
         <slot v-if="status" name="status" :data="data">
           <ServiceBaseStatus :ping="data?.ping" />
@@ -25,7 +24,7 @@
         </slot>
       </p>
     </div>
-  </div>
+  </Component>
 </template>
 
 <script setup lang="ts">
