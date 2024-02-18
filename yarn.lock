@@ -2506,17 +2506,17 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@shikijs/core@1.1.3", "@shikijs/core@^1.0.0-rc.0":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.1.3.tgz#d8706a0e92d87580bb680ef399cc2e641042b107"
-  integrity sha512-1QWSvWcPbvZXsDxB1F7ejW+Kuxp3z/JHs944hp/f8BYOlFd5gplzseFIkE/GTu/qytFef3zNME4qw1oHbQ0j2A==
+"@shikijs/core@1.1.5", "@shikijs/core@^1.1.3":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.1.5.tgz#ed92e3b7c89ba150564127062c29ae715c5da875"
+  integrity sha512-cKc5vGQ4p/4sjx48BHIO7CvLaN32vqpz5Wh7v2n+U1EezGdfX4Wms7khBctKz3iCg9yYq4sfGUc2t+JWj6EUsw==
 
-"@shikijs/transformers@^1.0.0-rc.0":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@shikijs/transformers/-/transformers-1.1.3.tgz#b3fdb824a788196b8e3a43dd24d962ed590ab2d8"
-  integrity sha512-jv71dQFTucv2RK2pafAxca4hgKP6Uv5ukKrVjH/vGZ8jGH0j2AcLVCcM76ieamwJ1p5WkZcA0X/Bq2qpjhEUSg==
+"@shikijs/transformers@^1.1.3":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@shikijs/transformers/-/transformers-1.1.5.tgz#13608be740c75a46fb3b7371822a48f1013bbe79"
+  integrity sha512-ot6KWPmLuSN9nA9FAhttOXZIjKIy7cnwpNtI9aWmYN72RUaDz8eojRfMGUXsXXUxW/buvcvdZQAQldk7/pFpdw==
   dependencies:
-    shiki "1.1.3"
+    shiki "1.1.5"
 
 "@sigstore/bundle@^2.2.0":
   version "2.2.0"
@@ -2916,7 +2916,7 @@
     "@babel/plugin-transform-typescript" "^7.23.3"
     "@vue/babel-plugin-jsx" "^1.1.5"
 
-"@vitejs/plugin-vue@^5.0.3", "@vitejs/plugin-vue@^5.0.4":
+"@vitejs/plugin-vue@^5.0.4":
   version "5.0.4"
   resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-5.0.4.tgz#508d6a0f2440f86945835d903fcc0d95d1bb8a37"
   integrity sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==
@@ -8738,12 +8738,12 @@ shell-quote@^1.8.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
 
-shiki@1.1.3, shiki@^1.0.0-rc.0:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.1.3.tgz#9266a46d6f4f389f983c20d0e4c7389b4a0885f4"
-  integrity sha512-k/B4UvtWmGcHMLp6JnQminlex3Go5MHKXEiormmzTJECAiSQiwSon6USuwTyto8EMUQc9aYRJ7HojkfVLbBk+g==
+shiki@1.1.5, shiki@^1.1.3:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.1.5.tgz#9d48cd8f835706dd38ccb879c87351271583d6ba"
+  integrity sha512-754GuKIwkUdT810Xm8btuyNQPL+q3PqOkwGW/VlmAWyMYp+HbvvDt69sWXO1sm5aeczBJQjmQTTMR4GkKQNQPw==
   dependencies:
-    "@shikijs/core" "1.1.3"
+    "@shikijs/core" "1.1.5"
 
 side-channel@^1.0.4:
   version "1.0.5"
@@ -9891,7 +9891,7 @@ vite@5.1.1:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vite@^5.0.0, vite@^5.0.12:
+vite@^5.0.0, vite@^5.1.3:
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/vite/-/vite-5.1.3.tgz#dd072653a80225702265550a4700561740dfde55"
   integrity sha512-UfmUD36DKkqhi/F75RrxvPpry+9+tTkrXfMNZD+SboZqBCMsxKtO52XeGzzuh7ioz+Eo/SYDBbdb0Z7vgcDJew==
@@ -9902,26 +9902,26 @@ vite@^5.0.0, vite@^5.0.12:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vitepress@^1.0.0-rc.42:
-  version "1.0.0-rc.42"
-  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-rc.42.tgz#cdb822223136d642107254b5576de8b79b18c0a8"
-  integrity sha512-VeiVVXFblt/sjruFSJBNChMWwlztMrRMe8UXdNpf4e05mKtTYEY38MF5qoP90KxPTCfMQiKqwEGwXAGuOTK8HQ==
+vitepress@^1.0.0-rc.43:
+  version "1.0.0-rc.43"
+  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-rc.43.tgz#1448acd0a1fbe3daa6729e353c12bf70b2a42f40"
+  integrity sha512-XZ9xaN76/LxCBqvk6U+3ne3T60JOavdOlk+FMQBlXYK/9pyyKGfjnEra4yKYvOdZdStoTg8VXTAj4wcsCTlJaQ==
   dependencies:
     "@docsearch/css" "^3.5.2"
     "@docsearch/js" "^3.5.2"
-    "@shikijs/core" "^1.0.0-rc.0"
-    "@shikijs/transformers" "^1.0.0-rc.0"
+    "@shikijs/core" "^1.1.3"
+    "@shikijs/transformers" "^1.1.3"
     "@types/markdown-it" "^13.0.7"
-    "@vitejs/plugin-vue" "^5.0.3"
+    "@vitejs/plugin-vue" "^5.0.4"
     "@vue/devtools-api" "^7.0.14"
     "@vueuse/core" "^10.7.2"
     "@vueuse/integrations" "^10.7.2"
     focus-trap "^7.5.4"
     mark.js "8.11.1"
     minisearch "^6.3.0"
-    shiki "^1.0.0-rc.0"
-    vite "^5.0.12"
-    vue "^3.4.15"
+    shiki "^1.1.3"
+    vite "^5.1.3"
+    vue "^3.4.19"
 
 vscode-jsonrpc@6.0.0:
   version "6.0.0"
@@ -10030,7 +10030,7 @@ vue-tsc@^1.8.27:
     "@vue/language-core" "1.8.27"
     semver "^7.5.4"
 
-vue@^3.4.15, vue@^3.4.19:
+vue@^3.4.19:
   version "3.4.19"
   resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.19.tgz#f9ae0a44db86628548736ff04152830726a97263"
   integrity sha512-W/7Fc9KUkajFU8dBeDluM4sRGc/aa4YJnOYck8dkjgZoXtVsn3OeTGni66FV1l3+nvPA7VBFYtPioaGKUmEADw==
