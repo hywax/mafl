@@ -2506,12 +2506,12 @@
     estree-walker "^2.0.2"
     picomatch "^2.3.1"
 
-"@shikijs/core@1.1.5", "@shikijs/core@^1.1.3":
+"@shikijs/core@1.1.5", "@shikijs/core@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@shikijs/core/-/core-1.1.5.tgz#ed92e3b7c89ba150564127062c29ae715c5da875"
   integrity sha512-cKc5vGQ4p/4sjx48BHIO7CvLaN32vqpz5Wh7v2n+U1EezGdfX4Wms7khBctKz3iCg9yYq4sfGUc2t+JWj6EUsw==
 
-"@shikijs/transformers@^1.1.3":
+"@shikijs/transformers@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@shikijs/transformers/-/transformers-1.1.5.tgz#13608be740c75a46fb3b7371822a48f1013bbe79"
   integrity sha512-ot6KWPmLuSN9nA9FAhttOXZIjKIy7cnwpNtI9aWmYN72RUaDz8eojRfMGUXsXXUxW/buvcvdZQAQldk7/pFpdw==
@@ -8738,7 +8738,7 @@ shell-quote@^1.8.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.8.1.tgz#6dbf4db75515ad5bac63b4f1894c3a154c766680"
   integrity sha512-6j1W9l1iAs/4xYBI1SYOVZyFcCis9b4KCLQ8fgAGG07QvzaRLVVRQvAy85yNmmZSjYjg4MWh4gNvlPujU/5LpA==
 
-shiki@1.1.5, shiki@^1.1.3:
+shiki@1.1.5, shiki@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/shiki/-/shiki-1.1.5.tgz#9d48cd8f835706dd38ccb879c87351271583d6ba"
   integrity sha512-754GuKIwkUdT810Xm8btuyNQPL+q3PqOkwGW/VlmAWyMYp+HbvvDt69sWXO1sm5aeczBJQjmQTTMR4GkKQNQPw==
@@ -9902,15 +9902,15 @@ vite@^5.0.0, vite@^5.1.3:
   optionalDependencies:
     fsevents "~2.3.3"
 
-vitepress@^1.0.0-rc.43:
-  version "1.0.0-rc.43"
-  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-rc.43.tgz#1448acd0a1fbe3daa6729e353c12bf70b2a42f40"
-  integrity sha512-XZ9xaN76/LxCBqvk6U+3ne3T60JOavdOlk+FMQBlXYK/9pyyKGfjnEra4yKYvOdZdStoTg8VXTAj4wcsCTlJaQ==
+vitepress@^1.0.0-rc.44:
+  version "1.0.0-rc.44"
+  resolved "https://registry.yarnpkg.com/vitepress/-/vitepress-1.0.0-rc.44.tgz#01bce883761c22de42b9869a95f04bd02cbb8cdb"
+  integrity sha512-tO5taxGI7fSpBK1D8zrZTyJJERlyU9nnt0jHSt3fywfq3VKn977Hg0wUuTkEmwXlFYwuW26+6+3xorf4nD3XvA==
   dependencies:
     "@docsearch/css" "^3.5.2"
     "@docsearch/js" "^3.5.2"
-    "@shikijs/core" "^1.1.3"
-    "@shikijs/transformers" "^1.1.3"
+    "@shikijs/core" "^1.1.5"
+    "@shikijs/transformers" "^1.1.5"
     "@types/markdown-it" "^13.0.7"
     "@vitejs/plugin-vue" "^5.0.4"
     "@vue/devtools-api" "^7.0.14"
@@ -9919,7 +9919,7 @@ vitepress@^1.0.0-rc.43:
     focus-trap "^7.5.4"
     mark.js "8.11.1"
     minisearch "^6.3.0"
-    shiki "^1.1.3"
+    shiki "^1.1.5"
     vite "^5.1.3"
     vue "^3.4.19"
 
