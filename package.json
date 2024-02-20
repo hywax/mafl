@@ -18,7 +18,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@vueuse/nuxt": "^10.7.2",
+    "@vueuse/nuxt": "^10.8.0",
     "consola": "^3.2.3",
     "defu": "^6.1.4",
     "h3-zod": "^0.5.3",
