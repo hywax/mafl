@@ -18,12 +18,12 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
-    "@vueuse/nuxt": "^10.8.0",
+    "@vueuse/nuxt": "^10.9.0",
     "consola": "^3.2.3",
     "defu": "^6.1.4",
     "h3-zod": "^0.5.3",
     "rollup": "npm:@rollup/wasm-node",
-    "yaml": "^2.3.4",
+    "yaml": "^2.4.0",
     "zod": "^3.22.4"
   },
   "devDependencies": {
@@ -35,10 +35,10 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/i18n": "^8.1.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@types/node": "^20.11.20",
+    "@types/node": "^20.11.21",
     "@vite-pwa/nuxt": "^0.5.0",
     "changelogen": "^0.5.5",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nuxt": "^3.10.3",
