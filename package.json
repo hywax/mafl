@@ -45,7 +45,7 @@
     "nuxt-icon": "^0.6.8",
     "typescript": "^5.3.3",
     "vitepress": "^1.0.0-rc.44",
-    "vue-tsc": "^1.8.27"
+    "vue-tsc": "^2.0.2"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
