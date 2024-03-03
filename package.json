@@ -27,7 +27,7 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.6.4",
+    "@antfu/eslint-config": "^2.7.0",
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
     "@hywax/vitepress-yandex-metrika": "^0.3.3",
@@ -45,7 +45,7 @@
     "nuxt-icon": "^0.6.8",
     "typescript": "^5.3.3",
     "vitepress": "^1.0.0-rc.44",
-    "vue-tsc": "^2.0.2"
+    "vue-tsc": "^2.0.3"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
