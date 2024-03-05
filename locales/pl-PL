@@ -1,0 +1,17 @@
+{
+  "service": {
+
+  },
+
+  "error": {
+    "title": "Błąd",
+    "page404": "Strona nie istnieje!",
+    "description": "Oops! Pojawił się nieoczekiwany błąd",
+    "action": "Sprawdź dokumentacja"
+  },
+
+  "update": {
+    "message": "Dostępna jest nowa wersja",
+    "visit": "Odwiedź github →"
+  }
+}

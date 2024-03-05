@@ -13,6 +13,7 @@ version: '3.8'
 
 services:
   mafl:
+    container_name: mafl #change as needed
     image: hywax/mafl
     restart: unless-stopped
     ports:
@@ -24,7 +25,7 @@ services:
 
 ### Docker run
 ```shell
-docker run -p 3000:3000 -v ./config.yml:/app/data/config.yml hywax/mafl
+docker run --name mafl -p 3000:3000 -v ./config.yml:/app/data/config.yml hywax/mafl
 ```
 
 ### Docker volumes
