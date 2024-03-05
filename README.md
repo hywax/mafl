@@ -121,7 +121,7 @@ Supported Languages:
 * 🇨🇮 **Hindi** - `hi`
 * 🇪🇸 **Spanish** - `es`
 * 🇸🇦 **Arabic** - `ar` (by [@mohmadhabib](https://github.com/mohmadhabib))
-* pl **Polish** - `pl`
+* 🇵🇱 **Polish** - `pl` (by [@UberDudePL](https://github.com/UberDudePL))
 
 If you haven't found your language, it can easily be added! Use the instructions in the section [contributing](https://mafl.hywax.space/community/contributing.html) on docs.
 
