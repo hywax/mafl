@@ -21,12 +21,12 @@ Icon name from [iconify](https://icon-sets.iconify.design/) or [emoji](https://g
 name: simple-icons:homeassistant
 ```
 
-## Bubble
+## Wrap
 
 Wraps the icon in a bubble, necessary if the icon has no background or indentation on the sides.
 
 ```yaml
-bubble: true
+wrap: true
 ```
 
 ## Color

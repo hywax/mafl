@@ -64,7 +64,7 @@ This field can be very flexibly customized by combining different parameters.
 ```yaml
 icon:
   name: simple-icons:homeassistant
-  bubble: true
+  wrap: true
 ```
 
 or from local files:
@@ -121,7 +121,7 @@ services:
     link: https://home-assistant.home.local/
     icon:
       name: simple-icons:homeassistant
-      bubble: true
+      wrap: true
       color: '#3dbcf3'
 ```
 :::
@@ -136,7 +136,7 @@ services:
     link: https://home-assistant.home.local/
     icon:
       name: simple-icons:homeassistant
-      bubble: true
+      wrap: true
       color: '#3dbcf3'
     status:
       enabled: true

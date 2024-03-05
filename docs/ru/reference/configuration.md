@@ -132,7 +132,7 @@ services:
     link: https://home-assistant.home.local/
     icon:
       name: simple-icons:homeassistant
-      bubble: true
+      wrap: true
       color: '#3dbcf3'
     status:
       enabled: true
@@ -141,7 +141,7 @@ services:
     link: https://nas.home.local/
     icon:
       name: mdi:nas
-      bubble: true
+      wrap: true
     status:
       enabled: true
 ```
@@ -161,7 +161,7 @@ services:
       link: https://home-assistant.home.local/
       icon:
         name: simple-icons:homeassistant
-        bubble: true
+        wrap: true
         color: '#3dbcf3'
       status:
         enabled: true
@@ -171,13 +171,13 @@ services:
       link: http://192.168.1.1/
       icon:
         name: mdi:router-network
-        bubble: true
+        wrap: true
     - title: Сетевое хранилище
       description: Synology DS223
       link: https://nas.home.local/
       icon:
         name: mdi:nas
-        bubble: true
+        wrap: true
       status:
         enabled: true
 ```

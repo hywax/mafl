@@ -64,7 +64,7 @@ target: _blank
 ```yaml
 icon:
   name: simple-icons:homeassistant
-  bubble: true
+  wrap: true
 ```
 
 или из локальный файлов:
@@ -121,7 +121,7 @@ services:
     link: https://home-assistant.home.local/
     icon:
       name: simple-icons:homeassistant
-      bubble: true
+      wrap: true
       color: '#3dbcf3'
 ```
 :::
@@ -136,7 +136,7 @@ services:
     link: https://home-assistant.home.local/
     icon:
       name: simple-icons:homeassistant
-      bubble: true
+      wrap: true
       color: '#3dbcf3'
     status:
       enabled: true

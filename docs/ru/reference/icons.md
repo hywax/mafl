@@ -26,7 +26,7 @@ name: simple-icons:homeassistant
 Оборачивает иконку в пузырь, необходимо если в иконке нет фона или отступов по бокам.
 
 ```yaml
-bubble: true
+wrap: true
 ```
 
 ## Цвет
