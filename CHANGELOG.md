@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.9.4
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.9.3...v0.9.4)
+
+### 🩹 Fixes
+
+- Configuring theme ([#58](https://github.com/hywax/mafl/pull/58))
+
+### 🏡 Chore
+
+- Update CONTRIBUTORS ([dc5efb0](https://github.com/hywax/mafl/commit/dc5efb0))
+
+### ❤️ Contributors
+
+- Alexander ([@hywax](http://github.com/hywax))
+- Bot
+
 ## v0.9.3
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.9.2...v0.9.3)
