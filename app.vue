@@ -10,7 +10,6 @@ const { $settings } = useNuxtApp()
 const colorMode = useColorMode()
 const { locale } = useI18n()
 
-colorMode.preference = $settings.theme || 'system'
 locale.value = $settings.lang
 
 const i18nHead = useLocaleHead({
@@ -27,5 +26,9 @@ useHead({
   bodyAttrs: {
     class: 'relative',
   },
+})
+
+onMounted(() => {
+  colorMode.preference = $settings.theme || 'system'
 })
 </script>
