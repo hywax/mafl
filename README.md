@@ -21,6 +21,7 @@
 * [Getting started](#-getting-started)
   * [Docker](#docker)
   * [Node](#node)
+  * [Proxmox](#proxmox)
 * [Services](#-services)
 * [Themes](#-themes)
 * [Icons](#-icons)
@@ -84,6 +85,22 @@ yarn preview
 ```
 
 The application will start with a basic configuration, which is located in the `data` folder.
+
+### Proxmox
+
+To create a new Proxmox VE Mafl LXC, run the command below in the Proxmox VE Shell.
+
+```shell
+bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mafl.sh)"
+```
+
+Configure the application by editing the `config.yml` file:
+
+```shell
+nano /opt/mafl/data/config.yml
+```
+
+Many thanks to [@tteck](https://github.com/tteck) for helping me create lxc script.
 
 ## 📊 Services
 

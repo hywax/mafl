@@ -59,3 +59,20 @@ yarn preview
 ```
 
 Приложение запустится с базовой конфигурацией, которая находится в папке `data`.
+
+## Proxmox
+
+Чтобы создать новый LXC Mafl в Proxmox VE, выполните команду ниже в оболочке Proxmox VE.
+
+```shell
+bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mafl.sh)"
+```
+
+Настройте приложение, отредактировав файл `config.yml`:
+
+```shell
+nano /opt/mafl/data/config.yml
+```
+
+Большое спасибо [@tteck](https://github.com/tteck) за помощь в создании скрипта lxc.
+```
