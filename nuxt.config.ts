@@ -106,7 +106,7 @@ export default defineNuxtConfig({
         code: 'pl',
         iso: 'pl-PL',
         name: 'Polski',
-        file: 'pl-pl.json',
+        file: 'pl-PL.json',
       },
     ],
     strategy: 'no_prefix',
