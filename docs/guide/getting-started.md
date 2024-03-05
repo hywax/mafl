@@ -13,7 +13,7 @@ version: '3.8'
 
 services:
   mafl:
-    container_name: mafl #change as needed
+    container_name: mafl # change as needed
     image: hywax/mafl
     restart: unless-stopped
     ports:

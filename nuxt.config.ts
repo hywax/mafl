@@ -101,13 +101,13 @@ export default defineNuxtConfig({
         iso: 'ar-SA',
         name: 'اللغة السعودية',
         file: 'ar-SA.json',
-      }
+      },
       {
         code: 'pl',
         iso: 'pl-PL',
         name: 'Polski',
         file: 'pl-pl.json',
-      },      
+      },
     ],
     strategy: 'no_prefix',
     langDir: 'locales',
