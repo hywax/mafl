@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v0.9.3
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.9.2...v0.9.3)
+
+### 🚀 Enhancements
+
+- Pl-PL locale ([#57](https://github.com/hywax/mafl/pull/57))
+
+### 🩹 Fixes
+
+- Syntax error ([4ea2b5a](https://github.com/hywax/mafl/commit/4ea2b5a))
+- Locales file import ([19ef606](https://github.com/hywax/mafl/commit/19ef606))
+
+### 📖 Documentation
+
+- Github link @UberDudePL ([c7d93b4](https://github.com/hywax/mafl/commit/c7d93b4))
+- Rename bubble to wrap ([607f41b](https://github.com/hywax/mafl/commit/607f41b))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- UberDudePL
+
 ## v0.9.2
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.9.1...v0.9.2)
