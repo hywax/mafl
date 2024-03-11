@@ -1,6 +1,32 @@
 # Changelog
 
 
+## v0.9.5
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.9.4...v0.9.5)
+
+### 🚀 Enhancements
+
+- Fr-CA locale ([#59](https://github.com/hywax/mafl/pull/59))
+
+### 🩹 Fixes
+
+- Unnecessary spaces ([388928c](https://github.com/hywax/mafl/commit/388928c))
+
+### 📖 Documentation
+
+- Proxmox script create ([61fbc0f](https://github.com/hywax/mafl/commit/61fbc0f))
+- France locale ([40629f7](https://github.com/hywax/mafl/commit/40629f7))
+
+### 🏡 Chore
+
+- Add FR locales ([ba894d0](https://github.com/hywax/mafl/commit/ba894d0))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Maxim31cote ([@maxim31cote](http://github.com/maxim31cote))
+
 ## v0.9.4
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.9.3...v0.9.4)
