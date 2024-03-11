@@ -23,11 +23,11 @@
     "defu": "^6.1.4",
     "h3-zod": "^0.5.3",
     "rollup": "npm:@rollup/wasm-node",
-    "yaml": "^2.4.0",
+    "yaml": "^2.4.1",
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.7.0",
+    "@antfu/eslint-config": "^2.8.0",
     "@commitlint/cli": "^19.0.3",
     "@commitlint/config-conventional": "^19.0.3",
     "@hywax/vitepress-yandex-metrika": "^0.3.3",
@@ -35,17 +35,17 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/i18n": "^8.1.1",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@types/node": "^20.11.24",
-    "@vite-pwa/nuxt": "^0.5.0",
+    "@types/node": "^20.11.25",
+    "@vite-pwa/nuxt": "^0.6.0",
     "changelogen": "^0.5.5",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nuxt": "^3.10.3",
-    "nuxt-icon": "^0.6.8",
-    "typescript": "^5.3.3",
-    "vitepress": "^1.0.0-rc.44",
-    "vue-tsc": "^2.0.3"
+    "nuxt-icon": "^0.6.9",
+    "typescript": "^5.4.2",
+    "vitepress": "^1.0.0-rc.45",
+    "vue-tsc": "^2.0.6"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
