@@ -5,8 +5,8 @@
 
   "error": {
     "title": "Erreur",
-    "page404": "Page introuvable !",
-    "description": "Oups ! Une erreur inattendue s'est produite",
+    "page404": "Page introuvable!",
+    "description": "Oups! Une erreur inattendue s'est produite",
     "action": "Aller à la documentation"
   },
 
