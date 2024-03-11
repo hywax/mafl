@@ -108,6 +108,12 @@ export default defineNuxtConfig({
         name: 'Polski',
         file: 'pl-PL.json',
       },
+      {
+        code: 'fr',
+        iso: 'fr-FR',
+        name: 'Français',
+        file: 'fr-FR.json',
+      },
     ],
     strategy: 'no_prefix',
     langDir: 'locales',
