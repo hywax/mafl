@@ -1,6 +1,29 @@
 # Changelog
 
 
+## v0.10.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.9.5...v0.10.0)
+
+### 🚀 Enhancements
+
+- Service tags ([2051cee](https://github.com/hywax/mafl/commit/2051cee))
+
+### 📖 Documentation
+
+- Service tags ([4520240](https://github.com/hywax/mafl/commit/4520240))
+- Preview docs image ([1f5a27b](https://github.com/hywax/mafl/commit/1f5a27b))
+- Icons preview ([9504e9a](https://github.com/hywax/mafl/commit/9504e9a))
+
+### 🏡 Chore
+
+- Update CONTRIBUTORS ([f6717aa](https://github.com/hywax/mafl/commit/f6717aa))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+
 ## v0.9.5
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.9.4...v0.9.5)
