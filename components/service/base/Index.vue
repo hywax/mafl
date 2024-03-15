@@ -23,6 +23,13 @@
           {{ description }}
         </slot>
       </p>
+      <template v-if="tags.length">
+        <ServiceBaseTag
+          v-for="(tag, key) in tags"
+          :key="key"
+          :tag="tag"
+        />
+      </template>
     </div>
   </Component>
 </template>

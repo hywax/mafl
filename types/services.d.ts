@@ -1,3 +1,5 @@
+import type { Tag } from '~/types/config'
+
 export interface ServiceStatus {
   enabled?: boolean
   interval?: number
@@ -20,6 +22,7 @@ export interface Service {
   target?: '_blank' | '_self' | '_parent' | '_top'
   icon?: ServiceIcon
   status?: ServiceStatus
+  tags: Tag['name'][] | Tag[]
   options?: Record<string, any>
   secrets?: Record<string, any>
   server?: Record<string, any>

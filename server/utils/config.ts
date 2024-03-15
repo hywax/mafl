@@ -2,14 +2,26 @@ import crypto from 'node:crypto'
 import yaml from 'yaml'
 import defu from 'defu'
 import { ZodError, z } from 'zod'
-import type { CompleteConfig, Service } from '~/types'
+import type { CompleteConfig, Service, Tag } from '~/types'
 
 type DraftService = Omit<Service, 'id'>
 
-function determineServiceId(items: DraftService[]): Service[] {
+type TagMap = Map<Tag['name'], Tag>
+
+function determineService(items: DraftService[], tags: TagMap): Service[] {
   return items.map((item) => ({
-    id: crypto.randomUUID(),
     ...item,
+    id: crypto.randomUUID(),
+    tags: (item.tags || []).map((tag): Tag => {
+      if (typeof tag === 'string') {
+        return tags.get(tag) || {
+          name: tag,
+          color: 'blue',
+        }
+      }
+
+      return tag
+    }),
   }))
 }
 
@@ -22,6 +34,7 @@ export function getDefaultConfig(): CompleteConfig {
     behaviour: {
       target: '_blank',
     },
+    tags: [],
     services: [],
   }
 }
@@ -38,6 +51,11 @@ export function validateConfigSchema(config: any) {
     wrap: z.boolean().optional(),
     background: z.string().optional(),
     color: z.string().optional(),
+  })
+
+  const tag = z.object({
+    name: z.string(),
+    color: z.string(),
   })
 
   const service = z.object({
@@ -57,6 +75,7 @@ export function validateConfigSchema(config: any) {
     lang: z.string().optional(),
     theme: z.string().optional(),
     checkUpdates: z.boolean().optional(),
+    tags: z.array(tag).optional(),
     services: z.union([
       z.array(service),
       z.record(z.array(service)),
@@ -64,6 +83,14 @@ export function validateConfigSchema(config: any) {
   })
 
   return schema.parse(config)
+}
+
+function createTagMap(tags: Tag[]): TagMap {
+  return tags.reduce((acc, tag) => {
+    acc.set(tag.name, tag)
+
+    return acc
+  }, new Map())
 }
 
 export async function loadLocalConfig(): Promise<CompleteConfig> {
@@ -79,12 +106,13 @@ export async function loadLocalConfig(): Promise<CompleteConfig> {
     const raw = await storage.getItem<string>(file)
     const config = yaml.parse(raw || '') || {}
     const services: CompleteConfig['services'] = []
+    const tags: TagMap = createTagMap(config.tags || [])
 
     validateConfigSchema(config)
 
     if (Array.isArray(config.services)) {
       services.push({
-        items: determineServiceId(config.services),
+        items: determineService(config.services, tags),
       })
     } else {
       const entries = Object.entries<DraftService[]>(config.services || [])
@@ -92,7 +120,7 @@ export async function loadLocalConfig(): Promise<CompleteConfig> {
       for (const [title, items] of entries) {
         services.push({
           title,
-          items: determineServiceId(items),
+          items: determineService(items, tags),
         })
       }
     }
