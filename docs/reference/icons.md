@@ -1,5 +1,7 @@
 # Icons
 
+<preview-image name="reference/icons" />
+
 ## Link
 
 Link to the image. You can specify both external and internal links.
