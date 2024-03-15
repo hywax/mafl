@@ -82,6 +82,22 @@ Default: `_blank`
 If a field is defined in the service `target` it will be prioritized. More details can be found in the [basic service](../services/base.md#target).
 :::
 
+## Tags <in-version value="0.10.0" />
+
+Tags allow you to differentiate between services.
+
+```yaml
+tags:
+  - name: Home
+    color: green
+  - name: Work
+    color: blue
+```
+
+::: info
+More details can be found in the [tags](../reference/tags.md) section.
+:::
+
 ## Services
 
 All services that are displayed on the home page are set in this parameter.

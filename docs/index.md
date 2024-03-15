@@ -32,6 +32,9 @@ features:
   - title: Grouping
     icon: 🗂
     details: Create custom service groups.
+  - title: Tags
+    icon: 🏷️
+    details: Add tags to your services.
   - title: Easy setup
     icon: 👌
     details: A few lines of yaml and your homepage is ready to go.

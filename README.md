@@ -38,6 +38,7 @@
 * 🌎 **Multi-language**. Supports multiple languages.
 * 🎨 **Themes**. Customize the look to your liking.
 * 🗂️ **Grouping**. Create custom service groups.
+* 🏷️ **Tags**. Add tags to your services.
 * 👌 **Easy setup**. A few lines of yaml and your homepage is ready to go.
 * 🚀 **Fast**. Everything is fast and free of hang-ups.
 * 🐳 **Docker**. Optimized docker images for popular platforms.

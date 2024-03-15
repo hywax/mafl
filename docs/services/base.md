@@ -79,6 +79,27 @@ icon:
 See [icons](../reference/icons.md) for details.
 :::
 
+## Tags <in-version value="0.10.0" />
+
+Tags allow you to differentiate between services. It is quite convenient when you have several services that belong to the same project.
+
+```yaml
+tags:
+  - name: Home
+    color: green
+```
+
+or just a list of tags:
+
+```yaml
+tags:
+  - Home
+```
+
+::: warning Settings
+See [tags](../reference/tags.md) for details.
+:::
+
 ## Status
 
 Mafl knows how to check the health of the services in the link you provided.
