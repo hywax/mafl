@@ -1,6 +1,6 @@
 # Base service
 
-<preview-service name="base" />
+<preview-image name="services/base" />
 
 The main card of the service.
 Other services are created on the basis of this service.

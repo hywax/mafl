@@ -9,7 +9,7 @@ import { useData, withBase } from 'vitepress'
 const props = defineProps<{ name: string }>()
 
 const { isDark } = useData()
-const image = computed(() => withBase(`/services/${props.name}${isDark.value ? '-dark' : ''}.png`))
+const image = computed(() => withBase(`/${props.name}${isDark.value ? '-dark' : ''}.png`))
 </script>
 
 <style scoped>

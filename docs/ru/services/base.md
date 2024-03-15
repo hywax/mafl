@@ -1,6 +1,6 @@
 # Базовый сервис
 
-<preview-service name="base" />
+<preview-image name="services/base" />
 
 Основная карточка сервиса.
 На основе этого сервиса создаются другие.

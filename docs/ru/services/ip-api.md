@@ -1,6 +1,6 @@
 # IP API <in-version value="0.8.0" />
 
-<preview-service name="ip-api" />
+<preview-image name="services/ip-api" />
 
 Показывает информацию о вашем IP адресе.
 

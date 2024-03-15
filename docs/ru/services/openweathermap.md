@@ -1,6 +1,6 @@
 # Open Weather Map  <in-version value="0.9.0" />
 
-<preview-service name="openweathermap" />
+<preview-image name="services/openweathermap" />
 
 Получает данные о погоде с сервиса [Open Weather Map](https://openweathermap.org/).
 
