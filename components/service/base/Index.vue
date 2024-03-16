@@ -2,7 +2,7 @@
   <ServicePlaceholder v-if="loadingOverlay" />
   <Component :is="isLink ? 'a' : 'div'" v-else :href="link" :target="target" class="p-4 flex gap-4 hover:bg-fg/5 dark:hover:bg-fg/9 rounded-2xl transition-all">
     <div class="flex-shrink-0 flex">
-      <div class="self-center w-16 h-16 overflow-hidden rounded-2xl border border-fg/10 dark:border-fg/15">
+      <div class="self-center w-16 h-16 overflow-hidden">
         <slot name="icon" :service="data">
           <ServiceBaseIcon v-if="icon" v-bind="icon" />
         </slot>

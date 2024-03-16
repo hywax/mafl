@@ -16,6 +16,7 @@ const wrapClasses = computed(() => ({
   'bg-fg/5 dark:bg-fg/10': props?.wrap && !props?.background,
   'p-2': props?.wrap,
   [iconClasses]: true,
+  'border border-fg/10 dark:border-fg/15 rounded-2xl': true,
 }))
 
 const wrapStyles = computed(() => ({
