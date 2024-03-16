@@ -13,7 +13,7 @@
         <slot name="title" :service="data">
           {{ title }}
         </slot>
-        <slot v-if="status" name="status" :data="data">
+        <slot v-if="status && status.enabled" name="status" :data="data">
           <ServiceBaseStatus :ping="data?.ping" />
         </slot>
       </h3>
