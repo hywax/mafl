@@ -1,8 +1,9 @@
 import crypto from 'node:crypto'
 import yaml from 'yaml'
 import defu from 'defu'
-import { ZodError, z } from 'zod'
+import { ZodError } from 'zod'
 import type { CompleteConfig, Service, Tag } from '~/types'
+import { configSchema } from '~/server/validations'
 
 type DraftService = Omit<Service, 'id'>
 
@@ -39,52 +40,6 @@ export function getDefaultConfig(): CompleteConfig {
   }
 }
 
-export function validateConfigSchema(config: any) {
-  const status = z.object({
-    enabled: z.boolean().optional(),
-    interval: z.number().optional(),
-  })
-
-  const icon = z.object({
-    url: z.string().optional(),
-    name: z.string().optional(),
-    wrap: z.boolean().optional(),
-    background: z.string().optional(),
-    color: z.string().optional(),
-  })
-
-  const tag = z.object({
-    name: z.string(),
-    color: z.string(),
-  })
-
-  const service = z.object({
-    title: z.string().nullish().optional(),
-    description: z.string().nullish().optional(),
-    link: z.string().nullish().optional(),
-    target: z.string().optional(),
-    icon: icon.optional(),
-    status: status.optional(),
-    type: z.string().optional(),
-    options: z.record(z.any()).optional(),
-    secrets: z.record(z.any()).optional(),
-  })
-
-  const schema = z.object({
-    title: z.string().optional(),
-    lang: z.string().optional(),
-    theme: z.string().optional(),
-    checkUpdates: z.boolean().optional(),
-    tags: z.array(tag).optional(),
-    services: z.union([
-      z.array(service),
-      z.record(z.array(service)),
-    ]),
-  })
-
-  return schema.parse(config)
-}
-
 function createTagMap(tags: Tag[]): TagMap {
   return tags.reduce((acc, tag) => {
     acc.set(tag.name, tag)
@@ -108,7 +63,7 @@ export async function loadLocalConfig(): Promise<CompleteConfig> {
     const services: CompleteConfig['services'] = []
     const tags: TagMap = createTagMap(config.tags || [])
 
-    validateConfigSchema(config)
+    configSchema.parse(config)
 
     if (Array.isArray(config.services)) {
       services.push({
