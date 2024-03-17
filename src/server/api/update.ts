@@ -1,15 +1,16 @@
 import currentPackage from '~~/package.json'
 
 export default defineEventHandler(async () => {
-  const latestPackage = await $fetch<typeof currentPackage>('https://raw.githubusercontent.com/hywax/mafl/main/package.json', {
+  const latestReleases = await $fetch<typeof currentPackage>('https://api.github.com/repos/hywax/mafl/releases/latest', {
     parseResponse: (json) => JSON.parse(json),
   })
+  const latestVersion = latestReleases.tag_name.replace('v', '')
 
   const parseVersion = (version: string): number => Number.parseInt(version.replace(/\./g, ''), 10)
-  const difference = parseVersion(latestPackage.version) - parseVersion(currentPackage.version)
+  const difference = parseVersion(latestVersion) - parseVersion(currentPackage.version)
 
   return {
     available: difference > 0,
-    version: latestPackage.version,
+    version: latestVersion,
   }
 })
