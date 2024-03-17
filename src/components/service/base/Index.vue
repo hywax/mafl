@@ -9,7 +9,7 @@
       </div>
     </div>
     <div>
-      <h3 class="text-lg mt-1 pr-1 font-semibold line-clamp-1 flex gap-2 items-center">
+      <h3 class="text-lg pr-1 font-semibold line-clamp-1 flex gap-2 items-center">
         <slot name="title" :service="data">
           {{ title }}
         </slot>
