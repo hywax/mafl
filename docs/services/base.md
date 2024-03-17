@@ -118,6 +118,14 @@ Values: `true`, `false`
 
 Default: `false`
 
+### `animation`
+
+Enabling animation
+
+Values: `true`, `false`
+
+Default: `true`
+
 ### `interval`
 
 Status Update Interval.
