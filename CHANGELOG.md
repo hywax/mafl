@@ -1,6 +1,32 @@
 # Changelog
 
 
+## v0.11.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.10.0...v0.11.0)
+
+### 🩹 Fixes
+
+- Hide gray status icon on status false ([b45aa3b](https://github.com/hywax/mafl/commit/b45aa3b))
+
+### 💅 Refactors
+
+- Validators are moved to a separate files ([6455c29](https://github.com/hywax/mafl/commit/6455c29))
+- ⚠️  Move files to src ([#63](https://github.com/hywax/mafl/pull/63))
+
+### 🏡 Chore
+
+- Transform border color icon component ([28ee84d](https://github.com/hywax/mafl/commit/28ee84d))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Move files to src ([#63](https://github.com/hywax/mafl/pull/63))
+
+### ❤️ Contributors
+
+- Alexander ([@hywax](http://github.com/hywax))
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.10.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.9.5...v0.10.0)
