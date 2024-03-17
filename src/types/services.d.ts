@@ -3,6 +3,7 @@ import type { Tag } from '~/types/config'
 export interface ServiceStatus {
   enabled?: boolean
   interval?: number
+  animation?: boolean
 }
 
 export interface ServiceIcon {

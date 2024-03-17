@@ -14,7 +14,7 @@
           {{ title }}
         </slot>
         <slot v-if="status && status.enabled" name="status" :data="data">
-          <ServiceBaseStatus :ping="data?.ping" />
+          <ServiceBaseStatus :ping="{ ...data?.ping, animation: status?.animation }" />
         </slot>
       </h3>
 
