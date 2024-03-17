@@ -1,4 +1,4 @@
-import currentPackage from '~/package.json'
+import currentPackage from '~~/package.json'
 
 export default defineEventHandler(async () => {
   const latestPackage = await $fetch<typeof currentPackage>('https://raw.githubusercontent.com/hywax/mafl/main/package.json', {
