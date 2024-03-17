@@ -1,6 +1,7 @@
 import process from 'node:process'
 
 export default defineNuxtConfig({
+  srcDir: 'src',
   app: {
     head: {
       link: [
