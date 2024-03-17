@@ -41,7 +41,7 @@
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
-    "nuxt": "^3.10.3",
+    "nuxt": "^3.11.0",
     "nuxt-icon": "^0.6.9",
     "typescript": "^5.4.2",
     "vitepress": "^1.0.0-rc.45",
