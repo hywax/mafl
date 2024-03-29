@@ -31,6 +31,7 @@ export default defineNuxtConfig({
       name: 'Mafl. Minimalistic flexible homepage.',
       short_name: 'Mafl',
       description: 'Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!',
+      theme_color: '#609966',
       icons: [
         {
           sizes: '192x192',
