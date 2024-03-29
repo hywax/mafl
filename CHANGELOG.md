@@ -1,6 +1,33 @@
 # Changelog
 
 
+## v0.11.1
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.11.0...v0.11.1)
+
+### 🩹 Fixes
+
+- Types releases latest ([bce1c92](https://github.com/hywax/mafl/commit/bce1c92))
+
+### 📖 Documentation
+
+- Update cover image ([8d9aeac](https://github.com/hywax/mafl/commit/8d9aeac))
+- Status animation property ([440a296](https://github.com/hywax/mafl/commit/440a296))
+- Remove duplicate contributors ([3ba24ec](https://github.com/hywax/mafl/commit/3ba24ec))
+- **showcase:** By @splnut ([816e65a](https://github.com/hywax/mafl/commit/816e65a))
+
+### 🏡 Chore
+
+- Latest releases change check method ([9762d64](https://github.com/hywax/mafl/commit/9762d64))
+- Remove margin top in title service ([d2a59b8](https://github.com/hywax/mafl/commit/d2a59b8))
+- Add animation status toggle ([349e8d9](https://github.com/hywax/mafl/commit/349e8d9))
+- Pwa theme color ([#72](https://github.com/hywax/mafl/pull/72))
+
+### ❤️ Contributors
+
+- Alexander ([@hywax](http://github.com/hywax))
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.11.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.10.0...v0.11.0)
