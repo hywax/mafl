@@ -27,15 +27,15 @@
     "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.12.2",
+    "@antfu/eslint-config": "^2.13.3",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@hywax/vitepress-yandex-metrika": "^0.3.4",
     "@nuxt/devtools": "latest",
-    "@nuxtjs/color-mode": "^3.3.3",
+    "@nuxtjs/color-mode": "^3.4.0",
     "@nuxtjs/i18n": "^8.3.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
-    "@types/node": "^20.12.5",
+    "@types/node": "^20.12.7",
     "@vite-pwa/nuxt": "^0.6.0",
     "changelogen": "^0.5.5",
     "eslint": "^9.0.0",
@@ -43,9 +43,9 @@
     "lint-staged": "^15.2.2",
     "nuxt": "^3.11.2",
     "nuxt-icon": "^0.6.10",
-    "typescript": "^5.4.4",
-    "vitepress": "^1.0.2",
-    "vue-tsc": "^2.0.11"
+    "typescript": "^5.4.5",
+    "vitepress": "^1.1.0",
+    "vue-tsc": "^2.0.13"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
