@@ -2,6 +2,11 @@ import process from 'node:process'
 
 export default defineNuxtConfig({
   srcDir: 'src',
+  runtimeConfig: {
+    public: {
+      websocketPort: 3030,
+    },
+  },
   app: {
     head: {
       link: [
@@ -134,8 +139,8 @@ export default defineNuxtConfig({
         base: './data',
       },
     },
-    devServer: {
-      watch: ['./data'],
-    },
+    // devServer: {
+    //   watch: ['./data'],
+    // },
   },
 })

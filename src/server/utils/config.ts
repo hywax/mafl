@@ -26,6 +26,8 @@ function determineService(items: DraftService[], tags: TagMap): Service[] {
   }))
 }
 
+export const configFileName = 'config.yml'
+
 export function getDefaultConfig(): CompleteConfig {
   return {
     title: 'Mafl Home Page',
@@ -48,17 +50,19 @@ function createTagMap(tags: Tag[]): TagMap {
   }, new Map())
 }
 
-export async function loadLocalConfig(): Promise<CompleteConfig> {
+/**
+ * Load config from storage
+ */
+export async function loadConfig(): Promise<CompleteConfig> {
   const defaultConfig = getDefaultConfig()
   const storage = useStorage('data')
-  const file = 'config.yml'
 
   try {
-    if (!await storage.hasItem(file)) {
+    if (!await storage.hasItem(configFileName)) {
       throw new Error('Config not found')
     }
 
-    const raw = await storage.getItem<string>(file)
+    const raw = await storage.getItem<string>(configFileName)
     const config = yaml.parse(raw || '') || {}
     const services: CompleteConfig['services'] = []
     const tags: TagMap = createTagMap(config.tags || [])
@@ -100,7 +104,22 @@ export async function loadLocalConfig(): Promise<CompleteConfig> {
   return defaultConfig
 }
 
-export async function getLocalConfig(): Promise<CompleteConfig | null> {
+/**
+ * Save config to storage
+ */
+export async function setConfig(config: CompleteConfig): Promise<void> {
+  const storage = useStorage('main')
+
+  await storage.setItem('config', config)
+  await storage.setItem('services', extractServicesFromConfig(config))
+
+  logger.success('Config updated')
+}
+
+/**
+ * Get config from storage
+ */
+export async function getConfig(): Promise<CompleteConfig | null> {
   const storage = useStorage('main')
   await storage.getKeys()
 

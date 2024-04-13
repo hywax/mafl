@@ -24,7 +24,7 @@ const cachedOWMData = defineCachedFunction(async ({ lon, lat, units, apiKey, lan
 
 export default defineEventHandler(async (event) => {
   const service = await getServiceWithDefaultData<OpenWeatherMapService>(event)
-  const config = await getLocalConfig()
+  const config = await getConfig()
   const { options, secrets } = service.config
   const owm = await cachedOWMData({
     lon: options.lon,
