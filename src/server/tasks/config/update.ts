@@ -5,5 +5,9 @@ export default defineTask({
   async run() {
     const config = await loadConfig()
     await setConfig(config)
+
+    return {
+      result: {},
+    }
   },
 })

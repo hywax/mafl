@@ -15,7 +15,7 @@ export default defineWebSocketHandler({
     })
   },
   async message(peer, message) {
-    const { event, ..._data } = JSON.parse(message)
+    const { event } = JSON.parse(message as unknown as string)
 
     if (event === 'ping') {
       peer.send({ event: 'pong' })
