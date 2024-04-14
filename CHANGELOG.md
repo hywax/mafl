@@ -29,7 +29,6 @@
 ### ❤️ Contributors
 
 - Hywax ([@hywax](http://github.com/hywax))
-- Alexander ([@hywax](http://github.com/hywax))
 
 ## v0.11.1
 
