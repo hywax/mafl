@@ -25,7 +25,6 @@
 
 ### ❤️ Contributors
 
-- Alexander ([@hywax](http://github.com/hywax))
 - Hywax ([@hywax](http://github.com/hywax))
 
 ## v0.11.0
@@ -116,8 +115,8 @@
 
 ### ❤️ Contributors
 
-- Alexander ([@hywax](http://github.com/hywax))
-- Bot
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
 
 ## v0.9.3
 
@@ -186,7 +185,7 @@
 ### ❤️ Contributors
 
 - Hywax ([@hywax](http://github.com/hywax))
-- Bot
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
 
 ## v0.9.0
 
