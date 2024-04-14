@@ -12,3 +12,9 @@ For other users it will be very useful if you share your `config.yml` (removing 
 By [@splnut](https://github.com/splnut) ([#71](https://github.com/hywax/mafl/issues/71))
 
 ![splnut](../public/showcase/splnut.png)
+
+## hywax
+
+By [@splnut](https://github.com/hywax)
+
+![hywax](../public/showcase/hywax.png)
