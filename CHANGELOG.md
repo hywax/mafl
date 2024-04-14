@@ -1,6 +1,36 @@
 # Changelog
 
 
+## v0.12.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.11.1...v0.12.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Automatic reloading of application when config is updated ([#86](https://github.com/hywax/mafl/pull/86))
+
+### 💅 Refactors
+
+- Rename useServiceData composable ([d44e4cc](https://github.com/hywax/mafl/commit/d44e4cc))
+- Contributors format ([fc8fdde](https://github.com/hywax/mafl/commit/fc8fdde))
+
+### 📖 Documentation
+
+- **showcase:** By @hywax ([a09eb18](https://github.com/hywax/mafl/commit/a09eb18))
+
+### 📦 Build
+
+- Change author email ([aad7406](https://github.com/hywax/mafl/commit/aad7406))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Automatic reloading of application when config is updated ([#86](https://github.com/hywax/mafl/pull/86))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Alexander ([@hywax](http://github.com/hywax))
+
 ## v0.11.1
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.11.0...v0.11.1)
