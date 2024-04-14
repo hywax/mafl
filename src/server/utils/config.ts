@@ -9,6 +9,8 @@ type DraftService = Omit<Service, 'id'>
 
 type TagMap = Map<Tag['name'], Tag>
 
+const logger = useLogger('config')
+
 function determineService(items: DraftService[], tags: TagMap): Service[] {
   return items.map((item) => ({
     ...item,
@@ -105,7 +107,7 @@ export async function loadConfig(): Promise<CompleteConfig> {
 }
 
 /**
- * Save config to storage
+ * Save config to memory storage
  */
 export async function setConfig(config: CompleteConfig): Promise<void> {
   const storage = useStorage('main')
@@ -113,11 +115,11 @@ export async function setConfig(config: CompleteConfig): Promise<void> {
   await storage.setItem('config', config)
   await storage.setItem('services', extractServicesFromConfig(config))
 
-  logger.success('Config updated')
+  logger.success('Set "main" config')
 }
 
 /**
- * Get config from storage
+ * Get config from memory storage
  */
 export async function getConfig(): Promise<CompleteConfig | null> {
   const storage = useStorage('main')
