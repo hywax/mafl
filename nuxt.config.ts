@@ -134,8 +134,9 @@ export default defineNuxtConfig({
         base: './data',
       },
     },
-    devServer: {
-      watch: ['./data'],
+    experimental: {
+      websocket: true,
+      tasks: true,
     },
   },
 })

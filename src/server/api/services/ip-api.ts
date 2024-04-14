@@ -30,7 +30,7 @@ const cachedIpApiData = defineCachedFunction(async (lang: string = 'en') => {
 
 export default defineEventHandler(async (event) => {
   const service = await getServiceWithDefaultData<IpApiService>(event)
-  const config = await getLocalConfig()
+  const config = await getConfig()
   const ip = await cachedIpApiData(config?.lang)
 
   return returnServiceWithData(service, ip)
