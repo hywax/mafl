@@ -18,6 +18,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@network-utils/tcp-ping": "^1.2.3",
     "@vueuse/nuxt": "^10.9.0",
     "consola": "^3.2.3",
     "defu": "^6.1.4",

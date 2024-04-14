@@ -1,23 +1,20 @@
+import { ping } from '@network-utils/tcp-ping'
 import type { H3Event } from 'h3'
 import type { PingServiceData, ReturnServiceWithData, Service, ServiceWithDefaultData } from '~/types'
-import { isUrl } from '~/utils/validation'
 
-export async function pingService(url: string): Promise<PingServiceData> {
+export async function pingService(endpoint: string): Promise<PingServiceData> {
   try {
-    if (!isUrl(url)) {
-      throw createError({
-        statusCode: 400,
-        statusMessage: 'URL is not valid',
-      })
-    }
+    const url = new URL(endpoint)
 
-    const startTime = new Date().getTime()
-    await $fetch(url, { timeout: 15000 })
-    const endTime = new Date().getTime()
+    const probe = await ping({
+      address: url.hostname,
+      port: Number.parseInt(url.port || '80'),
+      attempts: 1,
+    })
 
     return {
-      status: true,
-      time: endTime - startTime,
+      status: probe.errors.length === 0,
+      time: Math.floor(probe.averageLatency),
     }
   } catch (e) {
     logger.error(e)
