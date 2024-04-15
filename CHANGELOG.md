@@ -1,6 +1,35 @@
 # Changelog
 
 
+## v0.13.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.12.0...v0.13.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Status indicator operation for all url types ([#87](https://github.com/hywax/mafl/pull/87))
+
+### 💅 Refactors
+
+- Contributors format ([0b7426d](https://github.com/hywax/mafl/commit/0b7426d))
+
+### 📖 Documentation
+
+- Proxmox memory error ([#89](https://github.com/hywax/mafl/pull/89))
+
+### 🏡 Chore
+
+- Feature pull request template ([eb50f0e](https://github.com/hywax/mafl/commit/eb50f0e))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Status indicator operation for all url types ([#87](https://github.com/hywax/mafl/pull/87))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Alexander ([@hywax](http://github.com/hywax))
+
 ## v0.12.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.11.1...v0.12.0)
