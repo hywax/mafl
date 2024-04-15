@@ -76,3 +76,10 @@ nano /opt/mafl/data/config.yml
 ```
 
 Many thanks to [@tteck](https://github.com/tteck) for helping me create lxc script.
+
+::: warning Updating errors
+If you encountered an error while updating `FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory`,
+then you need to allocate more RAM memory in LXC.
+
+Unlike docker, the container in proxmox is build on your server. Therefore, you may experience problems with memory scarcity.
+:::
