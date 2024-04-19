@@ -36,6 +36,14 @@ export function getDefaultConfig(): CompleteConfig {
     lang: 'en',
     theme: 'system',
     checkUpdates: true,
+    layout: {
+      grid: {
+        small: 2,
+        medium: 2,
+        large: 3,
+        xlarge: 4,
+      },
+    },
     behaviour: {
       target: '_blank',
     },

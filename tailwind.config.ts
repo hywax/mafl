@@ -7,6 +7,10 @@ export default <Partial<Config>>{
       pattern: /(bg|text)-./,
       variants: ['dark'],
     },
+    {
+      pattern: /grid-cols-./,
+      variants: ['sm', 'md', 'lg', 'xl'],
+    },
   ],
   theme: {
     extend: {

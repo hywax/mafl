@@ -14,10 +14,20 @@ export interface Behaviour {
   target?: '_blank' | '_self' | '_parent' | '_top'
 }
 
+export interface Layout {
+  grid: {
+    small: number
+    medium: number
+    large: number
+    xlarge: number
+  }
+}
+
 export interface Config {
   title?: string
   lang: 'en' | 'ru'
   theme?: 'system' | 'light' | 'dark' | 'deep' | 'sepia'
+  layout?: Layout
   behaviour?: Behaviour
   tags: Tag[]
   services: ServicesGroup[]

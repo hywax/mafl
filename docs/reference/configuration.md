@@ -98,6 +98,27 @@ tags:
 More details can be found in the [tags](../reference/tags.md) section.
 :::
 
+## Layout <in-version value="0.14.0" />
+
+A group of parameters responsible for the application layout.
+
+### Grid
+
+Allows you to set the number of columns at different screen resolutions.
+
+```yaml
+layout:
+  grid:
+    small: 2
+    medium: 2
+    large: 3
+    xlarge: 4
+```
+
+Values: range `1 - 12`
+
+You can only specify one value, the others will be set automatically.
+
 ## Services
 
 All services that are displayed on the home page are set in this parameter.
