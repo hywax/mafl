@@ -2,7 +2,7 @@ const logger = useLogger('websocket')
 
 export default defineWebSocketHandler({
   async open(peer) {
-    logger.info('New peer', peer)
+    logger.info('Peer connected', peer)
 
     const storage = useStorage('data')
     await storage.watch(async (_, key) => {
@@ -20,5 +20,8 @@ export default defineWebSocketHandler({
     if (event === 'ping') {
       peer.send({ event: 'pong' })
     }
+  },
+  async close(peer) {
+    logger.info('Peer disconnected', peer)
   },
 })
