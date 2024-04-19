@@ -25,4 +25,6 @@ COPY --from=build /app/.output /app
 
 EXPOSE 3000/tcp
 
+HEALTHCHECK --interval=10s --timeout=5s --start-period=10s CMD node -e "require('http').get('http://localhost:3000/api/health', res => process.exit(res.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))"
+
 CMD ["/app/server/index.mjs"]
