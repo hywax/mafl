@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v0.14.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.13.0...v0.14.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Ability to change the application grid ([#49](https://github.com/hywax/mafl/pull/49), [#91](https://github.com/hywax/mafl/pull/91))
+
+### 💅 Refactors
+
+- Contributors format ([53dee14](https://github.com/hywax/mafl/commit/53dee14))
+
+### 🏡 Chore
+
+- Websocket log ([e0398c0](https://github.com/hywax/mafl/commit/e0398c0))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Ability to change the application grid ([#49](https://github.com/hywax/mafl/pull/49), [#91](https://github.com/hywax/mafl/pull/91))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Alexander ([@hywax](http://github.com/hywax))
+
 ## v0.13.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.12.0...v0.13.0)
