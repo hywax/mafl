@@ -1,6 +1,28 @@
 # Changelog
 
 
+## v0.15.0
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.14.0...v0.15.0)
+
+### 🚀 Enhancements
+
+- ⚠️  Docker health check (#92, #93) ([#92](https://github.com/hywax/mafl/issues/92), [#93](https://github.com/hywax/mafl/issues/93))
+
+### 📖 Documentation
+
+- Proxmox file volumes ([#96](https://github.com/hywax/mafl/pull/96))
+- Fix proxmox file volumes ([0891abd](https://github.com/hywax/mafl/commit/0891abd))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️  Docker health check (#92, #93) ([#92](https://github.com/hywax/mafl/issues/92), [#93](https://github.com/hywax/mafl/issues/93))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Alexander ([@hywax](http://github.com/hywax))
+
 ## v0.14.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.13.0...v0.14.0)
