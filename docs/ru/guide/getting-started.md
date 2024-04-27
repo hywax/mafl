@@ -75,8 +75,8 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mafl.sh)"
 | Путь                             | Тип    | Описание                                               |
 |----------------------------------|--------|--------------------------------------------------------|
 | `/opt/mafl/data/data/config.yml` | File   | App configuration - [more](../reference/configuration) |
-| `/opt/mafl/data/public/icons`    | Folder | Local icons - [more](../reference/icons)               |
-| `/opt/mafl/data/public/favicons` | Folder | Favicon icons - [more](../reference/favicons)          |
+| `/opt/mafl/public/icons`         | Folder | Local icons - [more](../reference/icons)               |
+| `/opt/mafl/public/favicons`      | Folder | Favicon icons - [more](../reference/favicons)          |
 
 ```shell
 nano /opt/mafl/data/config.yml

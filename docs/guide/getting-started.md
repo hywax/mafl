@@ -82,8 +82,8 @@ All possible paths to the container. It is mandatory to specify the `config.yml`
 | Path                             | Type   | Description                                            |
 |----------------------------------|--------|--------------------------------------------------------|
 | `/opt/mafl/data/data/config.yml` | File   | App configuration - [more](../reference/configuration) |
-| `/opt/mafl/data/public/icons`    | Folder | Local icons - [more](../reference/icons)               |
-| `/opt/mafl/data/public/favicons` | Folder | Favicon icons - [more](../reference/favicons)          |
+| `/opt/mafl/public/icons`         | Folder | Local icons - [more](../reference/icons)               |
+| `/opt/mafl/public/favicons`      | Folder | Favicon icons - [more](../reference/favicons)          |
 
 Many thanks to [@tteck](https://github.com/tteck) for helping me create lxc script.
 
