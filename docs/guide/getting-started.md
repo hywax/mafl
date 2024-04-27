@@ -32,7 +32,7 @@ docker run --name mafl -p 3000:3000 -v ./config.yml:/app/data/config.yml hywax/m
 
 All possible paths to the container. It is mandatory to specify the `config.yml` config file, everything else can be left by default.
 
-| Путь                   | Тип    | Описание                                               |
+| Path                   | Type   | Description                                            |
 |------------------------|--------|--------------------------------------------------------|
 | `/app/data/config.yml` | File   | App configuration - [more](../reference/configuration) |
 | `/app/public/icons`    | Folder | Local icons - [more](../reference/icons)               |
@@ -74,6 +74,16 @@ Configure the application by editing the `config.yml` file:
 ```shell
 nano /opt/mafl/data/config.yml
 ```
+
+### File volumes
+
+All possible paths to the container. It is mandatory to specify the `config.yml` config file, everything else can be left by default.
+
+| Path                             | Type   | Description                                            |
+|----------------------------------|--------|--------------------------------------------------------|
+| `/opt/mafl/data/data/config.yml` | File   | App configuration - [more](../reference/configuration) |
+| `/opt/mafl/data/public/icons`    | Folder | Local icons - [more](../reference/icons)               |
+| `/opt/mafl/data/public/favicons` | Folder | Favicon icons - [more](../reference/favicons)          |
 
 Many thanks to [@tteck](https://github.com/tteck) for helping me create lxc script.
 

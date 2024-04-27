@@ -68,7 +68,15 @@ yarn preview
 bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mafl.sh)"
 ```
 
-Настройте приложение, отредактировав файл `config.yml`:
+### File volumes
+
+Все возможные пути в контейнер. Обязательно нужно указывать файл конфига `config.yml`, все остальное можно оставить по умолчанию.
+
+| Путь                             | Тип    | Описание                                               |
+|----------------------------------|--------|--------------------------------------------------------|
+| `/opt/mafl/data/data/config.yml` | File   | App configuration - [more](../reference/configuration) |
+| `/opt/mafl/data/public/icons`    | Folder | Local icons - [more](../reference/icons)               |
+| `/opt/mafl/data/public/favicons` | Folder | Favicon icons - [more](../reference/favicons)          |
 
 ```shell
 nano /opt/mafl/data/config.yml
