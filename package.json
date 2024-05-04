@@ -25,13 +25,13 @@
     "h3-zod": "^0.5.3",
     "rollup": "npm:@rollup/wasm-node",
     "yaml": "^2.4.2",
-    "zod": "^3.23.5"
+    "zod": "^3.23.6"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.16.1",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@hywax/vitepress-yandex-metrika": "^0.3.4",
+    "@hywax/vitepress-yandex-metrika": "^0.4.0",
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/i18n": "^8.3.1",
@@ -39,7 +39,7 @@
     "@types/node": "^20.12.8",
     "@vite-pwa/nuxt": "^0.7.0",
     "changelogen": "^0.5.5",
-    "eslint": "^9.1.1",
+    "eslint": "^9.2.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "nuxt": "^3.11.2",
