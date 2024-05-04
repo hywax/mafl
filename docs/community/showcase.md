@@ -15,6 +15,6 @@ By [@splnut](https://github.com/splnut) ([#71](https://github.com/hywax/mafl/iss
 
 ## hywax
 
-By [@splnut](https://github.com/hywax)
+By [@hywax](https://github.com/hywax)
 
 ![hywax](../public/showcase/hywax.png)

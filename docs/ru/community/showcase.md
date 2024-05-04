@@ -12,3 +12,9 @@
 От [@splnut](https://github.com/splnut) ([#71](https://github.com/hywax/mafl/issues/71))
 
 ![splnut](../../public/showcase/splnut.png)
+
+## hywax
+
+От [@hywax](https://github.com/hywax)
+
+![hywax](../../public/showcase/hywax.png)
