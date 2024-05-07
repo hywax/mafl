@@ -15,11 +15,13 @@ RUN yarn run build
 
 FROM $NODE
 
-LABEL org.opencontainers.image.title="Mafl"
-LABEL org.opencontainers.image.description="Minimalistic flexible homepage"
-LABEL org.opencontainers.image.source="https://github.com/hywax/mafl"
-LABEL org.opencontainers.image.authors="Hywax <me@hywax.space>"
-LABEL org.opencontainers.image.licenses="MIT"
+LABEL org.opencontainers.image.title="Mafl" \
+      org.opencontainers.image.description="Minimalistic flexible homepage" \
+      org.opencontainers.image.url="https://mafl.hywax.space" \
+      org.opencontainers.image.documentation="https://mafl.hywax.space/guide/getting-started.html" \
+      org.opencontainers.image.source="https://github.com/hywax/mafl" \
+      org.opencontainers.image.authors="Hywax <me@hywax.space>" \
+      org.opencontainers.image.licenses="MIT"
 
 WORKDIR /app
 
