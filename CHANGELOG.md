@@ -1,6 +1,26 @@
 # Changelog
 
 
+## v0.15.1
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.15.0...v0.15.1)
+
+### 🩹 Fixes
+
+- Healthcheck exec failed ([410ccf8](https://github.com/hywax/mafl/commit/410ccf8))
+
+### 📖 Documentation
+
+- Fix showcases ([49fc44d](https://github.com/hywax/mafl/commit/49fc44d))
+
+### 📦 Build
+
+- Change opencontainers labels ([d6c32d5](https://github.com/hywax/mafl/commit/d6c32d5))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.15.0
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.14.0...v0.15.0)
