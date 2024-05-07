@@ -1,4 +1,6 @@
-FROM node:20.12.2-alpine as build
+ARG NODE=node:20.12.2-alpine
+
+FROM $NODE as build
 
 WORKDIR /app
 
@@ -11,7 +13,7 @@ COPY . /app
 
 RUN yarn run build
 
-FROM gcr.io/distroless/nodejs20
+FROM $NODE
 
 LABEL org.opencontainers.image.title="Mafl"
 LABEL org.opencontainers.image.description="Minimalistic flexible homepage"
@@ -22,9 +24,10 @@ LABEL org.opencontainers.image.licenses="MIT"
 WORKDIR /app
 
 COPY --from=build /app/.output /app
+COPY --from=build /app/extra/healthcheck.mjs /app/extra/healthcheck.mjs
 
 EXPOSE 3000/tcp
 
-HEALTHCHECK --interval=10s --timeout=5s --start-period=10s CMD node -e "require('http').get('http://localhost:3000/api/health', res => process.exit(res.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))"
+HEALTHCHECK --interval=10s --timeout=5s --start-period=10s CMD ["node", "/app/extra/healthcheck.mjs"]
 
 CMD ["/app/server/index.mjs"]
