@@ -18,3 +18,9 @@ By [@splnut](https://github.com/splnut) ([#71](https://github.com/hywax/mafl/iss
 By [@hywax](https://github.com/hywax)
 
 ![hywax](../public/showcase/hywax.png)
+
+## UberDudePL
+
+By [@UberDudePL](https://github.com/UberDudePL) ([#101](https://github.com/hywax/mafl/issues/101))
+
+![UberDudePL](../public/showcase/uberdudepl.png)
