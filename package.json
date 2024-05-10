@@ -25,10 +25,10 @@
     "h3-zod": "^0.5.3",
     "rollup": "npm:@rollup/wasm-node",
     "yaml": "^2.4.2",
-    "zod": "^3.23.6"
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.16.1",
+    "@antfu/eslint-config": "^2.17.0",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@hywax/vitepress-yandex-metrika": "^0.4.0",
@@ -36,7 +36,7 @@
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/i18n": "^8.3.1",
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "@types/node": "^20.12.8",
+    "@types/node": "^20.12.11",
     "@vite-pwa/nuxt": "^0.7.0",
     "changelogen": "^0.5.5",
     "eslint": "^9.2.0",
@@ -46,7 +46,7 @@
     "nuxt-icon": "^0.6.10",
     "typescript": "^5.4.5",
     "vitepress": "^1.1.4",
-    "vue-tsc": "^2.0.16"
+    "vue-tsc": "^2.0.17"
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
