@@ -26,6 +26,12 @@ html.sepia {
     --background: 241 231 208;
 }
 
+html.bluer {
+    --fg: 236 236 236;
+    --fg-dimmed: 147 156 220;
+    --background: 24 29 63;
+}
+
 @layer components {
     body {
         @apply bg-background text-fg;

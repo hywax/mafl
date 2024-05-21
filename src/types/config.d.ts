@@ -26,7 +26,7 @@ export interface Layout {
 export interface Config {
   title?: string
   lang: 'en' | 'ru'
-  theme?: 'system' | 'light' | 'dark' | 'deep' | 'sepia'
+  theme?: 'system' | 'light' | 'dark' | 'deep' | 'sepia' | 'bluer'
   layout?: Layout
   behaviour?: Behaviour
   tags: Tag[]
