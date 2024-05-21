@@ -123,11 +123,11 @@ html.new-theme {
 ::: code-group
 ```typescript [types/config.d.ts]
 export interface Config {
-    title?: string
-    lang: 'en' | 'ru'
-    theme?: 'system' | 'light' | 'dark' | 'deep' | 'new-theme' // [!code focus]
-    services: ServicesGroup[]
-    checkUpdates: boolean
+  title?: string
+  lang: 'en' | 'ru'
+  theme?: 'system' | 'light' | 'dark' | 'deep' | 'new-theme' // [!code focus]
+  services: ServicesGroup[]
+  checkUpdates: boolean
 }
 ```
 :::
@@ -153,16 +153,16 @@ After creating the language file, you need to plug it into `nuxt.config.ts`
 
 ```typescript
 export default defineNuxtConfig({
-    i18n: {
-        locales: [
-            {                           // [!code focus]
-                code: 'en',             // [!code focus]
-                iso: 'en-US',           // [!code focus]
-                name: 'English',        // [!code focus]
-                file: 'en-US.json',     // [!code focus]
-            },                          // [!code focus]
-        ],
-    },
+  i18n: {
+    locales: [
+      { // [!code focus]
+        code: 'en', // [!code focus]
+        iso: 'en-US', // [!code focus]
+        name: 'English', // [!code focus]
+        file: 'en-US.json', // [!code focus]
+      }, // [!code focus]
+    ],
+  },
 })
 ```
 
