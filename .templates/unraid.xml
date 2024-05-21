@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>mafl</Name>
+    <Repository>hywax/mafl</Repository>
+    <Registry>https://hub.docker.com/r/hywax/mafl</Registry>
+    <Network>bridge</Network>
+    <Privileged>false</Privileged>
+    <Support>https://github.com/hywax/mafl/issues/new/choose</Support>
+    <Shell>sh</Shell>
+    <Branch>
+        <Tag>latest</Tag>
+        <TagDescription>Stable releases from GitHub</TagDescription>
+    </Branch>
+    <Project>https://mafl.hywax.space/</Project>
+    <Overview>Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!</Overview>
+    <WebUI>http://[IP]:[PORT:3000]</WebUI>
+    <TemplateURL>false</TemplateURL>
+    <Icon>https://mafl.hywax.space/logotype.svg</Icon>
+    <Config Name="WebUI Port" Target="3000" Default="3000" Mode="tcp" Description="Web UI Port" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
+    <Config Name="Config" Target="/app/data/config.yml" Default="/mnt/user/appdata/mafl/config.yaml" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+    <Config Name="Local Icons" Target="/app/public/favicons" Default="/mnt/user/appdata/mafl/favicons" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+    <Config Name="Favicon Icons" Target="/app/public/icons" Default="/mnt/user/appdata/mafl/icons" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
+</Container>
