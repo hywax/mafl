@@ -1,6 +1,35 @@
 # Changelog
 
 
+## v0.15.2
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.15.1...v0.15.2)
+
+### 🚀 Enhancements
+
+- **themes:** New theme bluer ([ca4b6c3](https://github.com/hywax/mafl/commit/ca4b6c3))
+- **templates:** Unraid ([#102](https://github.com/hywax/mafl/pull/102))
+- **templates:** Portainer ([4dbe901](https://github.com/hywax/mafl/commit/4dbe901))
+- **templates:** Docker-compose ([dc98917](https://github.com/hywax/mafl/commit/dc98917))
+
+### 💅 Refactors
+
+- Rename templates folder ([89f0ded](https://github.com/hywax/mafl/commit/89f0ded))
+
+### 📖 Documentation
+
+- **showcase:** By @UberDudePL ([6601f4d](https://github.com/hywax/mafl/commit/6601f4d))
+- Apply script style ([ac38775](https://github.com/hywax/mafl/commit/ac38775))
+- **themes:** Add value bluer ([d36df53](https://github.com/hywax/mafl/commit/d36df53))
+
+### 🏡 Chore
+
+- Provide all lang to config ([c1ed2ce](https://github.com/hywax/mafl/commit/c1ed2ce))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+
 ## v0.15.1
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.15.0...v0.15.1)
