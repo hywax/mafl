@@ -1,0 +1,27 @@
+{
+  "version": "2",
+  "templates": [
+    {
+      "categories": [
+        "Dashboard"
+      ],
+      "description": "Mafl is an intuitive service for organizing your homepage. Customize Mafl to your individual needs and work even more efficiently!",
+      "image": "hywax/mafl:latest",
+      "logo": "https://mafl.hywax.space/logotype.svg",
+      "name": "Mafl",
+      "platform": "linux",
+      "ports": [
+        "3000:3000/tcp"
+      ],
+      "restart_policy": "unless-stopped",
+      "title": "Mafl",
+      "type": 1,
+      "volumes": [
+        {
+          "bind": "/portainer/Files/AppData/Config/Mafl/config.yml",
+          "container": "/app/data/config.yml"
+        }
+      ]
+    }
+  ]
+}
