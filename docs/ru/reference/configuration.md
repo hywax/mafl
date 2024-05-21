@@ -33,7 +33,7 @@ lang: ru
 theme: dark
 ```
 
-Поддерживаемые значения: `system`, `light`, `dark`, `deep`, `sepia`
+Поддерживаемые значения: `system`, `light`, `dark`, `deep`, `sepia`, `bluer`
 
 Значение по умолчанию: `system`
 

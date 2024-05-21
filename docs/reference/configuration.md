@@ -33,7 +33,7 @@ You can customize fixed themes by passing the `theme` option as shown below:
 theme: dark
 ```
 
-Values: `system`, `light`, `dark`, `deep`, `sepia`
+Values: `system`, `light`, `dark`, `deep`, `sepia`, `bluer`
 
 Default: `system`
 
