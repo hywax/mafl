@@ -6,6 +6,7 @@
   "error": {
     "title": "谬误",
     "page404": "页面未找到!",
+    "home": "首页",
     "description": "哎呀！出现意外错误",
     "action": "转到文档"
   },
