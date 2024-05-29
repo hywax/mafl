@@ -1,4 +1,4 @@
-ARG NODE=node:20.13.1-alpine
+ARG NODE=node:20.14.0-alpine
 
 FROM $NODE as build
 

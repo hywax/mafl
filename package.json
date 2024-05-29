@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@network-utils/tcp-ping": "^1.2.3",
-    "@vueuse/nuxt": "^10.9.0",
+    "@vueuse/nuxt": "^10.10.0",
     "consola": "^3.2.3",
     "defu": "^6.1.4",
     "h3-zod": "^0.5.3",
@@ -28,7 +28,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.18.1",
+    "@antfu/eslint-config": "^2.19.1",
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@hywax/vitepress-yandex-metrika": "^0.4.0",
@@ -36,8 +36,8 @@
     "@nuxtjs/color-mode": "^3.4.1",
     "@nuxtjs/i18n": "^8.3.1",
     "@nuxtjs/tailwindcss": "^6.12.0",
-    "@types/node": "^20.12.12",
-    "@vite-pwa/nuxt": "^0.7.0",
+    "@types/node": "^20.12.13",
+    "@vite-pwa/nuxt": "^0.8.0",
     "changelogen": "^0.5.5",
     "eslint": "^9.3.0",
     "husky": "^9.0.11",
