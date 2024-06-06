@@ -1,6 +1,30 @@
 # Changelog
 
 
+## v0.15.3
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.15.2...v0.15.3)
+
+### 🩹 Fixes
+
+- Home page translation key was missing ([981e02c](https://github.com/hywax/mafl/commit/981e02c))
+
+### 📖 Documentation
+
+- **showcase:** By @AemonCao ([#113](https://github.com/hywax/mafl/pull/113))
+- Fix image path ([4dbe8a2](https://github.com/hywax/mafl/commit/4dbe8a2))
+
+### 🏡 Chore
+
+- **i18n:** Update zh-CN ([#109](https://github.com/hywax/mafl/pull/109))
+- Update CONTRIBUTORS ([42a3e9a](https://github.com/hywax/mafl/commit/42a3e9a))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+- Aemon Cao <bot960528@gmail.com>
+
 ## v0.15.2
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.15.1...v0.15.2)
