@@ -24,3 +24,11 @@ By [@hywax](https://github.com/hywax)
 By [@UberDudePL](https://github.com/UberDudePL) ([#101](https://github.com/hywax/mafl/issues/101))
 
 ![UberDudePL](../public/showcase/uberdudepl.png)
+
+## AemonCao
+
+By [@AemonCao](https://github.com/AemonCao) ([#113](https://github.com/hywax/mafl/issues/113))
+
+![AemonCao 1](../public/showcase/aemon-cao-1.png)
+![AemonCao 2](../public/showcase/aemon-cao-2.png)
+
