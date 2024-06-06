@@ -6,6 +6,7 @@
   "error": {
     "title": "Błąd",
     "page404": "Strona nie istnieje!",
+    "home": "Strona główna",
     "description": "Oops! Pojawił się nieoczekiwany błąd",
     "action": "Sprawdź dokumentacja"
   },

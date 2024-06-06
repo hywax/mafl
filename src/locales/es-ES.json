@@ -6,6 +6,7 @@
   "error": {
     "title": "Error",
     "page404": "Página no encontrada!",
+    "home": "Pagina de inicio",
     "description": "¡Uy! Se ha producido un error inesperado",
     "action": "Ir a la documentación"
   },

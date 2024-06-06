@@ -6,6 +6,7 @@
   "error": {
     "title": "Erreur",
     "page404": "Page introuvable!",
+    "home": "Page d'accueil",
     "description": "Oups! Une erreur inattendue s'est produite",
     "action": "Aller à la documentation"
   },
