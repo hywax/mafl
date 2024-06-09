@@ -32,3 +32,8 @@
 ![AemonCao 1](../../public/showcase/aemon-cao-1.png)
 ![AemonCao 2](../../public/showcase/aemon-cao-2.png)
 
+## crueber
+
+By [@crueber](https://github.com/crueber) ([#116](https://github.com/hywax/mafl/issues/116))
+
+![crueber](../../public/showcase/crueber.png)
