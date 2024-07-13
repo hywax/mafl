@@ -1,6 +1,32 @@
 # Changelog
 
 
+## v0.15.4
+
+[compare changes](https://github.com/hywax/mafl/compare/v0.15.3...v0.15.4)
+
+### 🚀 Enhancements
+
+- Gr-GR locale ([#122](https://github.com/hywax/mafl/pull/122))
+- De-DE locale ([#124](https://github.com/hywax/mafl/pull/124))
+
+### 📖 Documentation
+
+- **showcase:** By @crueber ([#116](https://github.com/hywax/mafl/pull/116))
+- **showcase:** Crueber image ([a55b9d7](https://github.com/hywax/mafl/commit/a55b9d7))
+- German and greek locale ([a2a761d](https://github.com/hywax/mafl/commit/a2a761d))
+
+### 🏡 Chore
+
+- Update CONTRIBUTORS ([2fc0498](https://github.com/hywax/mafl/commit/2fc0498))
+
+### ❤️ Contributors
+
+- Hywax ([@hywax](http://github.com/hywax))
+- Gehno ([@gehno](http://github.com/gehno))
+- Stratos ([@sthivaios](http://github.com/sthivaios))
+- Bot ([@hywax-assistant](http://github.com/hywax-assistant))
+
 ## v0.15.3
 
 [compare changes](https://github.com/hywax/mafl/compare/v0.15.2...v0.15.3)
