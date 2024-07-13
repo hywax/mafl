@@ -3,6 +3,8 @@ export function isUrl(ur: string) {
     const _url = new URL(ur)
     return true
   } catch (_) {
-    return false
+    console.error('Invalid URL:', _)
   }
+
+  return false
 }
