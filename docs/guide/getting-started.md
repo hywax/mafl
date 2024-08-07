@@ -19,7 +19,7 @@ services:
     ports:
       - '3000:3000'
     volumes:
-      - ./config.yml:/app/data/config.yml
+      - ./mafl:/app/data
 ```
 :::
 
