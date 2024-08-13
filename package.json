@@ -28,7 +28,7 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.25.0",
+    "@antfu/eslint-config": "^2.25.1",
     "@commitlint/cli": "^19.4.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@hywax/vitepress-yandex-metrika": "^0.4.0",
@@ -41,7 +41,7 @@
     "changelogen": "^0.5.5",
     "eslint": "^9.9.0",
     "husky": "^9.1.4",
-    "lint-staged": "^15.2.8",
+    "lint-staged": "^15.2.9",
     "nuxt": "^3.12.4",
     "nuxt-icon": "^0.6.10",
     "typescript": "^5.5.4",
