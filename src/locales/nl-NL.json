@@ -1,0 +1,18 @@
+{
+  "service": {
+
+  },
+
+  "error": {
+    "title": "Fout",
+    "page404": "Pagina niet gevonden!",
+    "home": "Startpagina",
+    "description": "Oeps! Er was een onverwachte fout",
+    "action": "Ga naar de documentatie"
+  },
+
+  "update": {
+    "message": "Een nieuwe versie is beschikbaar",
+    "visit": "Bekijk op Github →"
+  }
+}
