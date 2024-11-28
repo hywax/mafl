@@ -4,6 +4,6 @@
   "baseBranches": ["main", "v1"],
   "packageRules": [{
     "matchBaseBranches": ["v1"],
-    "labels": ["v1"]
+    "labels": ["1.x", "dependencies"]
   }]
 }
