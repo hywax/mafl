@@ -1,4 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>hywax/renovate-config"]
+  "extends": ["github>hywax/renovate-config"],
+  "baseBranches": ["main", "v1"],
+  "packageRules": [{
+    "matchBaseBranches": ["v1"],
+    "labels": ["v1"]
+  }]
 }
