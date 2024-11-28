@@ -1,4 +1,8 @@
-import currentPackage from '~~/package.json'
+import { ofetch } from 'ofetch'
+import { useLogger } from '../utils/logger'
+
+// Current version - update this during releases
+const CURRENT_VERSION = '0.15.4'
 
 export interface ReleasesLatest {
   url: string
@@ -40,17 +44,63 @@ export interface ReleasesLatest {
   body: string
 }
 
+interface CachedResponse {
+  data: {
+    available: boolean
+    version: string
+  }
+  timestamp: number
+}
+
+// Cache duration - 24 hours in milliseconds
+const CACHE_DURATION = 24 * 60 * 60 * 1000
+
 export default defineEventHandler(async () => {
-  const latestReleases = await $fetch<ReleasesLatest>('https://api.github.com/repos/hywax/mafl/releases/latest', {
-    parseResponse: (json) => JSON.parse(json),
-  })
-  const latestVersion = latestReleases.tag_name.replace('v', '')
+  const storage = useStorage('updates')
+  const logger = useLogger('updates')
+  const now = Date.now()
 
-  const parseVersion = (version: string): number => Number.parseInt(version.replace(/\./g, ''), 10)
-  const difference = parseVersion(latestVersion) - parseVersion(currentPackage.version)
+  // Get cached response from storage
+  const cachedResponse = await storage.getItem<CachedResponse>('latest')
 
-  return {
-    available: difference > 0,
-    version: latestVersion,
+  // Return cached response if it's still valid
+  if (cachedResponse && (now - cachedResponse.timestamp) < CACHE_DURATION) {
+    logger.debug('Returning cached response:', cachedResponse.data)
+    return cachedResponse.data
+  } else {
+    logger.debug('Fetching latest release:', cachedResponse ? 'cached expired' : 'not cached')
+  }
+
+  try {
+    logger.info('Fetching latest release from GitHub')
+    const latestReleases = await ofetch<ReleasesLatest>('https://api.github.com/repos/hywax/mafl/releases/latest')
+    const latestVersion = latestReleases.tag_name.replace('v', '')
+
+    const parseVersion = (version: string): number => Number.parseInt(version.replace(/\./g, ''), 10)
+    const difference = parseVersion(latestVersion) - parseVersion(CURRENT_VERSION)
+
+    const response = {
+      available: difference > 0,
+      version: latestVersion,
+    }
+
+    // Cache the response in storage
+    await storage.setItem('latest', {
+      data: response,
+      timestamp: now,
+    })
+
+    return response
+  } catch (error) {
+    logger.error('Failed to fetch the latest release from GitHub API:', error)
+    // If GitHub API fails, return cached response if available, otherwise return no update
+    if (cachedResponse) {
+      return cachedResponse.data
+    }
+
+    return {
+      available: false,
+      version: CURRENT_VERSION,
+    }
   }
 })
