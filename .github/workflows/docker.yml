@@ -1,0 +1,60 @@
+name: Build and Push Docker
+
+on:
+  release:
+    types:
+      - created
+  push:
+    paths-ignore:
+      - "apps/docs/**"
+      - ".md"
+    branches:
+      - main
+
+env:
+  CONTAINER_NAMESPACE: ghcr.io/hywax
+
+jobs:
+  build-and-push:
+    strategy:
+      fail-fast: false
+      matrix:
+        package: [mafl]
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to Github Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build ${{ matrix.package }}
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          build-args: VERSION=nightly
+          file: docker/${{ matrix.package }}/Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ env.CONTAINER_NAMESPACE }}/${{ matrix.package }}:nightly
+
+      - name: Build ${{ matrix.package }} (release)
+        uses: docker/build-push-action@v6
+        if: github.event_name == 'release'
+        with:
+          context: .
+          build-args: VERSION=${{ github.event.release.name }}
+          file: docker/${{ matrix.package }}/Dockerfile
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ env.CONTAINER_NAMESPACE }}/${{ matrix.package }}:${{ github.event.release.name }},${{ env.CONTAINER_NAMESPACE }}/${{ matrix.package }}:latest

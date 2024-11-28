@@ -1,24 +1,20 @@
-# Nuxt dev/build outputs
-.output
-.data
 .nuxt
-.nitro
-.cache
-dist
+.output
+db.*
 
-# Node dependencies
+dist
 node_modules
 
-# Logs
-logs
-*.log
+npm-debug.log*
+turbo-*.log
 
-# Misc
-.DS_Store
-.fleet
 .idea
+.vscode
+.turbo
+.DS_Store
 
-# Local env files
+apps/mafl/data
+
+tsconfig.tsbuildinfo
+
 .env
-.env.*
-!.env.example

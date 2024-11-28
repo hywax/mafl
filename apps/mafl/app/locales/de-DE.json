@@ -1,0 +1,16 @@
+{
+  "service": {
+
+  },
+  "error": {
+    "title": "Fehler",
+    "page404": "Seite nicht gefunden!",
+    "home": "Startseite",
+    "description": "Ups! Da ist ein unerwarteter Fehler aufgetreten",
+    "action": "Gehe zur Dokumentation"
+  },
+  "update": {
+    "message": "Eine neue Version ist verfügbar",
+    "visit": "Besuch uns auf Github →"
+  }
+}

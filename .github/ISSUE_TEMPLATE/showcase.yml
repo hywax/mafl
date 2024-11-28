@@ -1,8 +1,6 @@
-name: Showcase
+name: 🎉 Showcase
 description: Share your home page
-title: '[SHOWCASE] <title>'
-labels: ['showcase']
-
+labels: [showcase]
 body:
   - type: input
     id: title

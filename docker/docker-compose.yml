@@ -1,0 +1,7 @@
+services:
+  mafl:
+    container_name: mafl
+    image: ghcr.io/hywax/mafl:latest
+    restart: unless-stopped
+    ports:
+      - "3000:3000"

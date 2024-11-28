@@ -1,0 +1,38 @@
+:root {
+  --sh-gutter: rgb(116 115 119 / 5%);
+
+  --vp-sidebar-bg-color: transparent;
+  --vp-c-gutter: var(--sh-gutter);
+  --vp-c-divider: var(--sh-gutter);
+
+  --vp-c-brand-1: #91c198;
+  --vp-c-brand-2: #7cb484;
+  --vp-c-brand-3: #609966;
+  --vp-c-brand-soft: rgb(100 255 170 / 16%);
+}
+
+.dark {
+  --sh-gutter: rgb(210 209 213 / 6%);
+
+  --vp-c-gutter: var(--sh-gutter);
+  --vp-c-divider: var(--sh-gutter);
+}
+
+.color-brand {
+  color: var(--vp-c-brand-1);
+}
+
+/**
+ * Custom styles for the VitePress theme
+ */
+.vp-doc h1 {
+  font-weight: 800;
+}
+
+.vp-doc h2, .vp-doc h3, .vp-doc h4, .vp-doc h5, .vp-doc h6 {
+  font-weight: 700;
+}
+
+.VPSidebar.open {
+  --vp-sidebar-bg-color: var(--vp-c-bg-alt);
+}

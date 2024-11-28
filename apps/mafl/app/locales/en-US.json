@@ -1,0 +1,16 @@
+{
+  "service": {
+
+  },
+  "error": {
+    "title": "Error",
+    "page404": "Page not found!",
+    "home": "Home page",
+    "description": "Oops! There's been an unexpected error",
+    "action": "Go to documentation"
+  },
+  "update": {
+    "message": "A new version is available",
+    "visit": "Visit on github →"
+  }
+}

@@ -1,0 +1,34 @@
+name: 🚀 Enhancement
+description: Suggest an enchantment that will improve Mafl
+labels: [pending, enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out this feature request!
+
+        Please note: Only post enhancements that you have properly considered. This means:
+        - You have properly determined what problem your enhancements fixes
+        - How you would recommend implementing your enhancements
+        - How this change would impact Mafl
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe the feature
+      description: A clear and concise description of what you think would be a helpful addition to Mafl, including the possible use cases and alternatives you have considered.
+      placeholder: Feature description
+    validations:
+      required: true
+  - type: textarea
+    id: feature-implementation
+    attributes:
+      label: How would you implement this?
+      description: For this, please outline how this feature would work. This could be in the form of a textual description, or a walkthrough of what would be adjusted inside the code.
+      placeholder: Feature description
+  - type: checkboxes
+    id: additional-info
+    attributes:
+      label: Additional information
+      description: Additional information that helps us decide how to proceed.
+      options:
+        - label: Would you be willing to help implement this feature?

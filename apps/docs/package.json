@@ -1,0 +1,27 @@
+{
+  "name": "@mafl/docs",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "vitepress build",
+    "dev": "vitepress dev",
+    "preview": "vitepress preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "clean": "rm -rf dist",
+    "clean:modules": "rm -rf .nuxt node_modules"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@hywax/tools-eslint": "^1.0.0",
+    "@hywax/vitepress-yandex-metrika": "^0.4.0",
+    "@iconify/json": "^2.2.277",
+    "@types/node": "^22.10.1",
+    "unocss": "^0.64.1",
+    "unplugin-vue-components": "^0.27.5",
+    "vite": "^6.0.1",
+    "vitepress": "^1.5.0"
+  }
+}

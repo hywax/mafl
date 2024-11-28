@@ -1,4 +1,10 @@
-node_modules
-.output
-.nuxt
+.dockerignore
+.git
+.github
+.husky
 README.md
+Dockerfile
+node_modules
+**/node_modules
+**/*.db
+**/.env*

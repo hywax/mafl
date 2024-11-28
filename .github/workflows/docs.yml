@@ -1,11 +1,12 @@
-name: Deploy Documentation site to GitHub Pages
+name: Deploy Documentation
 
 on:
   push:
     paths:
-      - "docs/**"
+      - "apps/docs/**"
       - ".github/workflows/docs.yml"
-      - "*.md"
+      - "package.json"
+      - "CHANGELOG.md"
     branches:
       - main
   workflow_dispatch:
@@ -25,26 +26,30 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: yarn
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Install dependencies
-        run: yarn install
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 9.7.0
+          run_install: true
+
       - name: Build with VitePress
         run: |
-          yarn docs:build
-          touch docs/.vitepress/dist/.nojekyll
+          pnpm --filter @mafl/docs build
+          touch apps/docs/.vitepress/dist/.nojekyll
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages
-          path: docs/.vitepress/dist
+          path: apps/docs/.vitepress/dist
 
   deploy:
     name: Deploy
