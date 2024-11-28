@@ -66,7 +66,7 @@ The application will start with a basic configuration, which is located in the `
 To create a new Proxmox VE Mafl LXC, run the command below in the Proxmox VE Shell.
 
 ```shell
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mafl.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/mafl.sh)"
 ```
 
 Configure the application by editing the `config.yml` file:

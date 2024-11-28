@@ -65,7 +65,7 @@ yarn preview
 Чтобы создать новый LXC Mafl в Proxmox VE, выполните команду ниже в оболочке Proxmox VE.
 
 ```shell
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mafl.sh)"
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/mafl.sh)"
 ```
 
 ### File volumes
