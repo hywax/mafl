@@ -1,7 +1,3 @@
-<script setup lang="ts">
-defineProps<{ error: { message: string, statusCode: number } }>()
-</script>
-
 <template>
   <div class="min-h-screen flex flex-grow items-center justify-center">
     <div class="bg-fg/5 dark:bg-fg/10 text-fg-dimmed p-8 rounded-2xl border border-fg/10 dark:border-fg/15 w-full max-w-xl">
@@ -33,3 +29,7 @@ defineProps<{ error: { message: string, statusCode: number } }>()
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+defineProps<{ error: { message: string, statusCode: number } }>()
+</script>

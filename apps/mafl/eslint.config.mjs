@@ -2,5 +2,5 @@ import { eslint } from '@hywax/tools-eslint'
 
 export default eslint({
   typescript: true,
-  nuxt: true,
+  vue: true,
 })
