@@ -143,6 +143,7 @@ Supported Languages:
 * 🇫🇷 **France** - `fr` (by [@maxim31cote](https://github.com/maxim31cote))
 * 🇩🇪 **German** - `de` (by [@gehno](https://github.com/gehno))
 * 🇬🇷 **Greek** - `gr` (by [@sthivaios](https://github.com/sthivaios))
+* 🇺🇦 **Ukrainian** - `uk` (by [@Catzilla](https://github.com/Catzilla))
 
 If you haven't found your language, it can easily be added! Use the instructions in the section [contributing](https://mafl.hywax.space/community/contributing.html) on docs.
 

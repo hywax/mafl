@@ -21,7 +21,7 @@ Set the desired language with:
 lang: ru
 ```
 
-Values: `en`, `ru`, `zh`, `hi`, `es`, `ar`, `pl`, `fr`, `de`, `gr`, `nl`
+Values: `en`, `ru`, `uk`, `zh`, `hi`, `es`, `ar`, `pl`, `fr`, `de`, `gr`, `nl`
 
 Default: `en`
 
