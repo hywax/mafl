@@ -9,8 +9,6 @@ Depending on your preferences and needs, you can refer to both `hywax/mafl` and 
 
 ::: code-group
 ```yaml [docker-compose.yml]
-version: '3.8'
-
 services:
   mafl:
     container_name: mafl # change as needed
