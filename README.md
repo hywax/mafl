@@ -140,7 +140,7 @@ Supported Languages:
 * 🇪🇸 **Spanish** - `es`
 * 🇸🇦 **Arabic** - `ar` (by [@mohmadhabib](https://github.com/mohmadhabib))
 * 🇵🇱 **Polish** - `pl` (by [@UberDudePL](https://github.com/UberDudePL))
-* 🇫🇷 **France** - `fr` (by [@maxim31cote](https://github.com/maxim31cote))
+* 🇫🇷 **French** - `fr` (by [@maxim31cote](https://github.com/maxim31cote))
 * 🇩🇪 **German** - `de` (by [@gehno](https://github.com/gehno))
 * 🇬🇷 **Greek** - `gr` (by [@sthivaios](https://github.com/sthivaios))
 
