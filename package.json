@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "dev": "pnpm run dev",
     "dev:mafl": "pnpm --filter @mafl/mafl dev",
@@ -15,12 +15,12 @@
     "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.6.0",
-    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@hywax/tools-eslint": "^1.0.0",
-    "changelogen": "^0.5.7",
+    "changelogen": "^0.6.1",
     "husky": "^9.1.7",
-    "lint-staged": "^15.2.10"
+    "lint-staged": "^15.5.2"
   },
   "lint-staged": {
     "*.ts": "pnpm run lint"

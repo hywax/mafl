@@ -1,4 +1,4 @@
-ARG NODE=node:22.11-alpine
+ARG NODE=node:22.15.0-alpine
 
 ################# Builder ##############
 
