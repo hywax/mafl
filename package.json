@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.0.0",
   "private": true,
-  "packageManager": "pnpm@9.14.2",
+  "packageManager": "pnpm@10.11.0",
   "scripts": {
     "dev": "pnpm run dev",
     "dev:mafl": "pnpm --filter @mafl/mafl dev",
