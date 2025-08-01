@@ -28,7 +28,7 @@ function determineService(items: DraftService[], tags: TagMap): Service[] {
   }))
 }
 
-export const configFileName = 'config.yml'
+export const configFileNames = ['config.yml', 'config.yaml']
 
 export function getDefaultConfig(): CompleteConfig {
   return {
@@ -68,7 +68,17 @@ export async function loadConfig(): Promise<CompleteConfig> {
   const storage = useStorage('data')
 
   try {
-    if (!await storage.hasItem(configFileName)) {
+    let configFileName: string | null = null
+    
+    // Check for both config file extensions
+    for (const fileName of configFileNames) {
+      if (await storage.hasItem(fileName)) {
+        configFileName = fileName
+        break
+      }
+    }
+    
+    if (!configFileName) {
       throw new Error('Config not found')
     }
 
