@@ -1,0 +1,18 @@
+{
+  "service": {
+
+  },
+
+  "error": {
+    "title": "Hiba",
+    "page404": "Az oldal nem található!",
+    "home": "Kezdőlap",
+    "description": "Hoppá! Váratlan hiba történt",
+    "action": "Ugrás a dokumentációhoz"
+  },
+
+  "update": {
+    "message": "Új verzió érhető el",
+    "visit": "Ugrás a github-ra →"
+  }
+}

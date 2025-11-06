@@ -134,6 +134,12 @@ export default defineNuxtConfig({
         name: 'Nederlands',
         file: 'nl-NL.json',
       },
+      {
+        code: 'hu',
+        iso: 'hu-HU',
+        name: 'Magyar',
+        file: 'hu-HU.json',
+      },
     ],
     strategy: 'no_prefix',
     langDir: 'locales',
