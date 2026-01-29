@@ -14,6 +14,13 @@ export interface Behaviour {
   target?: '_blank' | '_self' | '_parent' | '_top'
 }
 
+export interface Background {
+  image?: string
+  url?: string
+  opacity?: number
+  blur?: number
+}
+
 export interface Layout {
   grid: {
     small: number
@@ -27,6 +34,7 @@ export interface Config {
   title?: string
   lang?: 'en' | 'ru' | 'zh' | 'hi' | 'es' | 'ar' | 'pl' | 'fr' | 'de' | 'gr'
   theme?: 'system' | 'light' | 'dark' | 'deep' | 'sepia' | 'bluer'
+  background?: Background
   layout?: Layout
   behaviour?: Behaviour
   tags: Tag[]
