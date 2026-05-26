@@ -47,6 +47,10 @@ checkUpdates: true
 ```
 
 Default: `true`
+ 
+::: info
+You can also disable the update check by setting the environment variable `DISABLE_UPDATE_CHECK` to `true`.
+:::
 
 ::: info Info
 With the `true` parameter there will be no automatic update.

@@ -1,4 +1,5 @@
 import { ofetch } from 'ofetch'
+import { env } from 'node:process'
 import { useLogger } from '../utils/logger'
 
 // Current version - update this during releases
@@ -59,6 +60,14 @@ export default defineEventHandler(async () => {
   const storage = useStorage('updates')
   const logger = useLogger('updates')
   const now = Date.now()
+  const config = await getConfig()
+
+  if (env.DISABLE_UPDATE_CHECK === 'true' || config?.checkUpdates === false) {
+    return {
+      available: false,
+      version: CURRENT_VERSION,
+    }
+  }
 
   // Get cached response from storage
   const cachedResponse = await storage.getItem<CachedResponse>('latest')

@@ -60,6 +60,8 @@ function createTagMap(tags: Tag[]): TagMap {
   }, new Map())
 }
 
+let cachedConfig: CompleteConfig | null = null
+
 /**
  * Load config from storage
  */
@@ -67,47 +69,64 @@ export async function loadConfig(): Promise<CompleteConfig> {
   const defaultConfig = getDefaultConfig()
   const storage = useStorage('data')
 
-  try {
-    if (!await storage.hasItem(configFileName)) {
-      throw new Error('Config not found')
-    }
+  const retries = 3
+  const delay = 100
 
-    const raw = await storage.getItem<string>(configFileName)
-    const config = yaml.parse(raw || '') || {}
-    const services: CompleteConfig['services'] = []
-    const tags: TagMap = createTagMap(config.tags || [])
-
-    configSchema.parse(config)
-
-    if (Array.isArray(config.services)) {
-      services.push({
-        items: determineService(config.services, tags),
-      })
-    } else {
-      const entries = Object.entries<DraftService[]>(config.services || [])
-
-      for (const [title, items] of entries) {
-        services.push({
-          title,
-          items: determineService(items, tags),
-        })
+  for (let i = 0; i < retries; i++) {
+    try {
+      if (!await storage.hasItem(configFileName)) {
+        throw new Error('Config not found')
       }
-    }
 
-    return defu({ ...config, services }, defaultConfig)
-  } catch (e) {
-    logger.error(e)
+      const raw = await storage.getItem<string>(configFileName)
+      const config = yaml.parse(raw || '') || {}
+      const services: CompleteConfig['services'] = []
+      const tags: TagMap = createTagMap(config.tags || [])
 
-    if (e instanceof Error) {
-      defaultConfig.error = e.message
-    }
+      configSchema.parse(config)
 
-    if (e instanceof ZodError) {
-      defaultConfig.error = JSON.stringify(
-        e.format(),
-        (key, val) => (key === '_errors' && !val.length) ? undefined : val,
-        ' ',
-      )
+      if (Array.isArray(config.services)) {
+        services.push({
+          items: determineService(config.services, tags),
+        })
+      } else {
+        const entries = Object.entries<DraftService[]>(config.services || [])
+
+        for (const [title, items] of entries) {
+          services.push({
+            title,
+            items: determineService(items, tags),
+          })
+        }
+      }
+
+      const finalConfig = defu({ ...config, services }, defaultConfig)
+      cachedConfig = finalConfig
+
+      return finalConfig
+    } catch (e) {
+      if (i === retries - 1) {
+        logger.error(e)
+
+        if (cachedConfig) {
+          logger.warn('Failed to load new config, using cached version.')
+          return cachedConfig
+        }
+
+        if (e instanceof Error) {
+          defaultConfig.error = e.message
+        }
+
+        if (e instanceof ZodError) {
+          defaultConfig.error = JSON.stringify(
+            e.format(),
+            (key, val) => (key === '_errors' && !val.length) ? undefined : val,
+            ' ',
+          )
+        }
+      } else {
+        await new Promise(resolve => setTimeout(resolve, delay))
+      }
     }
   }
 
