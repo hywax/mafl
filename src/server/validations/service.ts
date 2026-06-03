@@ -4,6 +4,7 @@ export const statusSchema = z.object({
   enabled: z.boolean().optional(),
   interval: z.number().optional(),
   animation: z.boolean().optional(),
+  url: z.string().optional(),
 })
 
 export const iconSchema = z.object({

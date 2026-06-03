@@ -25,7 +25,7 @@ description: Home automation
 ## Link
 
 Link to service. It is used when clicking on the icon and title.
-It is also used to check [status](#status) availability.
+It is also used to check the [status](#status) availability if no URL has been set.
 
 ```yaml
 link: https://home-assistant.home.local/
@@ -108,6 +108,7 @@ Mafl knows how to check the health of the services in the link you provided.
 status:
   enabled: true
   interval: 60 # need not be specified
+  url: https://home-assistant.home.local/api/health # need not be specified
 ```
 
 ### `enabled`
@@ -117,6 +118,12 @@ Enabling status
 Values: `true`, `false`
 
 Default: `false`
+
+### `url`
+
+The URL that will be used to check the status. If not specified, the `link` field will be used.
+
+Values: `string`
 
 ### `animation`
 

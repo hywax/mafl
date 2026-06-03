@@ -4,6 +4,7 @@ export interface ServiceStatus {
   enabled?: boolean
   interval?: number
   animation?: boolean
+  url?: string
 }
 
 export interface ServiceIcon {
