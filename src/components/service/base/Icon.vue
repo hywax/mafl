@@ -10,7 +10,7 @@ import type { ServiceIcon } from '~/types'
 
 const props = defineProps<ServiceIcon>()
 
-const iconClasses = 'block h-full w-full'
+const iconClasses = 'block h-full w-full object-contain'
 
 const wrapClasses = computed(() => ({
   'bg-fg/5 dark:bg-fg/10': props?.wrap && !props?.background,
