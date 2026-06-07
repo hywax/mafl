@@ -51,8 +51,10 @@ export async function getService<T extends Service>(event: H3Event): Promise<T> 
 
 export async function getServiceWithDefaultData<S extends Service>(event: H3Event): Promise<ServiceWithDefaultData<S>> {
   const config = await getService<S>(event)
+
+  const urlToPing = config.status?.url ?? config.link
   const defaultData = {
-    ping: config?.status?.enabled ? await pingService(config.link || '') : undefined,
+    ping: config?.status?.enabled ? await pingService(urlToPing || '') : undefined,
   }
 
   return { config, defaultData }
