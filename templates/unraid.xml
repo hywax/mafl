@@ -17,7 +17,7 @@
     <TemplateURL>false</TemplateURL>
     <Icon>https://mafl.hywax.space/logotype.svg</Icon>
     <Config Name="WebUI Port" Target="3000" Default="3000" Mode="tcp" Description="Web UI Port" Type="Port" Display="always" Required="true" Mask="false">3000</Config>
-    <Config Name="Config" Target="/app/data/config.yml" Default="/mnt/user/appdata/mafl/config.yaml" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
+    <Config Name="Config" Target="/app/data/config.yml" Default="/mnt/user/appdata/mafl/config.yml" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false"/>
     <Config Name="Local Icons" Target="/app/public/favicons" Default="/mnt/user/appdata/mafl/favicons" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
     <Config Name="Favicon Icons" Target="/app/public/icons" Default="/mnt/user/appdata/mafl/icons" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"/>
 </Container>
