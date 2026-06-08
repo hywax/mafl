@@ -35,6 +35,10 @@ export function getDefaultConfig(): CompleteConfig {
     title: 'Mafl Home Page',
     lang: 'en',
     theme: 'system',
+    background: {
+      opacity: 1,
+      blur: 0,
+    },
     checkUpdates: true,
     layout: {
       grid: {

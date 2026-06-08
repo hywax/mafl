@@ -37,6 +37,65 @@ Values: `system`, `light`, `dark`, `deep`, `sepia`, `bluer`
 
 Default: `system`
 
+## Background
+
+You can customize background: 
+
+### Image
+
+Specify a background image from the `data/backgrounds` directory:
+
+```yaml
+background:
+  image: my-background.jpg
+```
+
+Supported formats: `jpg`, `jpeg`, `png`, `gif`, `webp`, `svg`
+
+### URL
+
+Alternatively, you can use an external image URL:
+
+```yaml
+background:
+  url: https://example.com/background.jpg
+```
+
+### Opacity
+
+Control the background image opacity:
+
+```yaml
+background:
+  opacity: 0.5
+```
+
+Values: `0.0 - 1.0` (where `0` is fully transparent and `1` is fully opaque)
+
+Default: `1.0`
+
+### Blur
+
+Apply a blur effect to the background image:
+
+```yaml
+background:
+  blur: 5
+```
+
+Values: `0` and higher (in pixels)
+
+Default: `0`
+
+### Complete example
+
+```yaml
+background:
+  image: wallpaper.jpg
+  opacity: 0.8
+  blur: 3
+```
+
 ## Check updates
 
 This option is responsible for automatically checking for updates.
